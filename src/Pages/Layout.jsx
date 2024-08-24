@@ -5,9 +5,11 @@ import Footer from "../Components/Footer";
 function Layout() {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 }
