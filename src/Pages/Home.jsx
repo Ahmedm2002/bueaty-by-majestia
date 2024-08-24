@@ -3,7 +3,12 @@ import React from "react";
 function Home() {
   return (
     <>
-      <h2 className="text-xl mt-4 text-center">Home Page</h2>
+      <h2 className="text-xl mt-4 text-center">
+        Home Page
+        <br />
+        begharto time dy ker ghaib na ho jya karo
+        <span className="text-4xl">Sharam Karo</span>
+      </h2>
       <br />
 
       <p className="text-center">
