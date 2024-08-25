@@ -1,11 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import serum from "./Images/serum.jpg";
 import JadeRollerAndGuaSha from "./Images/JadeRollerAndGuaSha.jpeg";
-import faceWash from "./Images/faceWash.jpg";
-import moisturizer from "./Images/moisturizer.jpg";
-import teaTreeOil from "./Images/teaTreeOil.jpg";
-import cleanser from "./Images/facialCleanser.jpg";
+import sunBlockPackOfThree from "./Images/sunBlockPackOfThree.jpg";
 function FeaturedProducts() {
   return (
     <>
@@ -32,22 +28,7 @@ Texture: Smooth
 Product Feature: Rejuvenating, Treat Fine Lines"
             />
             <ProductCard
-              img={teaTreeOil}
-              text="Tea Tree Oil, 10 Ml"
-              price="450/-"
-              reducedPrice="199/-"
-              shortDetail="Material: Oil Package Includes: 1 x Oil"
-            />
-            <ProductCard
-              img={moisturizer}
-              text="Body Moisturizer by Olivia"
-              price="999/-"
-              reducedPrice="499/-"
-              shortDetail="Material: Oil Package Includes: 1 x Oil"
-              rating="5.0"
-            />
-            <ProductCard
-              img={cleanser}
+              img={sunBlockPackOfThree}
               text="Foaming Facial Cleanser"
               price="999/-"
               reducedPrice="499/-"
