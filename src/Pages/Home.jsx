@@ -4,7 +4,7 @@ import Categories from "../Components/Categories";
 function Home() {
   return (
     <>
-      <Categories />
+      {/* <Categories /> */}
       <FeaturedProducts />
     </>
   );

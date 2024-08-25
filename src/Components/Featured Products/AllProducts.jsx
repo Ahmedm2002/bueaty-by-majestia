@@ -26,6 +26,7 @@ function FeaturedProducts() {
               price="299/-"
               reducedPrice="149/-"
               shortDetail="Material: Oil Package Includes: 1 x Oil"
+              rating="4.0"
             />
             <ProductCard
               img={faceWash}
