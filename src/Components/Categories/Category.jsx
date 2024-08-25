@@ -1,6 +1,6 @@
 import React from "react";
 
-function Category({ img, name, text }) {
+function Category({ img, name }) {
   return (
     <>
       <div className="p-2 text-center">

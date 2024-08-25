@@ -14,32 +14,12 @@ function AllCategories() {
             Explore Categories
           </h2>
         </div>
-        <div class="flex flex-wrap flex-row mt-4 md:mt-10 justify-center items-center gap-6">
-          <Category
-            img={serums}
-            name="Serum"
-            text="Buy the best quality serum on our website"
-          />
-          <Category
-            img={toner}
-            name="Toner"
-            text="Buy the best quality serum on our website"
-          />
-          <Category
-            img={masks}
-            name="Masks"
-            text="Buy the best quality serum on our website"
-          />
-          <Category
-            img={moisturizers}
-            name="Moisturizers"
-            text="Buy the best quality serum on our website"
-          />
-          <Category
-            img={cleanser}
-            name="Cleanser"
-            text="Buy the best quality serum on our website"
-          />
+        <div class="flex flex-wrap flex-row mt-6 md:mt-10 justify-center items-center md:gap-6 gap-4">
+          <Category img={serums} name="Serum" />
+          <Category img={toner} name="Toner" />
+          <Category img={masks} name="Masks" />
+          <Category img={moisturizers} name="Moisturizers" />
+          <Category img={cleanser} name="Cleanser" />
         </div>
       </section>
     </>
