@@ -4,7 +4,7 @@ import AllCategories from "../Components/Categories/AllCategories";
 function Home() {
   return (
     <>
-      {/* <AllCategories /> */}
+      <AllCategories />
       <FeaturedProducts />
     </>
   );
