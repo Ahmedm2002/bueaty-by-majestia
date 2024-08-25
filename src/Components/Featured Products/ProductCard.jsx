@@ -29,7 +29,7 @@ function ProductCard({
           <div>
             <h3 className="text-md font-semibold text-gray-900">{text}</h3>
             {shortDetail && (
-              <p className="text-sm text-gray-400">{shortDetail}</p>
+              <p className="text-sm text-gray-700">{shortDetail}</p>
             )}
             <div className="mt-2 flex items-center justify-between">
               <p>
@@ -50,7 +50,7 @@ function ProductCard({
             <button className="w-full rounded-lg border-2 p-1 bg-white md:px-4 md:py-2 text-gray-500">
               Details
             </button>
-            <button className="w-full rounded-lg bg-pink-400 md:px-4 md:py-2 text-white">
+            <button className="w-full rounded-lg bg-pink-600 md:px-4 md:py-2 text-white">
               Buy Now
             </button>
           </div>

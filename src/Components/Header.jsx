@@ -31,7 +31,11 @@ function Header() {
       <div className="flex items-center  bg-pink-200 justify-between py-2 md:px-10 px-2">
         <div className="flex items-center">
           <div className="font-bold text-2xl cursor-pointer font-[Poppins]">
-            <img src={logo} className="w-10 h-10 inline rounded-md mr-2" />
+            <img
+              src={logo}
+              alt="logo"
+              className="w-10 h-10 inline rounded-md mr-2"
+            />
             <Link to="/">Bueaty By Majestia</Link>
           </div>
         </div>
