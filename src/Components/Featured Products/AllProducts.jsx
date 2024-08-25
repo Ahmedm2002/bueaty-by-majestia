@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 import serum from "./Images/serum.jpg";
+import JadeRollerAndGuaSha from "./Images/JadeRollerAndGuaSha.jpeg";
 import faceWash from "./Images/faceWash.jpg";
 import moisturizer from "./Images/moisturizer.jpg";
 import teaTreeOil from "./Images/teaTreeOil.jpg";
@@ -21,12 +22,14 @@ function FeaturedProducts() {
           </div>
           <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
             <ProductCard
-              img={faceWash}
-              text="Face Wash"
+              img={JadeRollerAndGuaSha}
+              text="Jade Roller And Gua Sha"
               price="2999/-"
               reducedPrice="1499/-"
               onSale={true}
-              shortDetail="Material: Oil Package Includes: 1 x Oil"
+              shortDetail="Material: Jade
+Texture: Smooth
+Product Feature: Rejuvenating, Treat Fine Lines"
             />
             <ProductCard
               img={teaTreeOil}

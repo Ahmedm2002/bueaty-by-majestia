@@ -5,6 +5,8 @@ import WhiteningEmulsion from "./Images/WhiteningEmulsion.jpeg";
 import FacialBeautyCream from "./Images/FacialBeautyCream.jpeg";
 import SkinPolish300g from "./Images/SkinPolish300g.jpeg";
 import CentellaCream30G from "./Images/CentellaCream30G.jpeg";
+import goldenPearlMassageCream from "./Images/goldenPearlMassageCream.jpeg";
+import AcneRemovalCream from "./Images/AcneRemovalCream.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -66,13 +68,21 @@ Size: 30G
         />
 
         <ProductCard
-          img={SkinPolish300g}
-          text=" Whitening Skin Polish 300g"
+          img={goldenPearlMassageCream}
+          text="Skin Lightening Massage Cream"
+          price="2999/-"
+          reducedPrice="1499/-"
+          shortDetail="Material: Cream
+Product Feature: Whitening"
+        />
+
+        {/* REapeated */}
+        <ProductCard
+          img={AcneRemovalCream}
+          text="Acne Scar Removal Rejuvenation Cream"
           price="999/-"
           reducedPrice="499/-"
-          shortDetail="Material: Cream
-New Skin Beauty Skin Polishing Is A Technique Used To Brighten
-Exfoliate Dull Skin By Removing The Dead Skin On The Surface"
+          shortDetail="Package Includes: 1 x Acne Scar Removal Rejuvenation Cream"
           rating="5.0"
         />
       </div>

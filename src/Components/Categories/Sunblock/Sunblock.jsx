@@ -5,6 +5,7 @@ import uvSunblock from "./Images/uvSunblock.jpeg";
 import sunblock120gUV from "./Images/sunblock120gUV.jpeg";
 import CeraVeSunblock from "./Images/CeraVeSunblock.jpeg";
 import SunblockPackOf3 from "./Images/SunblockPackOf3.jpeg";
+import AntheliosUvmune from "./Images/AntheliosUvmune.jpeg";
 function Sunblock() {
   return (
     <>
@@ -66,19 +67,15 @@ For All Skin Types
 Multipurpose Product For Protecting Skin From UV-A and B Rays"
           rating="5.0"
         />
-        {/* <ProductCard
-          img={SunblockPackOf3}
-          text="Sunblock - Pack Of 3"
+        <ProductCard
+          img={AntheliosUvmune}
+          text="Anthelios Uvmune 400 Invisible Fluid Sunscreen"
           price="999/-"
           reducedPrice="499/-"
           shortDetail="Material: Cream
-Water Resistant
-Anti-dark Spots
-Anti Darkening
-For All Skin Types
-Multipurpose Product For Protecting Skin From UV-A and B Rays"
+Package Includes: 1 x Sunscreen"
           rating="5.0"
-        /> */}
+        />
         {/* <ProductCard
           img={SunblockPackOf3}
           text="Sunblock - Pack Of 3"

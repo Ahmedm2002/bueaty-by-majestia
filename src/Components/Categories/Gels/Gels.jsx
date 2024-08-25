@@ -3,6 +3,7 @@ import AloeveraGel from "./Images/aloeveraGel.jpeg";
 import ProductCard from "../../Featured Products/ProductCard";
 import ExfoliatorGel from "./Images/ExfoliatorGel.jpeg";
 import RiceAndPeachGel from "./Images/RiceAndPeachGel.jpeg";
+import ExfoliatingGel from "./Images/ExfoliatingGel.jpeg";
 function Gels() {
   return (
     <>
@@ -41,14 +42,17 @@ Color: White
 Product Feature: Exfoliator, Whitening And Brightening"
           rating="5.0"
         />
-        {/* <ProductCard
-          img={cleanser}
-          text="Foaming Facial Cleanser"
+        <ProductCard
+          img={ExfoliatingGel}
+          text="Exfoliating Gel"
           price="999/-"
           reducedPrice="499/-"
-          shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
+          shortDetail="Material: Gel
+Texture: Smooth
+Color: Green
+Product Feature: Exfoliator, Whitening And Brightening, Acne Scar Removal"
           rating="5.0"
-        /> */}
+        />
       </div>
     </>
   );

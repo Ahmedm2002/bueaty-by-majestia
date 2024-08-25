@@ -3,6 +3,7 @@ import ProductCard from "../../Featured Products/ProductCard";
 import BNBFacialKit from "./Images/BNBFacialKit.jpeg";
 import nourishingFacialKit from "./Images/nourishingFacialKit.jpeg";
 import TheOdinaryFacialKit from "./Images/TheOdinaryFacialKit.jpeg";
+import BrighteningFacialKitBNB from "./Images/BrighteningFacialKitBNB.jpeg";
 function FacialKit() {
   return (
     <>
@@ -44,14 +45,18 @@ Package Includes: 4 x Brightening Glow Kit
 "
           rating="5.0"
         />
-        {/* <ProductCard
-          img={cleanser}
-          text="Foaming Facial Cleanser"
+        <ProductCard
+          img={BrighteningFacialKitBNB}
+          text="Brightening Facial Kit"
           price="999/-"
           reducedPrice="499/-"
-          shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
+          shortDetail="Material: Cream
+Texture: Smooth
+Color: Pink
+No. Of Pcs: 3
+Product Feature: Whitening And Brightening, Exfoliator, Nourishing"
           rating="5.0"
-        /> */}
+        />
       </div>
     </>
   );

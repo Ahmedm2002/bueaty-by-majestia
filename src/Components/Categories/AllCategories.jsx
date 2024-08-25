@@ -38,8 +38,8 @@ function AllCategories() {
             name="Brightening Creams"
             url="brighteningCreams"
           />
-          {/* <Category img={toner} name="Toner" /> */}
-          {/* <Category img={moisturizers} name="Moisturizers" /> */}
+          <Category img={serums} name="Serums" url="serums" />
+          <Category img={masks} name="Face Masks" url="facemasks" />
         </div>
       </section>
     </>
