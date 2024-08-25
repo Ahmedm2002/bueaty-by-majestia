@@ -11,6 +11,7 @@ function Category({ img, name, url }) {
             navigate(`/${url}`);
           }}
           src={img}
+          rel="preload"
           alt="Sunglasses"
           className="mx-auto h-40 w-40 object-cover mb-4 rounded-full hover:cursor-pointer"
         />

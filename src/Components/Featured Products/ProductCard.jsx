@@ -18,6 +18,7 @@ function ProductCard({
             className="hover:scale-110 h-full w-full object-cover transition-all duration-300"
             src={img}
             alt={text}
+            loading="lazy"
           />
         </div>
         {onSale && (

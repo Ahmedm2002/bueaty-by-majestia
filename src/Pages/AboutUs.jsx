@@ -1,7 +1,7 @@
 import React from "react";
-import hamza from "../../public/hamza.jpg";
-import adeel from "../../public/adeel.jpg";
-import abdullah from "../../public/abdullah.jpg";
+import hamza from "../assets/owners/hamza.jpg";
+import adeel from "../assets/owners/adeel.jpg";
+import abdullah from "../assets/owners/abdullah.jpg";
 
 function AboutUs() {
   return (
