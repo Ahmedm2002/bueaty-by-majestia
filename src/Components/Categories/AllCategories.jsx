@@ -1,16 +1,14 @@
 import React from "react";
-import serums from "./Images/serums.jpg";
-import toner from "./Images/toner.jpg";
-import cleanser from "./Images/cleanser.jpg";
-import moisturizers from "./Images/moisturizers.jpg";
-import masks from "./Images/masks.jpg";
-import sunblock from "./Images/sunblock.jpg";
-import faceWash from "./Images/faceWash.jpg";
+import serums from "./Images/serums.webp";
+import cleanser from "./Images/cleanser.webp";
+import masks from "./Images/masks.webp";
+import sunblock from "./Images/sunblock.webp";
+import faceWash from "./Images/faceWash.webp";
 import facialKit from "./Images/facialKit.jpg";
-import gel from "./Images/gel.jpg";
-import nightSkinCare from "./Images/nightSkinCare.jpg";
-import BodyLotion from "./Images/BodyLotion.jpg";
-import BrighteningCream from "./Images/BrighteningCream.jpg";
+import gel from "./Images/gel.webp";
+import nightSkinCare from "./Images/nightSkinCare.webp";
+import BodyLotion from "./Images/BodyLotion.webp";
+import BrighteningCream from "./Images/BrighteningCream.webp";
 import Category from "./Category";
 function AllCategories() {
   return (
