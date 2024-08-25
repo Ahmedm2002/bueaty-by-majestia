@@ -1,10 +1,10 @@
 import React from "react";
 import FeaturedProducts from "../Components/Featured Products/AllProducts";
-import Categories from "../Components/Categories";
+import AllCategories from "../Components/Categories/AllCategories";
 function Home() {
   return (
     <>
-      {/* <Categories /> */}
+      {/* <AllCategories /> */}
       <FeaturedProducts />
     </>
   );

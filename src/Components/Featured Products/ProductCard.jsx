@@ -33,7 +33,7 @@ function ProductCard({
           <div className="mt-2 flex items-center justify-between">
             <p>
               <span className="text-xl md:text-3xl font-bold text-slate-900">
-                {reducedPrice}
+                Rs.{reducedPrice}
               </span>
               <span className="ml-2 text-sm text-slate-900 line-through">
                 {price}
