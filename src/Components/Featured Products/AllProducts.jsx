@@ -20,45 +20,37 @@ function FeaturedProducts() {
             </p> */}
           </div>
           <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
-            <div className="w-[90%] sm:w-1/3 md:w-1/4 lg:w-1/5">
-              <ProductCard
-                img={faceWash}
-                text="Face Wash"
-                price="2999/-"
-                reducedPrice="1499/-"
-                onSale={true}
-                shortDetail="Material: Oil Package Includes: 1 x Oil"
-              />
-            </div>
-            <div className="w-[90%] sm:w-1/3 md:w-1/4 lg:w-1/5">
-              <ProductCard
-                img={teaTreeOil}
-                text="Tea Tree Oil, 10 Ml"
-                price="450/-"
-                reducedPrice="199/-"
-                shortDetail="Material: Oil Package Includes: 1 x Oil"
-              />
-            </div>
-            <div className="w-[90%] sm:w-1/3 md:w-1/4 lg:w-1/5">
-              <ProductCard
-                img={moisturizer}
-                text="Body Moisturizer by Olivia"
-                price="999/-"
-                reducedPrice="499/-"
-                shortDetail="Material: Oil Package Includes: 1 x Oil"
-                rating="5.0"
-              />
-            </div>
-            <div className="w-[90%] sm:w-1/3 md:w-1/4 lg:w-1/5">
-              <ProductCard
-                img={cleanser}
-                text="Foaming Facial Cleanser"
-                price="999/-"
-                reducedPrice="499/-"
-                shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
-                rating="5.0"
-              />
-            </div>
+            <ProductCard
+              img={faceWash}
+              text="Face Wash"
+              price="2999/-"
+              reducedPrice="1499/-"
+              onSale={true}
+              shortDetail="Material: Oil Package Includes: 1 x Oil"
+            />
+            <ProductCard
+              img={teaTreeOil}
+              text="Tea Tree Oil, 10 Ml"
+              price="450/-"
+              reducedPrice="199/-"
+              shortDetail="Material: Oil Package Includes: 1 x Oil"
+            />
+            <ProductCard
+              img={moisturizer}
+              text="Body Moisturizer by Olivia"
+              price="999/-"
+              reducedPrice="499/-"
+              shortDetail="Material: Oil Package Includes: 1 x Oil"
+              rating="5.0"
+            />
+            <ProductCard
+              img={cleanser}
+              text="Foaming Facial Cleanser"
+              price="999/-"
+              reducedPrice="499/-"
+              shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
+              rating="5.0"
+            />
           </div>
         </div>
       </section>

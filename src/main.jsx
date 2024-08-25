@@ -12,7 +12,12 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import ReactGA from "react-ga4";
-
+import Sunblock from "./Components/Categories/Sunblock/Sunblock";
+import FaceWash from "./Components/Categories/Face Wash/FaceWash";
+import FacialKit from "./Components/Categories/Facial Kit/FacialKit";
+import Gels from "./Components/Categories/Gels/Gels";
+import NightSkinCare from "./Components/Categories/NightSkinCare/NightSkinCare";
+import Cleansers from "./Components/Categories/Cleansers/Cleansers";
 ReactGA.initialize("G-M8N5B4DVHB");
 ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });
 
@@ -23,15 +28,17 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="aboutUs" element={<AboutUs />} />
         <Route path="contactUs" element={<ContactUs />} />
+        <Route path="/sunblock" element={<Sunblock />} />
+        <Route path="/faceWash" element={<FaceWash />} />
+        <Route path="/facialKit" element={<FacialKit />} />
+        <Route path="/gels" element={<Gels />} />
+        <Route path="/nightSkinCare" element={<NightSkinCare />} />
+        <Route path="/cleansers" element={<Cleansers />} />
       </Route>
     )
   );
 
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+  return <RouterProvider router={router} />;
 };
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -39,15 +46,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
-
-// Google Analytics Tracking Code
-
-// <!-- Google tag (gtag.js) -->
-// <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8N5B4DVHB"></script>
-// <script>
-//   window.dataLayer = window.dataLayer || [];
-//   function gtag(){dataLayer.push(arguments);}
-//   gtag('js', new Date());
-
-//   gtag('config', 'G-M8N5B4DVHB');
-// </script>
