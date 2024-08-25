@@ -9,6 +9,8 @@ import faceWash from "./Images/faceWash.jpg";
 import facialKit from "./Images/facialKit.jpg";
 import gel from "./Images/gel.jpg";
 import nightSkinCare from "./Images/nightSkinCare.jpg";
+import BodyLotion from "./Images/BodyLotion.jpg";
+import BrighteningCream from "./Images/BrighteningCream.jpg";
 import Category from "./Category";
 function AllCategories() {
   return (
@@ -20,17 +22,22 @@ function AllCategories() {
           </h2>
         </div>
         <div class="flex flex-wrap flex-row mt-6 md:mt-10 justify-center items-center md:gap-6 gap-4">
-          <Category img={sunblock} name="Sunblock" url="sunblock" />
-          <Category img={faceWash} name="Face Wash" url="faceWash" />
-          <Category img={facialKit} name="Facial Kit" url="facialKit" />
+          <Category img={sunblock} name="Sunblocks" url="sunblock" />
+          <Category img={faceWash} name="Face Washs" url="faceWash" />
+          <Category img={facialKit} name="Facial Kits" url="facialKit" />
           <Category img={gel} name="Gel" url="gels" />
           <Category
             img={nightSkinCare}
             name="Night Skin Care"
             url="nightSkinCare"
           />
-          <Category img={cleanser} name="Cleanser" url="cleansers" />
-          {/* <Category img={serums} name="Serum" /> */}
+          <Category img={cleanser} name="Cleansers" url="cleansers" />
+          <Category img={BodyLotion} name="Body Lotions" url="bodyLotions" />
+          <Category
+            img={BrighteningCream}
+            name="Brightening Creams"
+            url="brighteningCreams"
+          />
           {/* <Category img={toner} name="Toner" /> */}
           {/* <Category img={moisturizers} name="Moisturizers" /> */}
         </div>

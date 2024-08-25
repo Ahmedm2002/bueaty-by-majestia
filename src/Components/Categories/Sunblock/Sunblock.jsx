@@ -3,6 +3,8 @@ import ProductCard from "../../Featured Products/ProductCard";
 import spf60SunScreen from "./Images/spf60SunScreen.jpeg";
 import uvSunblock from "./Images/uvSunblock.jpeg";
 import sunblock120gUV from "./Images/sunblock120gUV.jpeg";
+import CeraVeSunblock from "./Images/CeraVeSunblock.jpeg";
+import SunblockPackOf3 from "./Images/SunblockPackOf3.jpeg";
 function Sunblock() {
   return (
     <>
@@ -40,12 +42,67 @@ Package Includes: 1 x Sunblock
 Weight: 120 Gram"
           rating="5.0"
         />
-        {/* <ProductCard
-          img={cleanser}
-          text="Foaming Facial Cleanser"
+        <ProductCard
+          img={CeraVeSunblock}
+          text="Sunscreen Face Lotion SPF 50"
           price="999/-"
           reducedPrice="499/-"
-          shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
+          shortDetail="Material: Liquid
+Hydrating Sunscreen Lotion Is Allergy-Tested, Paraben-Free, Fragrance-Free
+Oil-Free, Oxybenzone-Free, Octanoate-Free, Non-Comedogenic, And Suitable For Sensitive Skin
+Provide Long-Lasting Hydration, As Well As Niacinamide To Help Calm Skin"
+          rating="5.0"
+        />
+        <ProductCard
+          img={SunblockPackOf3}
+          text="Sunblock - Pack Of 3"
+          price="999/-"
+          reducedPrice="499/-"
+          shortDetail="Material: Cream
+Water Resistant
+Anti-dark Spots
+Anti Darkening
+For All Skin Types
+Multipurpose Product For Protecting Skin From UV-A and B Rays"
+          rating="5.0"
+        />
+        {/* <ProductCard
+          img={SunblockPackOf3}
+          text="Sunblock - Pack Of 3"
+          price="999/-"
+          reducedPrice="499/-"
+          shortDetail="Material: Cream
+Water Resistant
+Anti-dark Spots
+Anti Darkening
+For All Skin Types
+Multipurpose Product For Protecting Skin From UV-A and B Rays"
+          rating="5.0"
+        /> */}
+        {/* <ProductCard
+          img={SunblockPackOf3}
+          text="Sunblock - Pack Of 3"
+          price="999/-"
+          reducedPrice="499/-"
+          shortDetail="Material: Cream
+Water Resistant
+Anti-dark Spots
+Anti Darkening
+For All Skin Types
+Multipurpose Product For Protecting Skin From UV-A and B Rays"
+          rating="5.0"
+        /> */}
+        {/* <ProductCard
+          img={SunblockPackOf3}
+          text="Sunblock - Pack Of 3"
+          price="999/-"
+          reducedPrice="499/-"
+          shortDetail="Material: Cream
+Water Resistant
+Anti-dark Spots
+Anti Darkening
+For All Skin Types
+Multipurpose Product For Protecting Skin From UV-A and B Rays"
           rating="5.0"
         /> */}
       </div>

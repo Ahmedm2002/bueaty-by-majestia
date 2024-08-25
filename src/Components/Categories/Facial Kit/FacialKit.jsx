@@ -2,6 +2,7 @@ import React from "react";
 import ProductCard from "../../Featured Products/ProductCard";
 import BNBFacialKit from "./Images/BNBFacialKit.jpeg";
 import nourishingFacialKit from "./Images/nourishingFacialKit.jpeg";
+import TheOdinaryFacialKit from "./Images/TheOdinaryFacialKit.jpeg";
 function FacialKit() {
   return (
     <>
@@ -30,14 +31,19 @@ Color: White
 Product Feature: Nourishing, Rejuvenating, Glowing
 Package Includes: 1 x Facial Scrub, 1 x Face Mud Mask, 1 x Face Massage Cream, 1 x Skin Polisher, 1 x Double Action, 1 x Triple Action"
         />
-        {/* <ProductCard
-          img={moisturizer}
-          text="Body Moisturizer by Olivia"
+        <ProductCard
+          img={TheOdinaryFacialKit}
+          text="Brightening Glow Kit - Pack Of 4"
           price="999/-"
           reducedPrice="499/-"
-          shortDetail="Material: Oil Package Includes: 1 x Oil"
+          shortDetail="Material: Cream
+A Fast-Absorbing Serum That Targets Dark Spots And Hyperpigmentation
+A Gentle Yet Effective Exfoliation That Removes Dead Skin Cells And Unclogs Pores
+Hydrates And Brightens The Skin
+Package Includes: 4 x Brightening Glow Kit
+"
           rating="5.0"
-        /> */}
+        />
         {/* <ProductCard
           img={cleanser}
           text="Foaming Facial Cleanser"

@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "../../Featured Products/ProductCard";
 import RiceFaceWash from "./Images/RiceFaceWash.jpeg";
+import DrRashelFaceWash from "./Images/DrRashelFaceWash.jpeg";
 function FaceWash() {
   return (
     <>
@@ -18,22 +19,22 @@ function FaceWash() {
 Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
 Product Feature: Hydrating, Absorbent"
         />
-        {/* <ProductCard
-          img={teaTreeOil}
-          text="Tea Tree Oil, 10 Ml"
+        <ProductCard
+          img={DrRashelFaceWash}
+          text="Dr. Rashel Black Purifying Face Wash"
           price="450/-"
           reducedPrice="199/-"
-          shortDetail="Material: Oil Package Includes: 1 x Oil"
+          shortDetail="Experience a deep, revitalizing cleanse! Infused with activated charcoal, it detoxifies, controls oil, and prevents breakouts, leaving your skin clearer and healthier. Perfect for daily use, this 100g tube ensures smooth, refreshed skin. "
         />
-        <ProductCard
+        {/* <ProductCard
           img={moisturizer}
           text="Body Moisturizer by Olivia"
           price="999/-"
           reducedPrice="499/-"
           shortDetail="Material: Oil Package Includes: 1 x Oil"
           rating="5.0"
-        />
-        <ProductCard
+        /> */}
+        {/* <ProductCard
           img={cleanser}
           text="Foaming Facial Cleanser"
           price="999/-"

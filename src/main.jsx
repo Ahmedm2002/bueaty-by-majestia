@@ -18,6 +18,8 @@ import FacialKit from "./Components/Categories/Facial Kit/FacialKit";
 import Gels from "./Components/Categories/Gels/Gels";
 import NightSkinCare from "./Components/Categories/NightSkinCare/NightSkinCare";
 import Cleansers from "./Components/Categories/Cleansers/Cleansers";
+import BodyLotions from "./Components/Categories/BodyLotions/BodyLotions";
+import BrighteningCream from "./Components/Categories/Brightening Cream/BrighteningCream";
 ReactGA.initialize("G-M8N5B4DVHB");
 ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });
 
@@ -34,6 +36,8 @@ const App = () => {
         <Route path="/gels" element={<Gels />} />
         <Route path="/nightSkinCare" element={<NightSkinCare />} />
         <Route path="/cleansers" element={<Cleansers />} />
+        <Route path="/bodyLotions" element={<BodyLotions />} />
+        <Route path="/brighteningCreams" element={<BrighteningCream />} />
       </Route>
     )
   );
