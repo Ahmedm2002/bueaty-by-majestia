@@ -11,7 +11,6 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
-import ReactGA from "react-ga4";
 import Sunblock from "./Components/Categories/Sunblock/Sunblock";
 import FaceWash from "./Components/Categories/Face Wash/FaceWash";
 import FacialKit from "./Components/Categories/Facial Kit/FacialKit";
@@ -22,8 +21,6 @@ import BodyLotions from "./Components/Categories/BodyLotions/BodyLotions";
 import BrighteningCream from "./Components/Categories/Brightening Cream/BrighteningCream";
 import Serums from "./Components/Categories/Serums/Serums";
 import FaceMasks from "./Components/Categories/Masks/FaceMasks";
-ReactGA.initialize("G-M8N5B4DVHB");
-ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });
 
 const App = () => {
   const router = createBrowserRouter(
