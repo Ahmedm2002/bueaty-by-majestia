@@ -1,5 +1,6 @@
 import React from "react";
-import Stars from "./Stars";
+import { useNavigate } from "react-router-dom";
+import Stars from "../Stars";
 
 function truncateText(text) {
   const limit = 60;
@@ -18,13 +19,19 @@ function ProductCard({
   onSale = false,
   rating = "4.0",
 }) {
-  const message = `I'm interested in buying the following product:\n\nProduct: ${text}\nPrice: Rs.${reducedPrice}\nOriginal Price: Rs.${price}\n\nPlease provide more details.`;
+  const navigate = useNavigate();
 
-  const whatsappUrl = `https://wa.me/923400545395?text=${encodeURIComponent(
-    message
-  )}`;
+  const handleDetailsClick = () => {
+    navigate("/productDetails", {
+      state: { img, text, price, reducedPrice, shortDetail, rating },
+    });
+  };
 
   const handleBuyNow = () => {
+    const message = `I'm interested in buying the following product:\n\nProduct: ${text}\nPrice: Rs.${reducedPrice}\nOriginal Price: Rs.${price}\n\nPlease provide more details.`;
+    const whatsappUrl = `https://wa.me/923400545395?text=${encodeURIComponent(
+      message
+    )}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -33,9 +40,10 @@ function ProductCard({
       <article className="relative md:p-4 p-2 border rounded-lg shadow-md flex flex-col h-full">
         <div className="aspect-square rounded-lg overflow-hidden">
           <img
-            className="hover:scale-110 h-full w-full object-cover transition-all duration-300"
+            className="hover:scale-110 cursor-pointer h-full w-full object-cover transition-all duration-300"
             src={img}
             alt={text}
+            onClick={handleDetailsClick}
           />
         </div>
         {onSale && (
@@ -45,7 +53,12 @@ function ProductCard({
         )}
         <div className="mt-1 flex flex-col justify-between flex-grow">
           <div>
-            <h3 className="text-md font-semibold text-gray-900">{text}</h3>
+            <h3
+              className="text-md font-semibold text-gray-900 cursor-pointer"
+              onClick={handleDetailsClick}
+            >
+              {text}
+            </h3>
             {shortDetail && (
               <p className="text-sm text-gray-700">
                 {truncateText(shortDetail)}
@@ -67,7 +80,10 @@ function ProductCard({
             </div>
           </div>
           <div className="mt-4 flex space-x-2">
-            <button className="w-full rounded-lg border-2 p-1 bg-white md:px-4 md:py-2 text-gray-500">
+            <button
+              className="w-full rounded-lg border-2 p-1 bg-white md:px-4 md:py-2 text-gray-500"
+              onClick={handleDetailsClick}
+            >
               Details
             </button>
 

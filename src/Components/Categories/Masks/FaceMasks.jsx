@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import OliveBlackMask from "./Images/OliveBlackMask.jpeg";
 import PeelOffMask from "./Images/PeelOffMask.jpeg";
 import FacePowder from "./Images/FacePowder.jpeg";

@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import CleanserAndMosturizingLotion from "./Images/CleanserAndMosturizingLotion.jpeg";
 function Cleansers() {
   return (

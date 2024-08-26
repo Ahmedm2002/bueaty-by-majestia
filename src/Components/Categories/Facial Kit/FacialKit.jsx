@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import BNBFacialKit from "./Images/BNBFacialKit.jpeg";
 import nourishingFacialKit from "./Images/nourishingFacialKit.jpeg";
 import TheOdinaryFacialKit from "./Images/TheOdinaryFacialKit.jpeg";

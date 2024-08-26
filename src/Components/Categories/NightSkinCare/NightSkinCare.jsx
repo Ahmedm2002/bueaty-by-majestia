@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import vitaminCnightCream from "./Images/vitaminCnightCream.jpeg";
 import nightCream from "./Images/nightCream.jpeg";
 import exfoliatingNCPck2 from "./Images/exfoliatingNCPck2.jpeg";

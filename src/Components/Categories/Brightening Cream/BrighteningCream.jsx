@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import GlupatoneBC from "./Images/GlupatoneBC.jpeg";
 import WhiteningEmulsion from "./Images/WhiteningEmulsion.jpeg";
 import FacialBeautyCream from "./Images/FacialBeautyCream.jpeg";

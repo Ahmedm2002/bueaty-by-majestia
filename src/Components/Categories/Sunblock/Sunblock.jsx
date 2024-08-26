@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import spf60SunScreen from "./Images/spf60SunScreen.jpeg";
 import uvSunblock from "./Images/uvSunblock.jpeg";
 import sunblock120gUV from "./Images/sunblock120gUV.jpeg";

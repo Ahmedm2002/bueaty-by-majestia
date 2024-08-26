@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import HyderatingBL250ML from "./Images/HyderatingBL250ML.jpeg";
 function BodyLotions() {
   return (

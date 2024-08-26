@@ -21,7 +21,7 @@ import BodyLotions from "./Components/Categories/BodyLotions/BodyLotions";
 import BrighteningCream from "./Components/Categories/Brightening Cream/BrighteningCream";
 import Serums from "./Components/Categories/Serums/Serums";
 import FaceMasks from "./Components/Categories/Masks/FaceMasks";
-
+import ProductDetails from "./Components/Product Cards/ProductDetails";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -39,6 +39,7 @@ const App = () => {
         <Route path="/brighteningCreams" element={<BrighteningCream />} />
         <Route path="/serums" element={<Serums />} />
         <Route path="/facemasks" element={<FaceMasks />} />
+        <Route path="/productDetails" element={<ProductDetails />} />
       </Route>
     )
   );

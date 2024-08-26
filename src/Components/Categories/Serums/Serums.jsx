@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import RiceSkinBueatyEssence from "./Images/RiceSkinBueatyEssence.jpeg";
 import pixiSerum from "./Images/pixiSerum.jpeg";
 function Serums() {

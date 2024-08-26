@@ -1,6 +1,6 @@
 import React from "react";
 import AloeveraGel from "./Images/aloeveraGel.jpeg";
-import ProductCard from "../../Featured Products/ProductCard";
+import ProductCard from "../../Product Cards/ProductCard";
 import ExfoliatorGel from "./Images/ExfoliatorGel.jpeg";
 import RiceAndPeachGel from "./Images/RiceAndPeachGel.jpeg";
 import ExfoliatingGel from "./Images/ExfoliatingGel.jpeg";
