@@ -60,8 +60,14 @@ function ProductCard({
               {text}
             </h3>
             {shortDetail && (
-              <p className="text-sm text-gray-700">
-                {truncateText(shortDetail)}
+              <p className="text-sm text-gray-900">
+                {truncateText(shortDetail)}{" "}
+                <a
+                  onClick={handleDetailsClick}
+                  className="cursor-pointer text-pink-600"
+                >
+                  Read More
+                </a>
               </p>
             )}
             <div className="mt-2 flex items-center justify-between">
