@@ -1,5 +1,4 @@
-// src/Pages/ProductDetails.js
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Stars from "../Stars";
 import FeaturedProducts from "../Featured Products/AllProducts";
@@ -16,6 +15,10 @@ const ProductDetails = () => {
     )}`;
     window.open(whatsappUrl, "_blank");
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
