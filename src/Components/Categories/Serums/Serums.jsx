@@ -24,7 +24,7 @@ Product Details: Nourish Your Skin, Moisture Replenish for Body, Soothing And Co
           img={pixiSerum}
           text="RPixi Botanical Collagen & Retinol Serum"
           price="899/-"
-          reducedPrice="550/-"
+          reducedPrice="649/-"
           productCode="1949615"
           shortDetail="Repair damaged skin provide glow in skin help to remove pigmentation acne scars tighten your skin work as anti aging.
           Helps In: This concentrated, volumizing serum is formulated with Acacia Collagen, Retinol and vitamins to help restore skin’s elasticity."

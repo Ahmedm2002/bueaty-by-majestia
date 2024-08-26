@@ -28,7 +28,7 @@ Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
           img={kalonjiFK}
           text="Kolonji brightening facial kit 6 in 1"
           price="2099/-"
-          reducedPrice="1699/-"
+          reducedPrice="1649/-"
           productCode="1949369"
           shortDetail="The Kalonji Brightening Facial Kit typically includes products designed to enhance skin brightness and even out skin tone. It often features ingredients like kalonji oil (black seed oil), known for its antioxidant and anti-inflammatory properties. The kit might include a cleanser, exfoliator, mask, serum, and moisturizer. Each product is usually formulated to work together to help brighten the complexion and improve skin radiance"
         />

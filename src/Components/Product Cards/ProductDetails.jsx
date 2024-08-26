@@ -35,8 +35,11 @@ const ProductDetails = () => {
             <div>
               <h2 className="text-2xl font-bold">{text}</h2>
               <p className="mt-2 text-gray-700">{shortDetail}</p>
-              <p className="mt-2 text-xl text-slate-900">
-                Rs.{reducedPrice} <span className="line-through">{price}</span>
+              <p className="text-xl md:text-3xl font-bold text-slate-900">
+                Rs.{reducedPrice}{" "}
+                <span className="line-through text-sm font-normal">
+                  Rs.{price}
+                </span>
               </p>
               <div className="mt-4">
                 <Stars stars={rating} />

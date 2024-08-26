@@ -87,7 +87,7 @@ Product Feature: Whitening"
           img={bioaouaUnderArmCream}
           text="Underarm Whitening Cream"
           price="899/-"
-          reducedPrice="689/-"
+          reducedPrice="649/-"
           shortDetail="Gives A Natural Glow To Your Skin, Improve Complexion, Can Be Used On Private Parts"
           rating="4.0"
         />
