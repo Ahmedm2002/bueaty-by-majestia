@@ -41,6 +41,14 @@ const ProductDetails = () => {
               <div className="mt-4">
                 <Stars stars={rating} />
               </div>
+              {/* Disclaimer */}
+              <p className="my-4 text-sm text-red-600">
+                Disclaimer: Before using a new cosmetic product, conduct a test
+                on a small area of your skin. If you have a specific allergy or
+                sensitivity, check the ingredients to avoid a reaction. Always
+                read the warning labels and directions on the package for using
+                any cosmetic products.
+              </p>
             </div>
             <div className="flex justify-between mt-4 md:mt-0">
               <button
