@@ -38,17 +38,25 @@ function ContactUs() {
 
             <ul className="flex mt-4 space-x-4">
               <li className="h-10 w-10 flex items-center justify-center shrink-0">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61564479350507&mibextid=ZbWKwL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={facebook} alt="facebook" />
                 </a>
               </li>
               <li className="h-10 w-10 flex items-center justify-center shrink-0">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="#" rel="noopener noreferrer">
                   <img src={linkedIn} alt="linkedin" />
                 </a>
               </li>
               <li className="h-10 w-10 flex items-center justify-center shrink-0">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/beautybymajestia?igsh=dXY0ZGtlaThidW84"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={instagram} alt="instagram" />
                 </a>
               </li>

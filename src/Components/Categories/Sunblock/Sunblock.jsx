@@ -16,16 +16,18 @@ function Sunblock() {
         <ProductCard
           img={spf60SunScreen}
           text="SPF 60 Sun Screen, 120 Ml"
-          price="2999/-"
-          reducedPrice="1499/-"
+          price="799/-"
+          reducedPrice="599/-"
+          productCode="MZ118320032CCCS"
           shortDetail="Product Feature: UV Protectant, Protects From Sunburn
 sun screen with spf-60 & vitamin E highly effective and immediate UVA/UVV protection against sun burn "
         />
         <ProductCard
           img={uvSunblock}
-          text=" UV Protectant Sunblock- SPF-60"
-          price="450/-"
-          reducedPrice="199/-"
+          text="UV Protectant Sunblock- SPF-60"
+          price="899/-"
+          reducedPrice="689/-"
+          productCode="MZ115720111ARTS"
           shortDetail="Material: Cream
 Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
 Color: White
@@ -35,8 +37,9 @@ Product Feature: UV Protectant"
         <ProductCard
           img={sunblock120gUV}
           text="UV Protectant Sunblock, 120 G"
-          price="999/-"
-          reducedPrice="499/-"
+          price="1499/-"
+          reducedPrice="1199/-"
+          productCode="MZ66600113GNCS"
           shortDetail="Material: Cream
 Product Feature: UV Protectant
 Package Includes: 1 x Sunblock
@@ -46,8 +49,9 @@ Weight: 120 Gram"
         <ProductCard
           img={CeraVeSunblock}
           text="Sunscreen Face Lotion SPF 50"
-          price="999/-"
-          reducedPrice="499/-"
+          price="1199/-"
+          reducedPrice="969/-"
+          productCode="MZ23800094SKTS"
           shortDetail="Material: Liquid
 Hydrating Sunscreen Lotion Is Allergy-Tested, Paraben-Free, Fragrance-Free
 Oil-Free, Oxybenzone-Free, Octanoate-Free, Non-Comedogenic, And Suitable For Sensitive Skin
@@ -57,8 +61,9 @@ Provide Long-Lasting Hydration, As Well As Niacinamide To Help Calm Skin"
         <ProductCard
           img={SunblockPackOf3}
           text="Sunblock - Pack Of 3"
-          price="999/-"
-          reducedPrice="499/-"
+          price="799/-"
+          reducedPrice="599/-"
+          productCode="MZ69120124AIBSFD"
           shortDetail="Material: Cream
 Water Resistant
 Anti-dark Spots
@@ -71,7 +76,8 @@ Multipurpose Product For Protecting Skin From UV-A and B Rays"
           img={AntheliosUvmune}
           text="Anthelios Uvmune 400 Invisible Fluid Sunscreen"
           price="999/-"
-          reducedPrice="499/-"
+          reducedPrice="749/-"
+          productCode="MZ90920013MPFR"
           shortDetail="Material: Cream
 Package Includes: 1 x Sunscreen"
           rating="5.0"

@@ -13,8 +13,9 @@ function FaceMasks() {
         <ProductCard
           img={OliveBlackMask}
           text="Dead Skin Remover Peel-Off Face Mask"
-          price="2999/-"
-          reducedPrice="1499/-"
+          price="599/-"
+          reducedPrice="399/-"
+          productCode="MZ19920102RAAS"
           shortDetail="Material: Synthetic
 Texture: Smooth
 Color: Black
@@ -24,8 +25,9 @@ Product Feature: Dead Skin Remover, Hydrating, Peel-off"
         <ProductCard
           img={PeelOffMask}
           text="Rejuvenating Peel-Off Face Mask"
-          price="2999/-"
-          reducedPrice="1499/-"
+          price="499/-"
+          reducedPrice="359/-"
+          productCode="MZ19920101RAAS"
           shortDetail="Material: Synthetic
 Texture: Smooth
 Color: Golden
@@ -35,8 +37,9 @@ Product Feature: Rejuvenating, Absorbent, Peel-off, Nourishing"
         <ProductCard
           img={FacePowder}
           text="Face Powder"
-          price="2999/-"
+          price="1999/-"
           reducedPrice="1499/-"
+          productCode="MZ23800077SKTS"
           shortDetail="Material: Powder
 Package Includes: 1 x Face Powder"
         />

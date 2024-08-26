@@ -15,8 +15,9 @@ function FacialKit() {
         <ProductCard
           img={BNBFacialKit}
           text="Rice Whitening And Glowing Facial Kit"
-          price="2999/-"
-          reducedPrice="1499/-"
+          price="1699/-"
+          reducedPrice="1269/-"
+          productCode="MZ118320064CCCS"
           shortDetail="Material: Cream
 Blend Of Fruit Extracts And Oils, Gives A Natural Glow To Your Skin, Improve Complexion
 Whitening Face Wash, Whitening Facial Cleanser, Whitening Facial Scrub
@@ -26,16 +27,18 @@ Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
         <ProductCard
           img={kalonjiFK}
           text="Kolonji brightening facial kit 6 in 1"
-          price="2999/-"
-          reducedPrice="1499/-"
+          price="2099/-"
+          reducedPrice="1699/-"
+          productCode="1949369"
           shortDetail="The Kalonji Brightening Facial Kit typically includes products designed to enhance skin brightness and even out skin tone. It often features ingredients like kalonji oil (black seed oil), known for its antioxidant and anti-inflammatory properties. The kit might include a cleanser, exfoliator, mask, serum, and moisturizer. Each product is usually formulated to work together to help brighten the complexion and improve skin radiance"
         />
 
         <ProductCard
           img={nourishingFacialKit}
           text="TNourishing Facial Kit - Pack Of 6"
-          price="450/-"
-          reducedPrice="199/-"
+          price="1799/-"
+          reducedPrice="1599/-"
+          productCode="MZ115720075ARTS"
           shortDetail="Material: Cream
 Texture: Smooth
 Color: White
@@ -45,8 +48,9 @@ Package Includes: 1 x Facial Scrub, 1 x Face Mud Mask, 1 x Face Massage Cream, 1
         <ProductCard
           img={TheOdinaryFacialKit}
           text="Brightening Glow Kit - Pack Of 4"
-          price="999/-"
-          reducedPrice="499/-"
+          price="2999/-"
+          reducedPrice="2699/-"
+          productCode="MZ19920112RAAS"
           shortDetail="Material: Cream
 A Fast-Absorbing Serum That Targets Dark Spots And Hyperpigmentation
 A Gentle Yet Effective Exfoliation That Removes Dead Skin Cells And Unclogs Pores
@@ -58,8 +62,9 @@ Package Includes: 4 x Brightening Glow Kit
         <ProductCard
           img={BrighteningFacialKitBNB}
           text="Brightening Facial Kit"
-          price="999/-"
-          reducedPrice="499/-"
+          price="2499/-"
+          reducedPrice="1999/-"
+          productCode="MZ19920079RAAS"
           shortDetail="Material: Cream
 Texture: Smooth
 Color: Pink

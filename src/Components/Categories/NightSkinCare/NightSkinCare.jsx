@@ -13,8 +13,9 @@ function NightSkinCare() {
         <ProductCard
           img={vitaminCnightCream}
           text="Vitamin C Night Cream, 50 Grams"
-          price="2999/-"
-          reducedPrice="1499/-"
+          price="1299/-"
+          reducedPrice="1099/-"
+          productCode="MZ117420031FZCS"
           shortDetail="Material: Cream
 Texture: Smooth
 Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
@@ -24,8 +25,9 @@ Product Feature: Whitening And Brightening"
         <ProductCard
           img={nightCream}
           text="Whitening And Aging Night Cream"
-          price="450/-"
-          reducedPrice="199/-"
+          price="699/-"
+          reducedPrice="459/-"
+          productCode="MZ23800144SKTS"
           shortDetail="Material: Cream
 Whitening And Brightening
 Extreme Strong Whitening And Aging Night Cream
@@ -35,8 +37,9 @@ Targets Dark Spots, Fine Lines, And Uneven Skin Tone"
         <ProductCard
           img={exfoliatingNCPck2}
           text="Exfoliating Gel And Night Cream, Pack Of 2"
-          price="999/-"
-          reducedPrice="499/-"
+          price="1699/-"
+          reducedPrice="1399/-"
+          productCode="MZ23800118SKTS"
           shortDetail="Material: Gel, Cream
 Texture: High Pigmented
 Plant Extraction Can Effectively Replenish Skin Moisture And Make Skin Tender And Smooth"

@@ -5,11 +5,11 @@ import FeaturedProducts from "../Featured Products/AllProducts";
 
 const ProductDetails = () => {
   const location = useLocation();
-  const { img, text, price, reducedPrice, shortDetail, rating } =
+  const { img, text, price, reducedPrice, shortDetail, rating, productCode } =
     location.state;
 
   const handleBuyNow = () => {
-    const message = `I'm interested in buying the following product:\n\nProduct: ${text}\nPrice: Rs.${reducedPrice}\nOriginal Price: Rs.${price}\n\nPlease provide more details.`;
+    const message = `I'm interested in buying the following product:\n\nProduct: ${text}\nPrice: Rs.${reducedPrice}\n\nProductCode: ${productCode}\n\nPlease provide more details.`;
     const whatsappUrl = `https://wa.me/923400545395?text=${encodeURIComponent(
       message
     )}`;

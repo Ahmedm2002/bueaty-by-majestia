@@ -22,6 +22,7 @@ import BrighteningCream from "./Components/Categories/Brightening Cream/Brighten
 import Serums from "./Components/Categories/Serums/Serums";
 import FaceMasks from "./Components/Categories/Masks/FaceMasks";
 import ProductDetails from "./Components/Product Cards/ProductDetails";
+import CalculatePrice from "../CalculatePrice";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/serums" element={<Serums />} />
         <Route path="/facemasks" element={<FaceMasks />} />
         <Route path="/productDetails" element={<ProductDetails />} />
+        <Route path="/calculatePrice" element={<CalculatePrice />} />
       </Route>
     )
   );

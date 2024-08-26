@@ -16,14 +16,23 @@ function ProductCard({
   price,
   reducedPrice,
   shortDetail,
-  onSale = false,
+  salePercentage,
   rating = "4.0",
+  productCode,
 }) {
   const navigate = useNavigate();
 
   const handleDetailsClick = () => {
     navigate("/productDetails", {
-      state: { img, text, price, reducedPrice, shortDetail, rating },
+      state: {
+        img,
+        text,
+        price,
+        reducedPrice,
+        shortDetail,
+        rating,
+        productCode,
+      },
     });
   };
 
@@ -46,9 +55,9 @@ function ProductCard({
             onClick={handleDetailsClick}
           />
         </div>
-        {onSale && (
+        {salePercentage && (
           <div className="absolute top-2 left-2 rounded-full bg-red-600 text-white px-2 py-1 text-xs font-bold uppercase">
-            Sale 50%
+            {salePercentage}
           </div>
         )}
         <div className="mt-1 flex flex-col justify-between flex-grow">
@@ -76,7 +85,7 @@ function ProductCard({
                   Rs.{reducedPrice}
                 </span>
                 <span className="ml-2 text-sm text-slate-900 line-through">
-                  {price}
+                  Rs. {price}
                 </span>
               </p>
             </div>

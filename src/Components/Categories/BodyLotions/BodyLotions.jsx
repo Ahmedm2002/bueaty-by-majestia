@@ -11,11 +11,12 @@ function BodyLotions() {
         <ProductCard
           img={HyderatingBL250ML}
           text="Hydrating Body Lotion, 250 Ml"
-          price="2999/-"
-          reducedPrice="1499/-"
+          price="699/-"
+          reducedPrice="539/-"
           shortDetail="Hydrating
 Package Includes: 2 x Body Lotion
 Volume: 250 Ml"
+          productCode="MZ69120180AIBSFD"
         />
         {/* <ProductCard
           img={nightCream}

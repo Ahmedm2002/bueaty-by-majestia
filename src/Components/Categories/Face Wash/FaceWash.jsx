@@ -11,19 +11,20 @@ function FaceWash() {
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
         <ProductCard
           img={RiceFaceWash}
-          text=" Rice Face Wash, 120 Ml"
-          price="2999/-"
-          reducedPrice="1499/-"
+          text="Rice Face Wash, 120 Ml"
+          price="1099/-"
+          reducedPrice="849/-"
           onSale={true}
           shortDetail="Liquid Material Smooth Texture
 Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
 Product Feature: Hydrating, Absorbent"
+          productCode="MZ69120300AIBSFD"
         />
         <ProductCard
           img={DrRashelFaceWash}
-          text="Dr. Rashel Black Purifying Face Wash"
-          price="450/-"
-          reducedPrice="199/-"
+          text="Dr.Rashel's Purifying Face Wash"
+          price="999/-"
+          reducedPrice="699/-"
           shortDetail="Experience a deep, revitalizing cleanse! Infused with activated charcoal, it detoxifies, controls oil, and prevents breakouts, leaving your skin clearer and healthier. Perfect for daily use, this 100g tube ensures smooth, refreshed skin. "
         />
         {/* <ProductCard
