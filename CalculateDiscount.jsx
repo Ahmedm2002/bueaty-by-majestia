@@ -1,28 +1,28 @@
 import React, { useState, useEffect } from "react";
 
-function CalculatePrice() {
+function CalculateDiscount() {
   const [price, setPrice] = useState("");
-  const [profitPercentage, setProfitPercentage] = useState("");
-  const [totalPrice, setTotalPrice] = useState(null);
+  const [discountPercentage, setDiscountPercentage] = useState("");
+  const [discountedPrice, setDiscountedPrice] = useState(null);
 
-  const calculateTotalPrice = () => {
-    if (price && profitPercentage) {
+  const calculateDiscountedPrice = () => {
+    if (price && discountPercentage) {
       const calculatedPrice =
-        parseFloat(price) +
-        parseFloat(price) * (parseFloat(profitPercentage) / 100);
-      setTotalPrice(calculatedPrice.toFixed(2));
+        parseFloat(price) -
+        parseFloat(price) * (parseFloat(discountPercentage) / 100);
+      setDiscountedPrice(calculatedPrice.toFixed(2));
     }
   };
 
   useEffect(() => {
-    calculateTotalPrice();
-  }, [price, profitPercentage]);
+    calculateDiscountedPrice();
+  }, [price, discountPercentage]);
 
   return (
     <div className="flex justify-center mt-2 p-6">
       <div className="shadow-lg rounded-lg p-8 mt-0 max-w-sm text-center">
-        <h1 className="text-2xl font-bold text-gray-100 mb-4">
-          Price Calculator
+        <h1 className="text-2xl font-bold text-gray-800 mb-4">
+          Discount Calculator
         </h1>
         <input
           type="number"
@@ -34,23 +34,23 @@ function CalculatePrice() {
         <br />
         <input
           type="number"
-          value={profitPercentage}
-          onChange={(e) => setProfitPercentage(e.target.value)}
-          placeholder="Enter Profit Percentage"
+          value={discountPercentage}
+          onChange={(e) => setDiscountPercentage(e.target.value)}
+          placeholder="Enter Discount Percentage"
           className="border border-gray-300 p-2 rounded mb-4"
         />
         <button
-          onClick={calculateTotalPrice}
+          onClick={calculateDiscountedPrice}
           className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 w-full"
         >
-          Calculate Total Price
+          Calculate Discounted Price
         </button>
-        {totalPrice && (
+        {discountedPrice && (
           <div className="mt-4 p-4 bg-green-100 text-green-700 rounded">
             <p className="font-medium">
-              Total Price with {profitPercentage}% Profit:
+              Total Price after {discountPercentage}% Discount:
             </p>
-            <p className="text-lg font-bold">Rs. {totalPrice}</p>
+            <p className="text-lg font-bold">Rs. {discountedPrice}</p>
           </div>
         )}
       </div>
@@ -58,4 +58,4 @@ function CalculatePrice() {
   );
 }
 
-export default CalculatePrice;
+export default CalculateDiscount;
