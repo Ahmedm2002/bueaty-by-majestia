@@ -4,6 +4,7 @@ import BNBFacialKit from "./Images/BNBFacialKit.jpeg";
 import nourishingFacialKit from "./Images/nourishingFacialKit.jpeg";
 import TheOdinaryFacialKit from "./Images/TheOdinaryFacialKit.jpeg";
 import BrighteningFacialKitBNB from "./Images/BrighteningFacialKitBNB.jpeg";
+import kalonjiFK from "./Images/kalonjiFK.jpeg";
 function FacialKit() {
   return (
     <>
@@ -21,6 +22,15 @@ Blend Of Fruit Extracts And Oils, Gives A Natural Glow To Your Skin, Improve Com
 Whitening Face Wash, Whitening Facial Cleanser, Whitening Facial Scrub
 Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
         />
+
+        <ProductCard
+          img={kalonjiFK}
+          text="Kolonji brightening facial kit 6 in 1"
+          price="2999/-"
+          reducedPrice="1499/-"
+          shortDetail="The Kalonji Brightening Facial Kit typically includes products designed to enhance skin brightness and even out skin tone. It often features ingredients like kalonji oil (black seed oil), known for its antioxidant and anti-inflammatory properties. The kit might include a cleanser, exfoliator, mask, serum, and moisturizer. Each product is usually formulated to work together to help brighten the complexion and improve skin radiance"
+        />
+
         <ProductCard
           img={nourishingFacialKit}
           text="TNourishing Facial Kit - Pack Of 6"

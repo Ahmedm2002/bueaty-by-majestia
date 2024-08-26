@@ -1,6 +1,14 @@
 import React from "react";
 import Stars from "./Stars";
 
+function truncateText(text) {
+  const limit = 60;
+  if (text.length > 50) {
+    return text.substr(0, limit) + "...";
+  }
+  return text;
+}
+
 function ProductCard({
   img,
   text,
@@ -10,6 +18,16 @@ function ProductCard({
   onSale = false,
   rating = "4.0",
 }) {
+  const message = `I'm interested in buying the following product:\n\nProduct: ${text}\nPrice: Rs.${reducedPrice}\nOriginal Price: Rs.${price}\n\nPlease provide more details.`;
+
+  const whatsappUrl = `https://wa.me/923400545395?text=${encodeURIComponent(
+    message
+  )}`;
+
+  const handleBuyNow = () => {
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <div className="w-[90%] sm:w-1/3 md:w-1/4 lg:w-1/5">
       <article className="relative md:p-4 p-2 border rounded-lg shadow-md flex flex-col h-full">
@@ -29,7 +47,9 @@ function ProductCard({
           <div>
             <h3 className="text-md font-semibold text-gray-900">{text}</h3>
             {shortDetail && (
-              <p className="text-sm text-gray-700">{shortDetail}</p>
+              <p className="text-sm text-gray-700">
+                {truncateText(shortDetail)}
+              </p>
             )}
             <div className="mt-2 flex items-center justify-between">
               <p>
@@ -50,7 +70,11 @@ function ProductCard({
             <button className="w-full rounded-lg border-2 p-1 bg-white md:px-4 md:py-2 text-gray-500">
               Details
             </button>
-            <button className="w-full rounded-lg bg-pink-600 md:px-4 md:py-2 text-white">
+
+            <button
+              className="w-full rounded-lg bg-pink-600 md:px-4 md:py-2 text-white"
+              onClick={handleBuyNow}
+            >
               Buy Now
             </button>
           </div>

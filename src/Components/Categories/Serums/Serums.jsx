@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "../../Featured Products/ProductCard";
 import RiceSkinBueatyEssence from "./Images/RiceSkinBueatyEssence.jpeg";
+import pixiSerum from "./Images/pixiSerum.jpeg";
 function Serums() {
   return (
     <>
@@ -16,6 +17,15 @@ function Serums() {
           shortDetail="Material: Cream
 Product Type: Rice Cream, Rice Lotion And Rice Serum Deal
 Product Details: Nourish Your Skin, Moisture Replenish for Body, Soothing And Cooling, Hydration"
+        />
+
+        <ProductCard
+          img={pixiSerum}
+          text="RPixi Botanical Collagen & Retinol Serum"
+          price="2999/-"
+          reducedPrice="1499/-"
+          shortDetail=" Repair damaged skin provide glow in skin help to remove pigmentation acne scars tighten your skin work as anti aging.
+          Helps In: This concentrated, volumizing serum is formulated with Acacia Collagen, Retinol and vitamins to help restore skin’s elasticity."
         />
       </div>
     </>

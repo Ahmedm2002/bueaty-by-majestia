@@ -7,6 +7,7 @@ import SkinPolish300g from "./Images/SkinPolish300g.jpeg";
 import CentellaCream30G from "./Images/CentellaCream30G.jpeg";
 import goldenPearlMassageCream from "./Images/goldenPearlMassageCream.jpeg";
 import AcneRemovalCream from "./Images/AcneRemovalCream.jpeg";
+import bioaouaUnderArmCream from "./Images/bioaouaUnderArmCream.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -76,14 +77,13 @@ Size: 30G
 Product Feature: Whitening"
         />
 
-        {/* REapeated */}
         <ProductCard
-          img={AcneRemovalCream}
-          text="Acne Scar Removal Rejuvenation Cream"
+          img={bioaouaUnderArmCream}
+          text="Underarm Whitening Cream"
           price="999/-"
           reducedPrice="499/-"
-          shortDetail="Package Includes: 1 x Acne Scar Removal Rejuvenation Cream"
-          rating="5.0"
+          shortDetail="Gives A Natural Glow To Your Skin, Improve Complexion, Can Be Used On Private Parts"
+          rating="4.0"
         />
       </div>
     </>

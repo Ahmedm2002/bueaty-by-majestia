@@ -6,8 +6,8 @@ import logo from "../assets/logo.jpg";
 function Header() {
   const Links = [
     { name: "Home", link: "/" },
-    { name: "Contact Us", link: "/contactUs" },
     { name: "About Us", link: "/aboutUs" },
+    { name: "Contact Us", link: "/contactUs" },
   ];
 
   const [open, setOpen] = useState(false);

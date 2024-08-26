@@ -10,6 +10,7 @@ import nightSkinCare from "./Images/nightSkinCare.webp";
 import BodyLotion from "./Images/BodyLotion.webp";
 import BrighteningCream from "./Images/BrighteningCream.webp";
 import Category from "./Category";
+
 function AllCategories() {
   return (
     <>

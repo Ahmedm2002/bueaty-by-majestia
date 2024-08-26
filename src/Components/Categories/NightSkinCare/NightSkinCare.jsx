@@ -15,7 +15,7 @@ function NightSkinCare() {
           text="Vitamin C Night Cream, 50 Grams"
           price="2999/-"
           reducedPrice="1499/-"
-          shortDetail=":Material: Cream
+          shortDetail="Material: Cream
 Texture: Smooth
 Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
 Color: Orange

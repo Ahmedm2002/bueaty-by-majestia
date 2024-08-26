@@ -13,7 +13,7 @@ function Cleansers() {
           text="Hydrating Cleanser And Moisturizing Lotion, Pack Of 2"
           price="999/-"
           reducedPrice="499/-"
-          shortDetail=":Material: Cream
+          shortDetail="Material: Cream
 Texture: High Pigmented
 Moisturizing Lotion Is A Lightweight, Oil-Free Moisturizer With Three Essential Ceramides That Lock In The Skin's Moisture
 Hydrating Cleanser With Hyaluronic Acid For Normal To Dry Skin"
@@ -24,7 +24,7 @@ Hydrating Cleanser With Hyaluronic Acid For Normal To Dry Skin"
             text="Vitamin C Night Cream, 50 Grams"
             price="2999/-"
             reducedPrice="1499/-"
-            shortDetail=":Material: Cream
+            shortDetail="Material: Cream
 Texture: Smooth
 Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
 Color: Orange
