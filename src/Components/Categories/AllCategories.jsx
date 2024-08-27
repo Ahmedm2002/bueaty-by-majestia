@@ -20,7 +20,7 @@ function AllCategories() {
             Explore Categories
           </h2>
         </div>
-        <div className="flex flex-wrap flex-row mt-6 md:mt-10 justify-center items-center md:gap-6 gap-3">
+        <div className="flex flex-wrap flex-row mt-6 md:mt-10 justify-center items-center md:gap-6">
           <Category img={sunblock} name="Sunblocks" url="sunblock" />
           <Category img={faceWash} name="Face Washs" url="faceWash" />
           <Category img={facialKit} name="Facial Kits" url="facialKit" />
