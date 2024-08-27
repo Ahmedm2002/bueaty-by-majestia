@@ -10,7 +10,7 @@ import nightSkinCare from "./Images/nightSkinCare.webp";
 import BodyLotion from "./Images/BodyLotion.webp";
 import BrighteningCream from "./Images/BrighteningCream.webp";
 import Category from "./Category";
-
+import multaniMitti from "./Images/multaniMitti.jpg";
 function AllCategories() {
   return (
     <>
@@ -31,6 +31,7 @@ function AllCategories() {
             url="nightSkinCare"
           />
           <Category img={cleanser} name="Cleansers" url="cleansers" />
+          <Category img={multaniMitti} name="Powders" url="powders" />
           <Category img={BodyLotion} name="Body Lotions" url="bodyLotions" />
           <Category
             img={BrighteningCream}

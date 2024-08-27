@@ -8,6 +8,8 @@ import CentellaCream30G from "./Images/CentellaCream30G.jpeg";
 import goldenPearlMassageCream from "./Images/goldenPearlMassageCream.jpeg";
 import AcneRemovalCream from "./Images/AcneRemovalCream.jpeg";
 import bioaouaUnderArmCream from "./Images/bioaouaUnderArmCream.jpeg";
+import VitaminCWhiteningCream from "./Images/VitaminCWhiteningCream.jpeg";
+import VitaminCCream60g from "./Images/VitaminCCream60g.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -15,6 +17,29 @@ function BrighteningCream() {
         Products in Brightening Cream
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        {/* <ProductCard
+          img={RicePowderFacePack}
+          text="Rice Powder Natural Brightening Rice Face Pack"
+          price="549/-"
+          reducedPrice="429/-"
+          productCode="MZ109220005COZMO"
+          shortDetail="Material: Powder
+Package Includes: 1 x Skin Moisturizing Face Powder"
+        /> */}
+        {/* Actual */}
+
+        <ProductCard
+          img={VitaminCCream60g}
+          text="Vitamin-C Cream, 60 g"
+          price="1499/-"
+          reducedPrice="1019/-"
+          productCode="Material: Cream
+Skin Types: Combination Skin
+Product Feature: Anti-Aging, Brightening, Whitening
+Package Includes: 1 x Vitamin-C Hand Cream
+"
+        />
+
         <ProductCard
           img={GlupatoneBC}
           text="Brightening Cream"
@@ -24,16 +49,7 @@ function BrighteningCream() {
 Package Includes:  1 x Facial Beauty Cream"
           productCode="MZ60320025MNSRPS"
         />
-        <ProductCard
-          img={WhiteningEmulsion}
-          text="Whitening And Brightening Emulsion"
-          price="999/-"
-          reducedPrice="769/-"
-          shortDetail="Material: Cream
-Product Feature: Whitening And Brightening
-"
-          productCode="MZ109020208QYCSSE"
-        />
+
         <ProductCard
           img={FacialBeautyCream}
           text="Facial Beauty Cream"
@@ -44,6 +60,18 @@ Package Includes:  1 x Facial Beauty Cream"
           rating="5.0"
           productCode="MZ60320024MNSRPS"
         />
+
+        <ProductCard
+          img={WhiteningEmulsion}
+          text="Whitening And Brightening Emulsion"
+          price="999/-"
+          reducedPrice="769/-"
+          shortDetail="Material: Cream
+Product Feature: Whitening And Brightening
+"
+          productCode="MZ109020208QYCSSE"
+        />
+
         <ProductCard
           img={SkinPolish300g}
           text=" Whitening Skin Polish 300g"
@@ -71,6 +99,20 @@ Size: 30G
 "
           productCode="MZ2600085ARCC"
           rating="5.0"
+        />
+
+        <ProductCard
+          img={VitaminCWhiteningCream}
+          text="Vitamin C Whitening Cream"
+          price="839/-"
+          reducedPrice="649/-"
+          productCode="MZ726002801BSMCS"
+          shortDetail="Material: Cream
+Skin Types: Normal Skin
+Product Feature: Whitening
+Quantity: 50 G
+Package Includes: 1 x Vitamin  C Whitening Cream
+"
         />
 
         <ProductCard

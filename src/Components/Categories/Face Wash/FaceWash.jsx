@@ -2,6 +2,7 @@ import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
 import RiceFaceWash from "./Images/RiceFaceWash.jpeg";
 import DrRashelFaceWash from "./Images/DrRashelFaceWash.jpeg";
+import AcneControlTea from "./Images/AcneControlTea.jpeg";
 function FaceWash() {
   return (
     <>
@@ -27,14 +28,19 @@ Product Feature: Hydrating, Absorbent"
           reducedPrice="699/-"
           shortDetail="Experience a deep, revitalizing cleanse! Infused with activated charcoal, it detoxifies, controls oil, and prevents breakouts, leaving your skin clearer and healthier. Perfect for daily use, this 100g tube ensures smooth, refreshed skin. "
         />
-        {/* <ProductCard
-          img={moisturizer}
-          text="Body Moisturizer by Olivia"
-          price="999/-"
-          reducedPrice="499/-"
-          shortDetail="Material: Oil Package Includes: 1 x Oil"
+        <ProductCard
+          img={AcneControlTea}
+          text="Acne Control Tea Tree Face Wash"
+          price="1299/-"
+          reducedPrice="939/-"
+          productCode="MZ100320007TEBYEL"
+          shortDetail="Revitalize Your Skincare Routine With Acne Tea Tree Face Wash
+A Potent Solution For Clearer, Healthier-Looking Skin
+Infused With The Purifying Essence Of Tea Tree Oil
+This Invigorating Cleanser Effectively Targets Acne-Causing Bacteria While Gently Unclogging Pores
+Package Includes: 1 x Face Wash"
           rating="5.0"
-        /> */}
+        />
         {/* <ProductCard
           img={cleanser}
           text="Foaming Facial Cleanser"

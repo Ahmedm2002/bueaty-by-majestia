@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
 import HyderatingBL250ML from "./Images/HyderatingBL250ML.jpeg";
+import soapexFeetCream from "./Images/soapexFeetCream.jpeg";
 function BodyLotions() {
   return (
     <>
@@ -18,17 +19,16 @@ Package Includes: 2 x Body Lotion
 Volume: 250 Ml"
           productCode="MZ69120180AIBSFD"
         />
-        {/* <ProductCard
-          img={nightCream}
-          text="Whitening And Aging Night Cream"
-          price="450/-"
-          reducedPrice="199/-"
+
+        <ProductCard
+          img={soapexFeetCream}
+          text="Soapex Heel Cream"
+          price="499/-"
+          reducedPrice="389/-"
+          productCode="MZ19920069RAAS"
           shortDetail="Material: Cream
-Whitening And Brightening
-Extreme Strong Whitening And Aging Night Cream
-Formulated To Heal And Rejuvenate The Skin Overnight
-Targets Dark Spots, Fine Lines, And Uneven Skin Tone"
-        /> */}
+Imported Cracked Foot And Hands Skin Repair Cream, Ultra-Hydrating, Professional-Strength Formula Delivering Triple Action –Moisturizing, Repairing, And Soothing Dry, Cracked Feet."
+        />
         {/* <ProductCard
           img={exfoliatingNCPck2}
           text="Exfoliating Gel And Night Cream, Pack Of 2"

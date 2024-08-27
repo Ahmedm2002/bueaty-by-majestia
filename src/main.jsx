@@ -24,6 +24,7 @@ import FaceMasks from "./Components/Categories/Masks/FaceMasks";
 import ProductDetails from "./Components/Product Cards/ProductDetails";
 import CalculatePrice from "../CalculatePrice";
 import CalculateDiscount from "../CalculateDiscount";
+import Powders from "./Components/Categories/Powders/Powders";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -42,6 +43,7 @@ const App = () => {
         <Route path="/serums" element={<Serums />} />
         <Route path="/facemasks" element={<FaceMasks />} />
         <Route path="/productDetails" element={<ProductDetails />} />
+        <Route path="/powders" element={<Powders />} />
         <Route path="/calculatePrice" element={<CalculatePrice />} />
         <Route path="/calculateDiscount" element={<CalculateDiscount />} />
       </Route>

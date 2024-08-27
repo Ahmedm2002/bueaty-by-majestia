@@ -2,7 +2,6 @@ import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
 import OliveBlackMask from "./Images/OliveBlackMask.jpeg";
 import PeelOffMask from "./Images/PeelOffMask.jpeg";
-import FacePowder from "./Images/FacePowder.jpeg";
 function FaceMasks() {
   return (
     <>
@@ -32,16 +31,6 @@ Product Feature: Dead Skin Remover, Hydrating, Peel-off"
 Texture: Smooth
 Color: Golden
 Product Feature: Rejuvenating, Absorbent, Peel-off, Nourishing"
-        />
-
-        <ProductCard
-          img={FacePowder}
-          text="Face Powder"
-          price="1999/-"
-          reducedPrice="1499/-"
-          productCode="MZ23800077SKTS"
-          shortDetail="Material: Powder
-Package Includes: 1 x Face Powder"
         />
       </div>
     </>

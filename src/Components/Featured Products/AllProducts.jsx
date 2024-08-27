@@ -20,9 +20,9 @@ function FeaturedProducts() {
             <ProductCard
               img={JadeRollerAndGuaSha}
               text="Jade Roller And Gua Sha"
-              price="2999/-"
-              reducedPrice="1499/-"
-              onSale={true}
+              price="749/-"
+              reducedPrice="549/-"
+              productCode="MZ15300406WZRSP"
               shortDetail="Material: Jade
 Texture: Smooth
 Product Feature: Rejuvenating, Treat Fine Lines"
@@ -30,8 +30,8 @@ Product Feature: Rejuvenating, Treat Fine Lines"
             <ProductCard
               img={sunBlockPackOfThree}
               text="Foaming Facial Cleanser"
-              price="999/-"
-              reducedPrice="499/-"
+              price="849/-"
+              reducedPrice="599/-"
               shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
               rating="5.0"
             />

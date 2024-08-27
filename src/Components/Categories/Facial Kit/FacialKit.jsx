@@ -5,6 +5,9 @@ import nourishingFacialKit from "./Images/nourishingFacialKit.jpeg";
 import TheOdinaryFacialKit from "./Images/TheOdinaryFacialKit.jpeg";
 import BrighteningFacialKitBNB from "./Images/BrighteningFacialKitBNB.jpeg";
 import kalonjiFK from "./Images/kalonjiFK.jpeg";
+import riceCleaningScrub from "./Images/riceCleaningScrub.jpeg";
+import TeaTreeOrganicSkincareKit from "./Images/TeaTreeOrganicSkincareKit.jpeg";
+import DermaWhiteningAndBrightening from "./Images/DermaWhiteningAndBrightening.jpeg";
 function FacialKit() {
   return (
     <>
@@ -12,6 +15,31 @@ function FacialKit() {
         Products in Facial Kit
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={DermaWhiteningAndBrightening}
+          text="Whitening And Brightening Facial Kit "
+          price="6999/-"
+          reducedPrice="4699/-"
+          productCode="MZ80120009LABY"
+          shortDetail="Material: Cream
+Texture: Smooth
+Skin Types: Normal Skin
+Product Feature: Whitening And Brightening
+Package Includes: 1 x Facial Kit
+Product Features: Infused With Fruit Extracts For A Refreshing Experience.
+suitableFor All Skin Types.  This Multi-Pack Offers A Refreshing And Rejuvenating Experience, Perfect For Your Skincare Routine. 
+Weight: 200 Grams"
+        />
+
+        <ProductCard
+          img={TeaTreeOrganicSkincareKit}
+          text="Tea Tree Organic Skincare Kit"
+          price="2699/-"
+          reducedPrice="2199/-"
+          productCode="MZ69120050AIBSFD"
+          shortDetail="Package Includes: 1 x Skincare Kit"
+        />
+
         <ProductCard
           img={BNBFacialKit}
           text="Rice Whitening And Glowing Facial Kit"
@@ -22,6 +50,18 @@ function FacialKit() {
 Blend Of Fruit Extracts And Oils, Gives A Natural Glow To Your Skin, Improve Complexion
 Whitening Face Wash, Whitening Facial Cleanser, Whitening Facial Scrub
 Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
+        />
+
+        <ProductCard
+          img={riceCleaningScrub}
+          text="Rice Exfoliating Facial Scrub, 100 Ml"
+          price="599/-"
+          reducedPrice="389/-"
+          productCode="MZ57520029HYCS"
+          shortDetail="Material: Cream
+Size: 100 Ml
+Package Includes: 1 x Facial Scrub
+Restores skin beauty, Health and radiance, For all skin types"
         />
 
         <ProductCard
