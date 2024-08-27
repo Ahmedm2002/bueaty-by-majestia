@@ -10,7 +10,7 @@ import nightSkinCare from "./Images/nightSkinCare.webp";
 import BodyLotion from "./Images/BodyLotion.webp";
 import BrighteningCream from "./Images/BrighteningCream.webp";
 import Category from "./Category";
-import multaniMitti from "./Images/multaniMitti.jpg";
+import multaniMitti from "./Images/multaniMitti.webp";
 function AllCategories() {
   return (
     <>
