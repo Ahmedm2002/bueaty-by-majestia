@@ -38,10 +38,10 @@ function ProductCard({
 
   const handleBuyNow = () => {
     const message = `I'm interested in buying the following product:\n
-    Product: ${text}\nPrice: Rs.${reducedPrice}
-    ${productCode ? `Product Code: ${productCode}\n` : ""}
-    Please provide more details.`;
-    console.log(message);
+Product: ${text}\nPrice: Rs.${reducedPrice}
+${productCode ? `Product Code: ${productCode}` : ""}
+    
+Please provide more details.`;
 
     const whatsappUrl = `https://wa.me/923400545395?text=${encodeURIComponent(
       message
