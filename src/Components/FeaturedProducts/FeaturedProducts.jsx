@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "../Product Cards/ProductCard";
-import JadeRollerAndGuaSha from "../Featured Products/Images/JadeRollerAndGuaSha.jpeg";
-import sunBlockPackOfThree from "../Featured Products/Images/sunBlockPackOfThree.jpg";
+import JadeRollerAndGuaSha from "../FeaturedProducts/Images/JadeRollerAndGuaSha.jpeg";
+import sunBlockPackOfThree from "../FeaturedProducts/Images/sunBlockPackOfThree.jpg";
 function FeaturedProducts() {
   return (
     <>

@@ -1,16 +1,16 @@
 import React from "react";
-import serums from "./Images/serums.webp";
-import cleanser from "./Images/cleanser.webp";
-import masks from "./Images/masks.webp";
-import sunblock from "./Images/sunblock.webp";
-import faceWash from "./Images/faceWash.webp";
-import facialKit from "./Images/facialKit.jpg";
-import gel from "./Images/gel.webp";
-import nightSkinCare from "./Images/nightSkinCare.webp";
-import BodyLotion from "./Images/BodyLotion.webp";
-import BrighteningCream from "./Images/BrighteningCream.webp";
+import serums from "./CategoryImages/serums.webp";
+import cleanser from "./CategoryImages/cleanser.webp";
+import masks from "./CategoryImages/masks.webp";
+import sunblock from "./CategoryImages/sunblock.webp";
+import faceWash from "./CategoryImages/faceWash.webp";
+import facialKit from "./CategoryImages/facialKit.jpg";
+import gel from "./CategoryImages/gel.webp";
+import nightSkinCare from "./CategoryImages/nightSkinCare.webp";
+import BodyLotion from "./CategoryImages/BodyLotion.webp";
+import BrighteningCream from "./CategoryImages/BrighteningCream.webp";
 import Category from "./Category";
-import multaniMitti from "./Images/multaniMitti.webp";
+import multaniMitti from "./CategoryImages/multaniMitti.webp";
 function AllCategories() {
   return (
     <>

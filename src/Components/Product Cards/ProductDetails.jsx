@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Stars from "../Stars";
-import FeaturedProducts from "../Featured Products/AllProducts";
-
+import FeaturedProducts from "../FeaturedProducts/FeaturedProducts";
 const ProductDetails = () => {
   const location = useLocation();
   const { img, text, price, reducedPrice, shortDetail, rating, productCode } =
