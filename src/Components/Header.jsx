@@ -29,14 +29,16 @@ function Header() {
   return (
     <div className="block shadow-md w-full top-0 left-0">
       <div className="flex items-center  bg-pink-200 justify-between py-2 md:px-10 px-2">
-        <div className="flex items-center">
-          <div className="font-bold text-2xl cursor-pointer font-[Poppins]">
-            <img
-              src={logo}
-              alt="logo"
-              className="w-10 h-10 inline rounded-md mr-2"
-            />
-            <Link to="/">Bueaty By Majestia</Link>
+        <div className="flex items-center flex-wrap">
+          <div className="font-bold sm:text-2xl text-lg cursor-pointer font-[Poppins]">
+            <Link to="/">
+              <img
+                src={logo}
+                alt="logo"
+                className="w-10 h-10 inline rounded-md mr-2"
+              />
+              <h3 className="hidden xs:inline">Bueaty By Majestia</h3>
+            </Link>
           </div>
         </div>
 

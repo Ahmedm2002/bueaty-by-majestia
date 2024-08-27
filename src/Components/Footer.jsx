@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -6,9 +7,9 @@ function Footer() {
       <div className="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-center">
         <span className="text-lg">
           © 2024{" "}
-          <a href="#" className="hover:underline">
+          <Link to="/" className="hover:underline">
             Beauty By Majestia
-          </a>
+          </Link>
           . All Rights Reserved.
         </span>
       </div>
