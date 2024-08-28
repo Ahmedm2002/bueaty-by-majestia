@@ -3,6 +3,8 @@ import ProductCard from "../../Product Cards/ProductCard";
 import RiceFaceWash from "./Images/RiceFaceWash.jpeg";
 import DrRashelFaceWash from "./Images/DrRashelFaceWash.jpeg";
 import AcneControlTea from "./Images/AcneControlTea.jpeg";
+import SQMBlackHeadClearing from "./Images/SQMBlackHeadClearing.jpeg";
+import GoldernPearlTripleProtection from "./Images/GoldernPearlTripleProtection.jpeg";
 function FaceWash() {
   return (
     <>
@@ -21,6 +23,24 @@ Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
 Product Feature: Hydrating, Absorbent"
           productCode="MZ69120300AIBSFD"
         />
+
+        <ProductCard
+          img={GoldernPearlTripleProtection}
+          text="Sunblock Tripple Protection - 200g"
+          price="1499/-"
+          reducedPrice="1169/-"
+          productCode="MZ37000012GWAYBYMT"
+          shortDetail="LProduct Material: Skin Care
+Product Finish-type: Skin Care
+Apply a sufficient amount of sunblock to cover all exposed areas of your skin.
+Don’t forget areas like the ears, neck, back of the hands, and tops of the feet.
+Ideally, do it at least 15 to 30 minutes before going into the sun to allow the sunscreen to bind to your skin properly.
+Product Dimension Value (L5 x W2 x H3 (inches): 
+Weight - 200Gram
+Product Warranty: 100% Original
+Package Includes: 1 x Sunblock"
+        />
+
         <ProductCard
           img={DrRashelFaceWash}
           text="Dr.Rashel's Purifying Face Wash"
@@ -41,14 +61,23 @@ This Invigorating Cleanser Effectively Targets Acne-Causing Bacteria While Gentl
 Package Includes: 1 x Face Wash"
           rating="5.0"
         />
-        {/* <ProductCard
-          img={cleanser}
-          text="Foaming Facial Cleanser"
+        <ProductCard
+          img={SQMBlackHeadClearing}
+          text="Blackhead Clearing Oil-Free Salicylic Acid Aloe Scrub - 170g"
           price="999/-"
-          reducedPrice="499/-"
-          shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
+          reducedPrice="659/-"
+          productCode="MZ485000036ECKSP"
+          shortDetail="This Revitalizing Tan-Removal scrub is blended with aloe vera
+Dissolve dead surface cells
+Unclog pore openings and smooth the way for clear skin to surface
+Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
+This Revitalizing tan removal scrub is blended with aloe vera
+Dissolve dead surface cells
+Unclog pore openings and smooth the way for clear skin to surface
+Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
+Package Includes: 1 x Blackhead Clearing Oil-Free Salicylic Acid Aloe Scrub - 170g"
           rating="5.0"
-        /> */}
+        />
       </div>
     </>
   );

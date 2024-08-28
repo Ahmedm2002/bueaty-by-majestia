@@ -93,7 +93,9 @@ Please provide more details.`;
                   Rs. {price}
                 </span>
               </p>
+              <br />
             </div>
+            {/* <p>{productCode}</p> */}
 
             <div className="md:inline block">
               <Stars stars={rating} />

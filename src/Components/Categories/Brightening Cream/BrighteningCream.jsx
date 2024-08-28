@@ -14,6 +14,9 @@ import BiPureAcneCream from "./Images/BiPureAcneCream.jpeg";
 import SaeedGhaniFootAndHandCream from "./Images/SaeedGhaniFootAndHandCream.jpeg";
 import DermacosWhiteningSkinPolishBleachSet from "./Images/DermacosWhiteningSkinPolishBleachSet.jpeg";
 import FairandLovelyCream from "./Images/FairandLovelyCream.jpeg";
+import dermawickUrgerntFacial from "./Images/dermawickUrgerntFacial.jpeg";
+import SeiBella from "./Images/SeiBella.jpeg";
+import GoldenPearlUrgentFacial from "./Images/GoldenPearlUrgentFacial.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -21,6 +24,42 @@ function BrighteningCream() {
         Products in Brightening Cream
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={dermawickUrgerntFacial}
+          text="Whitening And Glowing Urgent Facial"
+          price="699/-"
+          rating="5.0"
+          reducedPrice="539/-"
+          productCode="MZ22100017MSEE"
+          shortDetail="Product Feature: Whitening, Exfoliation, Brightening
+Package Includes: 1 x Facial 
+"
+        />
+
+        <ProductCard
+          img={GoldenPearlUrgentFacial}
+          text="WUnique Formula Whitening Urgent Facial Tube - 75m"
+          price="499/-"
+          rating="5.0"
+          reducedPrice="349/-"
+          productCode="MZ53500000003HHK"
+          shortDetail="Material: Facial
+Whitening Urgent Facial with natural ingredients
+Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
+Radiant in just a few minutes! It leaves your skin with a perfect glow
+Package Includes: 1 x Unique Formula Whitening Urgent Facial Tube - 75ml"
+        />
+
+        <ProductCard
+          img={SeiBella}
+          text="Sei Bella Skin Whitening Cream, 20 Ml"
+          price="799/-"
+          rating="5.0"
+          reducedPrice="659/-"
+          productCode="MZ100700007RTBY"
+          shortDetail="Package Includes: 1 x Skin Whitening Cream"
+        />
+
         <ProductCard
           img={FairandLovelyCream}
           text="Fair and Lovely Cream"

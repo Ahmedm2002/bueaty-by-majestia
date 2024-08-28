@@ -8,6 +8,7 @@ import SunblockPackOf3 from "./Images/SunblockPackOf3.jpeg";
 import AntheliosUvmune from "./Images/AntheliosUvmune.jpeg";
 import pondsUvProtect from "./Images/pondsUvProtect.jpeg";
 import NeutrogenaSunblock from "./Images/NeutrogenaSunblock.jpeg";
+import JessicaSunblock from "./Images/JessicaSunblock.jpeg";
 function Sunblock() {
   return (
     <>
@@ -23,6 +24,16 @@ function Sunblock() {
           productCode="MZ67400046CYCH"
           shortDetail="Material: Cream
 Package Includes: 1 x Sunblock"
+        />
+
+        <ProductCard
+          img={JessicaSunblock}
+          text="Sunscreen, SPF- 60"
+          price="699/-"
+          reducedPrice="479/-"
+          productCode="MZ100320003TEBYEL"
+          shortDetail="Color: Yellow
+Package Includes: 1 x Sunscreen"
         />
 
         <ProductCard

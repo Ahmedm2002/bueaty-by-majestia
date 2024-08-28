@@ -8,6 +8,8 @@ import kalonjiFK from "./Images/kalonjiFK.jpeg";
 import riceCleaningScrub from "./Images/riceCleaningScrub.jpeg";
 import TeaTreeOrganicSkincareKit from "./Images/TeaTreeOrganicSkincareKit.jpeg";
 import DermaWhiteningAndBrightening from "./Images/DermaWhiteningAndBrightening.jpeg";
+import SkinTouchGold from "./Images/SkinTouchGold.jpeg";
+import GlutaponeFK from "./Images/GlutaponeFK.jpeg";
 function FacialKit() {
   return (
     <>
@@ -29,6 +31,34 @@ Package Includes: 1 x Facial Kit
 Product Features: Infused With Fruit Extracts For A Refreshing Experience.
 suitableFor All Skin Types.  This Multi-Pack Offers A Refreshing And Rejuvenating Experience, Perfect For Your Skincare Routine. 
 Weight: 200 Grams"
+        />
+
+        <ProductCard
+          img={GlutaponeFK}
+          text="Whitening Facial Kit, Pack Of 6"
+          price="4099/-"
+          reducedPrice="3849/-"
+          productCode="MZ90200000004UEWD"
+          shortDetail="Material: Liquid
+Pack Of: Pack Of 6
+Package Includes: 1 x Whitening Facial Kit Set
+Glutapone Facial Face Wash,  180ml
+Glutapone Facial Cleanser.180ml
+Glutapone Facial Skin Polish, 180ml
+Glutapone Facial Scrub, 180ml
+Glutapone Facial Massage Cream, 180ml
+Glutapone Facial Mask, 180ml"
+        />
+
+        <ProductCard
+          img={SkinTouchGold}
+          text="Whitening And Glowing Urgent Facial"
+          price="699/-"
+          reducedPrice="539/-"
+          productCode="MZ22100021MSEE"
+          shortDetail="Product Feature: Whitening, Exfoliation, Brightening
+Package Includes: 1 x Facial 
+"
         />
 
         <ProductCard
