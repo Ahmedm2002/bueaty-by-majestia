@@ -4,6 +4,7 @@ import ProductCard from "../../Product Cards/ProductCard";
 import ExfoliatorGel from "./Images/ExfoliatorGel.jpeg";
 import RiceAndPeachGel from "./Images/RiceAndPeachGel.jpeg";
 import ExfoliatingGel from "./Images/ExfoliatingGel.jpeg";
+import AloeVeraSmoothingGel from "./Images/AloeVeraSmoothingGel.jpeg";
 function Gels() {
   return (
     <>
@@ -11,6 +12,18 @@ function Gels() {
         Products in Gels
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={AloeVeraSmoothingGel}
+          text="Soothing Aloe Vera Gel "
+          price="499/-"
+          reducedPrice="229/-"
+          productCode="MZ88300007UNQWD"
+          shortDetail=":Material: Gel
+Texture: Glossy
+Weight: 300 Grams
+Package Includes: 1 x Aloe Vera Gel"
+        />
+
         <ProductCard
           img={AloeveraGel}
           text="Aloe Vera Gel Leaf Tube - 120ml"

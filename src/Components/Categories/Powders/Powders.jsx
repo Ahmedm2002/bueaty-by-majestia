@@ -10,7 +10,8 @@ import OrangePeelsPwdr from "./Images/OrangePeelsPwdr.jpeg";
 import neemLeavesPwdr from "./Images/neemLeavesPwdr.jpeg";
 import roseFlowerPwdr from "./Images/roseFlowerPwdr.jpeg";
 import FacePowder from "./Images/FacePowder.jpeg";
-
+import BeetrootPowder from "./Images/BeetrootPowder.jpeg";
+import MuddMaskGolendGirl from "./Images/MuddMaskGolendGirl.jpeg";
 function Powders() {
   return (
     <>
@@ -18,6 +19,36 @@ function Powders() {
         Products in Powders
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={MuddMaskGolendGirl}
+          text="Mud Mask, 75 G"
+          price="659/-"
+          reducedPrice="469/-"
+          productCode="MZ88700004ARSML"
+          shortDetail="Face Mask
+Product Details:Material: Liquid
+Product Type: Face Mask
+Product Details: Moisture, Anti Ageing, Cleaning Facial, Pore Reducer And Helps Clean Acne
+Package Includes: 1 x Face Mask
+Weight: 75 G
+Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin
+If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction
+Always read the warning labels and directions on the package for using any cosmetic products."
+        />
+
+        <ProductCard
+          img={BeetrootPowder}
+          text="Beetroot Powder"
+          price="1099/-"
+          reducedPrice="819/-"
+          productCode="MZ88200003INFST"
+          shortDetail="Material: Powder
+Product Type: Beetroot Powder
+Product Details: Beetroot Powder Antioxidants Promote A Youthful Glow By Combating Free Radicals And Reducing Oxidative Stress.
+Package Includes: 1 x Powder
+Weight: 140g"
+        />
+
         <ProductCard
           img={roseFlowerPwdr}
           text="Rose Flower Natural Powder"

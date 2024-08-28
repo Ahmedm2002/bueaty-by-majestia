@@ -18,6 +18,9 @@ import dermawickUrgerntFacial from "./Images/dermawickUrgerntFacial.jpeg";
 import SeiBella from "./Images/SeiBella.jpeg";
 import GoldenPearlUrgentFacial from "./Images/GoldenPearlUrgentFacial.jpeg";
 import HeavenDoveCream from "./Images/HeavenDoveCream.jpeg";
+import GlowAndCleanSkinPolish from "./Images/GlowAndCleanSkinPolish.jpeg";
+import BioaquaAcneRemoval from "./Images/BioaquaAcneRemoval.jpeg";
+import VitaminECapsuleJar from "./Images/VitaminECapsuleJar.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -25,6 +28,48 @@ function BrighteningCream() {
         Products in Brightening Cream
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={VitaminECapsuleJar}
+          text="Vitamin E Capsule Jar"
+          rating="5.0"
+          price="699/-"
+          reducedPrice="468/-"
+          productCode="MZ88700003ARSML"
+          shortDetail="Material: Liquid
+Product Type: Vitamin E Capsule Jar
+Product Details: Skin Can Benefit From Both Protein And Natural Oils.
+Color: Yellow
+Package Includes: 20 x Vitamin E Hair Capsule"
+        />
+
+        <ProductCard
+          img={GlowAndCleanSkinPolish}
+          text="Skin Polish Pack Of 3"
+          rating="5.0"
+          price="1599/-"
+          reducedPrice="1319/-"
+          productCode="MZ48800055ARUMT"
+          shortDetail="Material: Cream
+Texture: Smooth
+Pack Of: Pack Of 3
+Package Includes: 1 x Skin Polisher"
+        />
+
+        <ProductCard
+          img={BioaquaAcneRemoval}
+          text="Salicylic Acid Acne Removal Cream , 20 g"
+          rating="5.0"
+          price="449/-"
+          reducedPrice="359/-"
+          productCode="MZ59300116FIFEC"
+          shortDetail="Material: Cream
+Product Type: Salicylic Acid Acne Removal Cream 
+Product Details: Restores The Healthy Metabolism Of Skin And Reduces To Acne Scars, Reduces Redness Relieves Acne Scars
+Color: Purple
+Package Includes: 1 x Salicylic Acid Acne Removal Cream 
+Weight: 20 g"
+        />
+
         <ProductCard
           img={HeavenDoveCream}
           text="Heaven Dove Whitening Cream - Blue"

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function CalculatePrice() {
   const [price, setPrice] = useState("");
-  const [profitPercentage, setProfitPercentage] = useState("");
+  const [profitPercentage, setProfitPercentage] = useState(20);
   const [totalPrice, setTotalPrice] = useState(null);
 
   const calculateTotalPrice = () => {

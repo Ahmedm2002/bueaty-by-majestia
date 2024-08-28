@@ -5,6 +5,7 @@ import PeelOffMask from "./Images/PeelOffMask.jpeg";
 import SadoerGoldMask from "./Images/SadoerGoldMask.jpeg";
 import StrawberryMaskStick from "./Images/StrawberryMaskStick.jpeg";
 import DrRaheelGoldenCollagen from "./Images/DrRaheelGoldenCollagen.jpeg";
+import VitaminCAichunBueaty from "./Images/VitaminCAichunBueaty.jpeg";
 function FaceMasks() {
   return (
     <>
@@ -12,6 +13,19 @@ function FaceMasks() {
         Products in Face Masks
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={VitaminCAichunBueaty}
+          text="Vitamin C Honey Peel-Off Face Mask"
+          price="999/-"
+          reducedPrice="719/-"
+          productCode="MZ65500101CLSCL"
+          shortDetail="Material: Liquid
+Product Type: Face Mask
+Product Details: Deep Cleansing, Suck Out Black Heads, Erase Dark Spots
+Package Includes: 1 x Face Mask
+Weight: 120 ml"
+        />
+
         <ProductCard
           img={OliveBlackMask}
           text="Dead Skin Remover Peel-Off Face Mask"

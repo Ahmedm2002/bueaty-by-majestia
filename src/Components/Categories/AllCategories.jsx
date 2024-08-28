@@ -11,6 +11,7 @@ import BodyLotion from "./CategoryImages/BodyLotion.webp";
 import BrighteningCream from "./CategoryImages/BrighteningCream.webp";
 import Category from "./Category";
 import multaniMitti from "./CategoryImages/multaniMitti.webp";
+import toner from "./CategoryImages/toner.webp";
 function AllCategories() {
   return (
     <>
@@ -40,6 +41,7 @@ function AllCategories() {
           />
           <Category img={serums} name="Serums" url="serums" />
           <Category img={masks} name="Face Masks" url="facemasks" />
+          <Category img={toner} name="Toners" url="toners" />
         </div>
       </section>
     </>

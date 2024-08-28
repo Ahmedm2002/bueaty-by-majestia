@@ -25,6 +25,7 @@ import ProductDetails from "./Components/Product Cards/ProductDetails";
 import CalculatePrice from "../CalculatePrice";
 import CalculateDiscount from "../CalculateDiscount";
 import Powders from "./Components/Categories/Powders/Powders";
+import Toners from "./Components/Categories/Toners/Toners";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -44,6 +45,7 @@ const App = () => {
         <Route path="/facemasks" element={<FaceMasks />} />
         <Route path="/productDetails" element={<ProductDetails />} />
         <Route path="/powders" element={<Powders />} />
+        <Route path="/toners" element={<Toners />} />
         <Route path="/calculatePrice" element={<CalculatePrice />} />
         <Route path="/calculateDiscount" element={<CalculateDiscount />} />
       </Route>
