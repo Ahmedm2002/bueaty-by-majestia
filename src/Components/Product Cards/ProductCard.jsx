@@ -90,7 +90,7 @@ Please provide more details.`;
                   Rs.{reducedPrice}
                 </span>
                 <span className="ml-2 text-sm text-slate-900 line-through">
-                  Rs. {price}
+                  Rs.{price}
                 </span>
               </p>
               <br />

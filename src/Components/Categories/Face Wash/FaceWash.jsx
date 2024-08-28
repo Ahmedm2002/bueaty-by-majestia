@@ -5,6 +5,7 @@ import DrRashelFaceWash from "./Images/DrRashelFaceWash.jpeg";
 import AcneControlTea from "./Images/AcneControlTea.jpeg";
 import SQMBlackHeadClearing from "./Images/SQMBlackHeadClearing.jpeg";
 import GoldernPearlTripleProtection from "./Images/GoldernPearlTripleProtection.jpeg";
+import GalipWashScrubMask from "./Images/GalipWashScrubMask.jpeg";
 function FaceWash() {
   return (
     <>
@@ -12,6 +13,17 @@ function FaceWash() {
         Products in Face Wash
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={GalipWashScrubMask}
+          text="3 in 1 Face & Body Scrubbing Mask, 170g"
+          price="799/-"
+          reducedPrice="519/-"
+          productCode="MZ25200000011GLUS"
+          shortDetail="Material: Cream
+Weight: 170 Grams
+Package Includes: 1 x Face Scrubbing Mask"
+        />
+
         <ProductCard
           img={RiceFaceWash}
           text="Rice Face Wash, 120 Ml"

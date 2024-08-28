@@ -3,6 +3,7 @@ import ProductCard from "../../Product Cards/ProductCard";
 import nightCream from "./Images/nightCream.jpeg";
 import exfoliatingNCPck2 from "./Images/exfoliatingNCPck2.jpeg";
 import vitaminCnightCream from "./Images/vitaminCnightCream.jpeg";
+import retinolSaeedGhaniAntiAging from "./Images/retinolSaeedGhaniAntiAging.jpeg";
 
 function NightSkinCare() {
   return (
@@ -11,14 +12,18 @@ function NightSkinCare() {
         Products in Night Skin Care
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
-        {/* <ProductCard
-          img={cleanser}
-          text="Foaming Facial Cleanser"
-          price="999/-"
-          reducedPrice="499/-"
-          shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
+        <ProductCard
+          img={retinolSaeedGhaniAntiAging}
+          text="Anti Aging Retinol Night Cream"
+          price="1599/-"
+          reducedPrice="1259/-"
+          productCode="MZ23800000006SKTS"
+          shortDetail="Material: Cream
+          Niacinamide (Vitamin B3)
+Weight: 40g
+Package Includes: 1 x Night Cream"
           rating="5.0"
-        /> */}
+        />
 
         <ProductCard
           img={vitaminCnightCream}

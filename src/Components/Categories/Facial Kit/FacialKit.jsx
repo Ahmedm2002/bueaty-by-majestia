@@ -10,6 +10,7 @@ import TeaTreeOrganicSkincareKit from "./Images/TeaTreeOrganicSkincareKit.jpeg";
 import DermaWhiteningAndBrightening from "./Images/DermaWhiteningAndBrightening.jpeg";
 import SkinTouchGold from "./Images/SkinTouchGold.jpeg";
 import GlutaponeFK from "./Images/GlutaponeFK.jpeg";
+import FruityWhiteningFacial from "./Images/FruityWhiteningFacial.jpeg";
 function FacialKit() {
   return (
     <>
@@ -17,6 +18,21 @@ function FacialKit() {
         Products in Facial Kit
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={FruityWhiteningFacial}
+          text="Fruity Whitening Urgent Facial Tube - 75ml"
+          price="499/-"
+          reducedPrice="349/-"
+          productCode="MZ53500000002HHK"
+          rating="5.0"
+          shortDetail="Material: Facial
+Whitening Urgent Facial with natural ingredients
+Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
+Radiant in just a few minutes! It leaves your skin with a perfect glow
+Package Includes: 1 x Fruity Whitening Urgent Facial Tube - 75ml
+"
+        />
+
         <ProductCard
           img={DermaWhiteningAndBrightening}
           text="Whitening And Brightening Facial Kit "

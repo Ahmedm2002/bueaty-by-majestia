@@ -17,6 +17,7 @@ import FairandLovelyCream from "./Images/FairandLovelyCream.jpeg";
 import dermawickUrgerntFacial from "./Images/dermawickUrgerntFacial.jpeg";
 import SeiBella from "./Images/SeiBella.jpeg";
 import GoldenPearlUrgentFacial from "./Images/GoldenPearlUrgentFacial.jpeg";
+import HeavenDoveCream from "./Images/HeavenDoveCream.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -24,6 +25,19 @@ function BrighteningCream() {
         Products in Brightening Cream
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={HeavenDoveCream}
+          text="Heaven Dove Whitening Cream - Blue"
+          price="999/-"
+          rating="4.0"
+          reducedPrice="749/-"
+          productCode="MZ67400000027CYCH"
+          shortDetail="Material: Cream
+Size: 150g
+HEAVEN DOVE Water Lock hydration beautiful Moisturizing Skin Whitening Cream 150g HD-1053B
+Package Includes: 1 x Moisturizer"
+        />
+
         <ProductCard
           img={dermawickUrgerntFacial}
           text="Whitening And Glowing Urgent Facial"
@@ -40,7 +54,7 @@ Package Includes: 1 x Facial
           img={GoldenPearlUrgentFacial}
           text="WUnique Formula Whitening Urgent Facial Tube - 75m"
           price="499/-"
-          rating="5.0"
+          rating="4.0"
           reducedPrice="349/-"
           productCode="MZ53500000003HHK"
           shortDetail="Material: Facial

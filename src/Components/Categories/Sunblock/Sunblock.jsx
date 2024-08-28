@@ -9,6 +9,8 @@ import AntheliosUvmune from "./Images/AntheliosUvmune.jpeg";
 import pondsUvProtect from "./Images/pondsUvProtect.jpeg";
 import NeutrogenaSunblock from "./Images/NeutrogenaSunblock.jpeg";
 import JessicaSunblock from "./Images/JessicaSunblock.jpeg";
+import DisaarSunscreenLotion from "./Images/DisaarSunscreenLotion.jpeg";
+import OilFreeTintedSaeedGhani from "./Images/OilFreeTintedSaeedGhani.jpeg";
 function Sunblock() {
   return (
     <>
@@ -16,6 +18,32 @@ function Sunblock() {
         Products in Sunblock
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={OilFreeTintedSaeedGhani}
+          text="Oil Free Tinted Sunscreen With Niacinamide Serum"
+          price="1599/-"
+          reducedPrice="1259/-"
+          productCode="MZ23800000005SKTS"
+          shortDetail="Material: Cream
+Volume: 30Ml
+Package Includes: 1 x Sunscreen"
+          rating="5.0"
+        />
+
+        <ProductCard
+          img={DisaarSunscreenLotion}
+          text="UV Protectant Sunblock Lotion, 50 Ml"
+          price="899/-"
+          reducedPrice="599/-"
+          productCode="MZ655000000112CLSCL"
+          shortDetail="Material: Cream
+Product Type: UV Protectant Sunblock Spf 50
+Product Details: Helps Protect The Skin Against Sun Broad Spectrum Of Harmful UV Radiations, No White Sheen, For All Skin Types, Paraben Free
+Color: White
+Package Includes: 1 x Sunblock
+Weight: 50 Ml"
+        />
+
         <ProductCard
           img={NeutrogenaSunblock}
           text="Neutrogena Sunblock"
@@ -118,19 +146,6 @@ Product Feature: UV Protectant
 Package Includes: 1 x Sunblock"
           rating="5.0"
         />
-        {/* <ProductCard
-          img={SunblockPackOf3}
-          text="Sunblock - Pack Of 3"
-          price="999/-"
-          reducedPrice="499/-"
-          shortDetail="Material: Cream
-Water Resistant
-Anti-dark Spots
-Anti Darkening
-For All Skin Types
-Multipurpose Product For Protecting Skin From UV-A and B Rays"
-          rating="5.0"
-        /> */}
       </div>
     </>
   );

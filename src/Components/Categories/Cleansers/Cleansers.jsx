@@ -1,6 +1,7 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
 import CleanserAndMosturizingLotion from "./Images/CleanserAndMosturizingLotion.jpeg";
+import GoatMilkSaeedGhani from "./Images/GoatMilkSaeedGhani.jpeg";
 function Cleansers() {
   return (
     <>
@@ -20,17 +21,17 @@ Hydrating Cleanser With Hyaluronic Acid For Normal To Dry Skin"
           productCode="MZ23800117SKTS"
           rating="5.0"
         />
-        {/* <ProductCard
-            img={vitaminCnightCream}
-            text="Vitamin C Night Cream, 50 Grams"
-            price="2999/-"
-            reducedPrice="1499/-"
-            shortDetail="Material: Cream
-Texture: Smooth
-Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
-Color: Orange
-Product Feature: Whitening And Brightening"
-          /> */}
+        <ProductCard
+          img={GoatMilkSaeedGhani}
+          text="Goat Milk Face Cleanser for a Smoother and Radiant Skin"
+          price="1199/-"
+          reducedPrice="959/-"
+          productCode="MZ23800000007SKTS"
+          shortDetail="Material: Cream
+Weight: 180Grams
+Package Includes: 1 x Whitening Cream
+"
+        />
         {/* <ProductCard
             img={nightCream}
             text="Whitening And Aging Night Cream"
