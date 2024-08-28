@@ -10,6 +10,10 @@ import AcneRemovalCream from "./Images/AcneRemovalCream.jpeg";
 import bioaouaUnderArmCream from "./Images/bioaouaUnderArmCream.jpeg";
 import VitaminCWhiteningCream from "./Images/VitaminCWhiteningCream.jpeg";
 import VitaminCCream60g from "./Images/VitaminCCream60g.jpeg";
+import BiPureAcneCream from "./Images/BiPureAcneCream.jpeg";
+import SaeedGhaniFootAndHandCream from "./Images/SaeedGhaniFootAndHandCream.jpeg";
+import DermacosWhiteningSkinPolishBleachSet from "./Images/DermacosWhiteningSkinPolishBleachSet.jpeg";
+import FairandLovelyCream from "./Images/FairandLovelyCream.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -17,23 +21,56 @@ function BrighteningCream() {
         Products in Brightening Cream
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
-        {/* <ProductCard
-          img={RicePowderFacePack}
-          text="Rice Powder Natural Brightening Rice Face Pack"
-          price="549/-"
-          reducedPrice="429/-"
-          productCode="MZ109220005COZMO"
-          shortDetail="Material: Powder
-Package Includes: 1 x Skin Moisturizing Face Powder"
-        /> */}
-        {/* Actual */}
+        <ProductCard
+          img={FairandLovelyCream}
+          text="Fair and Lovely Cream"
+          price="499/-"
+          rating="5.0"
+          reducedPrice="419/-"
+          productCode="MZ60720008AASGML"
+          shortDetail="Package Includes: 1 x Face Cream
+Weight: 25 Grams"
+        />
+
+        <ProductCard
+          img={DermacosWhiteningSkinPolishBleachSet}
+          text="Whitening Skin Polish Bleach Set, Pack Of 3"
+          price="2199/-"
+          reducedPrice="1799/-"
+          productCode="MZ80120008LABY"
+          shortDetail="Product Feature: Whitening
+Package Includes: 1 x Oxygen Skin Gloss Polish, 1 x Dust Free Facial Blond Brightener, 1 x Harmless Facial Blond Activater
+"
+        />
+        <ProductCard
+          img={BiPureAcneCream}
+          text="Bi Pure Acne Cream"
+          price="849/-"
+          reducedPrice="619/-"
+          productCode="MZ100700011RTBY"
+          shortDetail="Package Includes: 1 x Bi Pure Acne Cream"
+        />
+        <ProductCard
+          img={SaeedGhaniFootAndHandCream}
+          text="Saeed Ghani Foot & Hand Whitening Cream 150g"
+          price="1099/-"
+          reducedPrice="959/-"
+          productCode="MZ23800030SKTS"
+          shortDetail="Material: Cream
+Nourishes And Moisturizes Your Skin Through All Seasons
+Gives Your Skin A Natural Glow And Makes It Brighter
+Helps Fight Acne And Skin Cracks To Give You Healthier Skin
+Gives you younger-Looking Skin
+Package Includes: 1 x Hand Cream"
+        />
 
         <ProductCard
           img={VitaminCCream60g}
           text="Vitamin-C Cream, 60 g"
-          price="1499/-"
-          reducedPrice="1019/-"
-          productCode="Material: Cream
+          price="899/-"
+          reducedPrice="649/-"
+          productCode="MZ726002801BSMCS"
+          shortDetail="Material: Cream
 Skin Types: Combination Skin
 Product Feature: Anti-Aging, Brightening, Whitening
 Package Includes: 1 x Vitamin-C Hand Cream

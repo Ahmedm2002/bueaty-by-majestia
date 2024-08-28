@@ -2,6 +2,7 @@ import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
 import RiceSkinBueatyEssence from "./Images/RiceSkinBueatyEssence.jpeg";
 import pixiSerum from "./Images/pixiSerum.jpeg";
+import NiacinamideSkinpeeling from "./Images/NiacinamideSkinpeeling.jpeg";
 function Serums() {
   return (
     <>
@@ -18,6 +19,17 @@ function Serums() {
           shortDetail="Material: Cream
 Product Type: Rice Cream, Rice Lotion And Rice Serum Deal
 Product Details: Nourish Your Skin, Moisture Replenish for Body, Soothing And Cooling, Hydration"
+        />
+
+        <ProductCard
+          img={NiacinamideSkinpeeling}
+          text="Niacinamide Skin peeling Serum"
+          price="849/-"
+          reducedPrice="719/-"
+          productCode="MZ69120013AIBSFD"
+          shortDetail="Product Details: Skin Brightening, Evens Skin Tone, Hydration Boost, Gentle And Non Irritating, Kin Plump And Hydrated, Unveil Your Natural Beauty
+Package Includes: 1 x Serum
+Weight: 30 Ml"
         />
 
         <ProductCard

@@ -7,6 +7,7 @@ import CeraVeSunblock from "./Images/CeraVeSunblock.jpeg";
 import SunblockPackOf3 from "./Images/SunblockPackOf3.jpeg";
 import AntheliosUvmune from "./Images/AntheliosUvmune.jpeg";
 import pondsUvProtect from "./Images/pondsUvProtect.jpeg";
+import NeutrogenaSunblock from "./Images/NeutrogenaSunblock.jpeg";
 function Sunblock() {
   return (
     <>
@@ -14,6 +15,16 @@ function Sunblock() {
         Products in Sunblock
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={NeutrogenaSunblock}
+          text="Neutrogena Sunblock"
+          price="N/A"
+          reducedPrice="N/A"
+          productCode="MZ67400046CYCH"
+          shortDetail="Material: Cream
+Package Includes: 1 x Sunblock"
+        />
+
         <ProductCard
           img={spf60SunScreen}
           text="SPF 60 Sun Screen, 120 Ml"

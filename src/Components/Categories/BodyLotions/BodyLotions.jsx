@@ -2,6 +2,7 @@ import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
 import HyderatingBL250ML from "./Images/HyderatingBL250ML.jpeg";
 import soapexFeetCream from "./Images/soapexFeetCream.jpeg";
+import XQMFaceBodyScrub from "./Images/XQMFaceBodyScrub.jpeg";
 function BodyLotions() {
   return (
     <>
@@ -9,6 +10,21 @@ function BodyLotions() {
         Products in Night Skin Care
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={XQMFaceBodyScrub}
+          text="Face & Body Plant Energy Scrub"
+          price="899/-"
+          reducedPrice="659/-"
+          productCode="MZ66600064GNCS"
+          shortDetail="Material: Cream
+Product Feature: Exfoliator, Dead Skin Remover
+Package Includes: 1 x Face & Body Scrubbing Mask
+Directions: Apply 2 times a day for the best results
+Apply on your skin where dirt or dead skin is present, rub it then remove. 
+Package Includes: 1 x Face & Body Pure Active Plant Energy
+Weight: 100 g"
+        />
+
         <ProductCard
           img={HyderatingBL250ML}
           text="Hydrating Body Lotion, 250 Ml"
