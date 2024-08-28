@@ -5,6 +5,7 @@ import DrRashelFaceWash from "./Images/DrRashelFaceWash.jpeg";
 import AcneControlTea from "./Images/AcneControlTea.jpeg";
 import SQMBlackHeadClearing from "./Images/SQMBlackHeadClearing.jpeg";
 import GoldernPearlTripleProtection from "./Images/GoldernPearlTripleProtection.jpeg";
+import DeepFreshFaceWash from "./Images/DeepFreshFaceWash.jpeg";
 import GalipWashScrubMask from "./Images/GalipWashScrubMask.jpeg";
 function FaceWash() {
   return (
@@ -13,6 +14,20 @@ function FaceWash() {
         Products in Face Wash
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={DeepFreshFaceWash}
+          text="Deep Fresh Brightening Face Wash"
+          price="699/-"
+          reducedPrice="489/-"
+          productCode="MZ57300131UDEES"
+          shortDetail="Brightening Face Wash
+Product Details:Material: Face Wash
+Product Type: Brightening Face Wash
+Product Details: Deep Fresh Brightening Facewash, Crafted With Premium Herbs And Fruits, Provides Optimal Skin Care For All Types, Offering Protection From Sunlight And A Rejuvenating Touch For Soft, Radiant Skin.
+Package Includes: 1 X Brightening Facewash
+Weight:75 G"
+        />
+
         <ProductCard
           img={GalipWashScrubMask}
           text="3 in 1 Face & Body Scrubbing Mask, 170g"
@@ -29,11 +44,10 @@ Package Includes: 1 x Face Scrubbing Mask"
           text="Rice Face Wash, 120 Ml"
           price="1099/-"
           reducedPrice="849/-"
-          onSale={true}
+          productCode="MZ69120300AIBSFD"
           shortDetail="Liquid Material Smooth Texture
 Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
 Product Feature: Hydrating, Absorbent"
-          productCode="MZ69120300AIBSFD"
         />
 
         <ProductCard
@@ -58,6 +72,7 @@ Package Includes: 1 x Sunblock"
           text="Dr.Rashel's Purifying Face Wash"
           price="999/-"
           reducedPrice="699/-"
+          productCode={null}
           shortDetail="Experience a deep, revitalizing cleanse! Infused with activated charcoal, it detoxifies, controls oil, and prevents breakouts, leaving your skin clearer and healthier. Perfect for daily use, this 100g tube ensures smooth, refreshed skin. "
         />
         <ProductCard

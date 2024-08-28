@@ -21,6 +21,10 @@ import HeavenDoveCream from "./Images/HeavenDoveCream.jpeg";
 import GlowAndCleanSkinPolish from "./Images/GlowAndCleanSkinPolish.jpeg";
 import BioaquaAcneRemoval from "./Images/BioaquaAcneRemoval.jpeg";
 import VitaminECapsuleJar from "./Images/VitaminECapsuleJar.jpeg";
+import DeepFreshUVCream from "./Images/DeepFreshUVCream.jpeg";
+import DeuuHerbalSkinPolish from "./Images/DeuuHerbalSkinPolish.jpeg";
+import YardlieAntiAcneVitaminC from "./Images/YardlieAntiAcneVitaminC.jpeg";
+import RubellaWhitenningCream from "./Images/RubellaWhitenningCream.jpeg";
 function BrighteningCream() {
   return (
     <>
@@ -28,6 +32,62 @@ function BrighteningCream() {
         Products in Brightening Cream
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={RubellaWhitenningCream}
+          text="2 Pcs Whitening Cream"
+          rating="4.0"
+          price="649/-"
+          reducedPrice="539/-"
+          productCode="MZ84200076DOSTC"
+          shortDetail="Anti Acne, Whitening, Suitable for All Skin Types
+Product Details:Material: Cream
+Product Type: Vitamin C Beauty Cream
+Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quality with SPF45."
+        />
+
+        <ProductCard
+          img={YardlieAntiAcneVitaminC}
+          text="Anti Acne Vitamin C Beauty Cream"
+          rating="4.0"
+          price="649/-"
+          reducedPrice="539/-"
+          productCode="MZ84200076DOSTC"
+          shortDetail="Anti Acne, Whitening, Suitable for All Skin Types
+Product Details:Material: Cream
+Product Type: Vitamin C Beauty Cream
+Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quality with SPF45."
+        />
+
+        <ProductCard
+          img={DeuuHerbalSkinPolish}
+          text="Glowing Herbal Skin Polisher"
+          rating="4.0"
+          price="699/-"
+          reducedPrice="489/-"
+          productCode="MZ57300128UDEES"
+          shortDetail="Skin Polisher
+Product Details:Material: Cream
+Product Type: Skin Polisher
+Product Details: Brighten And Rejuvenate The Skin, It Combines The Benefits Of Traditional Bleach With Added Elements To Exfoliate And Enhance The Skin Texture, Leaving It Smoother, Softer, And More Radiant
+Package Includes: 1 x Skin Polisher, 1 x Powder
+Weight: 300 g"
+        />
+
+        <ProductCard
+          img={DeepFreshUVCream}
+          text="Deep Fresh Brightening Cream"
+          rating="4.0"
+          price="1099/-"
+          reducedPrice="899/-"
+          productCode="MZ35500121GLABM"
+          shortDetail="Brightening Cream
+Product Details:Material: Cream
+Product Type: Brightening Cream
+Product Details: Deep Fresh Brightening Cream, Crafted With Premium Herbs And Fruits, Provides Optimal Skin Care For All Types, Offering Protection From Sunlight And A Rejuvenating Touch For Soft, Radiant Skin.
+Package Includes: 1 X Brightening Cream
+Weight: 20 Gm"
+        />
+
         <ProductCard
           img={VitaminECapsuleJar}
           text="Vitamin E Capsule Jar"
@@ -265,6 +325,7 @@ Product Feature: Whitening"
           text="Underarm Whitening Cream"
           price="899/-"
           reducedPrice="649/-"
+          productCode={null}
           shortDetail="Gives A Natural Glow To Your Skin, Improve Complexion, Can Be Used On Private Parts"
           rating="4.0"
         />

@@ -2,6 +2,7 @@ import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
 import CleanserAndMosturizingLotion from "./Images/CleanserAndMosturizingLotion.jpeg";
 import GoatMilkSaeedGhani from "./Images/GoatMilkSaeedGhani.jpeg";
+import VeetPeelOffNoseStrip from "./Images/VeetPeelOffNoseStrip.jpeg";
 function Cleansers() {
   return (
     <>
@@ -32,17 +33,19 @@ Weight: 180Grams
 Package Includes: 1 x Whitening Cream
 "
         />
-        {/* <ProductCard
-            img={nightCream}
-            text="Whitening And Aging Night Cream"
-            price="450/-"
-            reducedPrice="199/-"
-            shortDetail="Material: Cream
-Whitening And Brightening
-Extreme Strong Whitening And Aging Night Cream
-Formulated To Heal And Rejuvenate The Skin Overnight
-Targets Dark Spots, Fine Lines, And Uneven Skin Tone"
-          /> */}
+        <ProductCard
+          img={VeetPeelOffNoseStrip}
+          text="Peel-Off Nose Strips"
+          price="1099/-"
+          reducedPrice="839/-"
+          productCode="MZ83100018NANTR"
+          shortDetail="Nose Strips
+Product Details:Material: Strips
+Product Type: Peel Off Nose Strips
+Product Details: Deep Cleansing, Suck Out Black Heads, Erase Dark Spots
+Package Includes: 1 x Peel Off Nose Strips
+6 Nose Strips In Each Pack"
+        />
         {/* <ProductCard
             img={exfoliatingNCPck2}
             text="Exfoliating Gel And Night Cream, Pack Of 2"

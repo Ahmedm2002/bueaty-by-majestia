@@ -52,6 +52,7 @@ Imported Cracked Foot And Hands Skin Repair Cream, Ultra-Hydrating, Professional
           text="Dead Skin Remover Foot & Hand Scrub, Free Sunblock"
           price="799/-"
           reducedPrice="589/-"
+          productCode={null}
           shortDetail="Material: Scrub
 Product Type: Dead Skin Remover Foot & Hand Scrub
 Product Details: Scrub Deep Cleans To Leave Skin Healthy And Refreshed, Contains Natural Ingredients That Purify And Exfoliate For A Radiant Complexion, By Gently Removing Excess Callus And Dead Skin, This Scrub Lets Skin Natural Radiance Shine

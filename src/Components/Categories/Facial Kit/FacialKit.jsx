@@ -11,6 +11,7 @@ import DermaWhiteningAndBrightening from "./Images/DermaWhiteningAndBrightening.
 import SkinTouchGold from "./Images/SkinTouchGold.jpeg";
 import GlutaponeFK from "./Images/GlutaponeFK.jpeg";
 import FruityWhiteningFacial from "./Images/FruityWhiteningFacial.jpeg";
+import DrRaheelWiteningRiceFacial from "./Images/DrRaheelWiteningRiceFacial.jpeg";
 function FacialKit() {
   return (
     <>
@@ -18,6 +19,20 @@ function FacialKit() {
         Products in Facial Kit
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={DrRaheelWiteningRiceFacial}
+          text="Whitening And Glowing Facial Kit"
+          price="1499/-"
+          reducedPrice="1199/-"
+          productCode="MZ73200027TNDML"
+          rating="5.0"
+          shortDetail="Whitening Facial Kit
+Product Details:Material: Cream
+Product Type: Whitening And Glowing Facial Kit
+Product Details: Gives A Natural Glow To Your Skin, Improve Complexion, Anti-Aging Glycolic Peel
+Package Includes: 1 x Scrub, 1 x Mask, 1 x Face Wash"
+        />
+
         <ProductCard
           img={FruityWhiteningFacial}
           text="Fruity Whitening Urgent Facial Tube - 75ml"
