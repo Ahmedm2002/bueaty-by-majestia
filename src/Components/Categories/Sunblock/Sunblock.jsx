@@ -25,8 +25,8 @@ function Sunblock() {
           reducedPrice="1259/-"
           productCode="MZ23800000005SKTS"
           shortDetail="Material: Cream
-Volume: 30Ml
-Package Includes: 1 x Sunscreen"
+            Volume: 30Ml
+            Package Includes: 1 x Sunscreen"
           rating="5.0"
         />
 
@@ -37,11 +37,11 @@ Package Includes: 1 x Sunscreen"
           reducedPrice="599/-"
           productCode="MZ655000000112CLSCL"
           shortDetail="Material: Cream
-Product Type: UV Protectant Sunblock Spf 50
-Product Details: Helps Protect The Skin Against Sun Broad Spectrum Of Harmful UV Radiations, No White Sheen, For All Skin Types, Paraben Free
-Color: White
-Package Includes: 1 x Sunblock
-Weight: 50 Ml"
+            Product Type: UV Protectant Sunblock Spf 50
+            Product Details: Helps Protect The Skin Against Sun Broad Spectrum Of Harmful UV Radiations, No White Sheen, For All Skin Types, Paraben Free
+            Color: White
+            Package Includes: 1 x Sunblock
+            Weight: 50 Ml"
         />
 
         <ProductCard
@@ -51,7 +51,7 @@ Weight: 50 Ml"
           reducedPrice="N/A"
           productCode="MZ67400046CYCH"
           shortDetail="Material: Cream
-Package Includes: 1 x Sunblock"
+            Package Includes: 1 x Sunblock"
         />
 
         <ProductCard
@@ -61,7 +61,7 @@ Package Includes: 1 x Sunblock"
           reducedPrice="479/-"
           productCode="MZ100320003TEBYEL"
           shortDetail="Color: Yellow
-Package Includes: 1 x Sunscreen"
+            Package Includes: 1 x Sunscreen"
         />
 
         <ProductCard
@@ -71,7 +71,7 @@ Package Includes: 1 x Sunscreen"
           reducedPrice="599/-"
           productCode="MZ118320032CCCS"
           shortDetail="Product Feature: UV Protectant, Protects From Sunburn
-sun screen with spf-60 & vitamin E highly effective and immediate UVA/UVV protection against sun burn "
+            sun screen with spf-60 & vitamin E highly effective and immediate UVA/UVV protection against sun burn "
         />
         <ProductCard
           img={uvSunblock}
@@ -80,10 +80,10 @@ sun screen with spf-60 & vitamin E highly effective and immediate UVA/UVV protec
           reducedPrice="689/-"
           productCode="MZ115720111ARTS"
           shortDetail="Material: Cream
-Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
-Color: White
-SPF-60
-Product Feature: UV Protectant"
+            Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
+            Color: White
+            SPF-60
+            Product Feature: UV Protectant"
         />
         <ProductCard
           img={sunblock120gUV}
@@ -92,9 +92,9 @@ Product Feature: UV Protectant"
           reducedPrice="1199/-"
           productCode="MZ66600113GNCS"
           shortDetail="Material: Cream
-Product Feature: UV Protectant
-Package Includes: 1 x Sunblock
-Weight: 120 Gram"
+            Product Feature: UV Protectant
+            Package Includes: 1 x Sunblock
+            Weight: 120 Gram"
           rating="5.0"
         />
         <ProductCard
@@ -104,9 +104,9 @@ Weight: 120 Gram"
           reducedPrice="969/-"
           productCode="MZ23800094SKTS"
           shortDetail="Material: Liquid
-Hydrating Sunscreen Lotion Is Allergy-Tested, Paraben-Free, Fragrance-Free
-Oil-Free, Oxybenzone-Free, Octanoate-Free, Non-Comedogenic, And Suitable For Sensitive Skin
-Provide Long-Lasting Hydration, As Well As Niacinamide To Help Calm Skin"
+            Hydrating Sunscreen Lotion Is Allergy-Tested, Paraben-Free, Fragrance-Free
+            Oil-Free, Oxybenzone-Free, Octanoate-Free, Non-Comedogenic, And Suitable For Sensitive Skin
+            Provide Long-Lasting Hydration, As Well As Niacinamide To Help Calm Skin"
           rating="5.0"
         />
         <ProductCard
@@ -116,11 +116,11 @@ Provide Long-Lasting Hydration, As Well As Niacinamide To Help Calm Skin"
           reducedPrice="599/-"
           productCode="MZ69120124AIBSFD"
           shortDetail="Material: Cream
-Water Resistant
-Anti-dark Spots
-Anti Darkening
-For All Skin Types
-Multipurpose Product For Protecting Skin From UV-A and B Rays"
+            Water Resistant
+            Anti-dark Spots
+            Anti Darkening
+            For All Skin Types
+            Multipurpose Product For Protecting Skin From UV-A and B Rays"
           rating="5.0"
         />
         <ProductCard
@@ -130,7 +130,7 @@ Multipurpose Product For Protecting Skin From UV-A and B Rays"
           reducedPrice="749/-"
           productCode="MZ90920013MPFR"
           shortDetail="Material: Cream
-Package Includes: 1 x Sunscreen"
+            Package Includes: 1 x Sunscreen"
           rating="5.0"
         />
         <ProductCard
@@ -140,10 +140,10 @@ Package Includes: 1 x Sunscreen"
           reducedPrice="419/-"
           productCode="MZ84900020NNTS"
           shortDetail="Material: Cream
-Texture: Smooth
-Skin Types: Normal Skin
-Product Feature: UV Protectant
-Package Includes: 1 x Sunblock"
+            Texture: Smooth
+            Skin Types: Normal Skin
+            Product Feature: UV Protectant
+            Package Includes: 1 x Sunblock"
           rating="5.0"
         />
       </div>

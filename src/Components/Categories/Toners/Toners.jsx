@@ -15,14 +15,13 @@ function Toners() {
           reducedPrice="1019/-"
           productCode="MZ37000000002GWAYBYMT"
           shortDetail="Material: Liquid
-Brand: Derma Shine
-100% Cruelty Free
-100% Alcohol Free
-Opens Clogged Pores
-Gently Cleanse The Skin
-Removes Impurities And Makeup Residues From The Deepest Layer Of Skin
-
-Package Includes: 1 x Face Toner"
+            Brand: Derma Shine
+            100% Cruelty Free
+            100% Alcohol Free
+            Opens Clogged Pores
+            Gently Cleanse The Skin
+            Removes Impurities And Makeup Residues From The Deepest Layer Of Skin
+            Package Includes: 1 x Face Toner"
         />
       </div>
     </>
