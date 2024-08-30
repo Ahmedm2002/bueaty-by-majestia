@@ -1,30 +1,33 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import GlupatoneBC from "./Images/GlupatoneBC.jpeg";
-import WhiteningEmulsion from "./Images/WhiteningEmulsion.jpeg";
-import FacialBeautyCream from "./Images/FacialBeautyCream.jpeg";
-import SkinPolish300g from "./Images/SkinPolish300g.jpeg";
-import CentellaCream30G from "./Images/CentellaCream30G.jpeg";
-import goldenPearlMassageCream from "./Images/goldenPearlMassageCream.jpeg";
-import AcneRemovalCream from "./Images/AcneRemovalCream.jpeg";
-import bioaouaUnderArmCream from "./Images/bioaouaUnderArmCream.jpeg";
-import VitaminCWhiteningCream from "./Images/VitaminCWhiteningCream.jpeg";
-import VitaminCCream60g from "./Images/VitaminCCream60g.jpeg";
-import BiPureAcneCream from "./Images/BiPureAcneCream.jpeg";
-import SaeedGhaniFootAndHandCream from "./Images/SaeedGhaniFootAndHandCream.jpeg";
-import DermacosWhiteningSkinPolishBleachSet from "./Images/DermacosWhiteningSkinPolishBleachSet.jpeg";
-import FairandLovelyCream from "./Images/FairandLovelyCream.jpeg";
-import dermawickUrgerntFacial from "./Images/dermawickUrgerntFacial.jpeg";
-import SeiBella from "./Images/SeiBella.jpeg";
-import GoldenPearlUrgentFacial from "./Images/GoldenPearlUrgentFacial.jpeg";
-import HeavenDoveCream from "./Images/HeavenDoveCream.jpeg";
-import GlowAndCleanSkinPolish from "./Images/GlowAndCleanSkinPolish.jpeg";
-import BioaquaAcneRemoval from "./Images/BioaquaAcneRemoval.jpeg";
-import VitaminECapsuleJar from "./Images/VitaminECapsuleJar.jpeg";
-import DeepFreshUVCream from "./Images/DeepFreshUVCream.jpeg";
-import DeuuHerbalSkinPolish from "./Images/DeuuHerbalSkinPolish.jpeg";
-import YardlieAntiAcneVitaminC from "./Images/YardlieAntiAcneVitaminC.jpeg";
-import RubellaWhitenningCream from "./Images/RubellaWhitenningCream.jpeg";
+import {
+  GlupatoneBC,
+  WhiteningEmulsion,
+  FacialBeautyCream,
+  SkinPolish300g,
+  CentellaCream30G,
+  goldenPearlMassageCream,
+  AcneRemovalCream,
+  bioaouaUnderArmCream,
+  VitaminCCream60g,
+  VitaminCWhiteningCream,
+  BiPureAcneCream,
+  SaeedGhaniFootAndHandCream,
+  dermawickUrgerntFacial,
+  DermacosWhiteningSkinPolishBleachSet,
+  FairandLovelyCream,
+  SeiBella,
+  GlowAndCleanSkinPolish,
+  HeavenDoveCream,
+  GoldenPearlUrgentFacial,
+  BioaquaAcneRemoval,
+  VitaminECapsuleJar,
+  DeepFreshUVCream,
+  DeuuHerbalSkinPolish,
+  YardlieAntiAcneVitaminC,
+  RubellaWhitenningCream,
+} from "./Images/exportBCImgs";
+
 function BrighteningCream() {
   return (
     <>
@@ -32,6 +35,33 @@ function BrighteningCream() {
         Products in Brightening Cream
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+        <ProductCard
+          img={bioaouaUnderArmCream}
+          text="Underarm Whitening Cream"
+          price="899/-"
+          reducedPrice="644/-"
+          productCode={null}
+          shortDetail="
+            Achieve a brighter and more even skin tone with our Underarm Whitening Cream. Specially formulated to target dark and uneven skin tones, this cream gives your skin a natural glow while improving overall complexion. Its gentle and effective formula works wonders on delicate areas, making it suitable not just for underarms but also for other sensitive regions of your body.
+
+            With regular use, this cream helps lighten pigmentation and provides a smoother, more radiant appearance. Whether you want to brighten your underarms or rejuvenate other private areas, our Underarm Whitening Cream offers a safe and effective solution. The lightweight 30g jar is perfect for on-the-go use or traveling, ensuring your skin stays fresh and glowing wherever you are.
+
+            Feel confident in your skin with a product that’s not just affordable but also highly effective.
+
+            Priced at 644, it’s the perfect addition to your skincare routine for achieving a luminous and even skin tone.
+
+            ## Key Benefits:
+
+            - Naturally brightens and evens out skin tone
+            - Improves overall complexion for a radiant glow
+            - Gentle enough for use on sensitive and private areas
+            - Compact and convenient size for easy use and travel
+
+            Experience the confidence of brighter, smoother skin with our Underarm Whitening Cream.
+            "
+          rating="4.0"
+        />
+
         <ProductCard
           img={RubellaWhitenningCream}
           text="2 Pcs Whitening Cream"
@@ -320,15 +350,6 @@ function BrighteningCream() {
           productCode="MZ66600110GNCS"
         />
 
-        <ProductCard
-          img={bioaouaUnderArmCream}
-          text="Underarm Whitening Cream"
-          price="899/-"
-          reducedPrice="649/-"
-          productCode={null}
-          shortDetail="Gives A Natural Glow To Your Skin, Improve Complexion, Can Be Used On Private Parts"
-          rating="4.0"
-        />
         <ProductCard
           img={AcneRemovalCream}
           text="Acne Scar Removal Rejuvenation Cream"

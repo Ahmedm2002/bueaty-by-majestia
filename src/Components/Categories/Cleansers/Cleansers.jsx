@@ -1,8 +1,12 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import CleanserAndMosturizingLotion from "./Images/CleanserAndMosturizingLotion.jpeg";
-import GoatMilkSaeedGhani from "./Images/GoatMilkSaeedGhani.jpeg";
-import VeetPeelOffNoseStrip from "./Images/VeetPeelOffNoseStrip.jpeg";
+
+import {
+  CleanserAndMosturizingLotion,
+  GoatMilkSaeedGhani,
+  VeetPeelOffNoseStrip,
+} from "./Images/cleansersImgs";
+
 function Cleansers() {
   return (
     <>

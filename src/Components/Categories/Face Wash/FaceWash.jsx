@@ -1,12 +1,15 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import RiceFaceWash from "./Images/RiceFaceWash.jpeg";
-import DrRashelFaceWash from "./Images/DrRashelFaceWash.jpeg";
-import AcneControlTea from "./Images/AcneControlTea.jpeg";
-import SQMBlackHeadClearing from "./Images/SQMBlackHeadClearing.jpeg";
-import GoldernPearlTripleProtection from "./Images/GoldernPearlTripleProtection.jpeg";
-import DeepFreshFaceWash from "./Images/DeepFreshFaceWash.jpeg";
-import GalipWashScrubMask from "./Images/GalipWashScrubMask.jpeg";
+import {
+  RiceFaceWash,
+  DeepFreshFaceWash,
+  DrRashelFaceWash,
+  AcneControlTea,
+  SQMBlackHeadClearing,
+  GalipWashScrubMask,
+  GoldernPearlTripleProtection,
+} from "./Images/FaceWashImgs";
+
 function FaceWash() {
   return (
     <>

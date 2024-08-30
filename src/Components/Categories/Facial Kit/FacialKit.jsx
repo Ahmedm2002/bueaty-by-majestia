@@ -1,17 +1,21 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import BNBFacialKit from "./Images/BNBFacialKit.jpeg";
-import nourishingFacialKit from "./Images/nourishingFacialKit.jpeg";
-import TheOdinaryFacialKit from "./Images/TheOdinaryFacialKit.jpeg";
-import BrighteningFacialKitBNB from "./Images/BrighteningFacialKitBNB.jpeg";
-import kalonjiFK from "./Images/kalonjiFK.jpeg";
-import riceCleaningScrub from "./Images/riceCleaningScrub.jpeg";
-import TeaTreeOrganicSkincareKit from "./Images/TeaTreeOrganicSkincareKit.jpeg";
-import DermaWhiteningAndBrightening from "./Images/DermaWhiteningAndBrightening.jpeg";
-import SkinTouchGold from "./Images/SkinTouchGold.jpeg";
-import GlutaponeFK from "./Images/GlutaponeFK.jpeg";
-import FruityWhiteningFacial from "./Images/FruityWhiteningFacial.jpeg";
-import DrRaheelWiteningRiceFacial from "./Images/DrRaheelWiteningRiceFacial.jpeg";
+
+import {
+  BNBFacialKit,
+  nourishingFacialKit,
+  TeaTreeOrganicSkincareKit,
+  TheOdinaryFacialKit,
+  BrighteningFacialKitBNB,
+  kalonjiFK,
+  riceCleaningScrub,
+  DermaWhiteningAndBrightening,
+  SkinTouchGold,
+  GlutaponeFK,
+  FruityWhiteningFacial,
+  DrRaheelWiteningRiceFacial,
+} from "./Images/FacialKitsImgs";
+
 function FacialKit() {
   return (
     <>

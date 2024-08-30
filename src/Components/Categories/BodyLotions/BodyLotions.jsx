@@ -1,10 +1,12 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import HyderatingBL250ML from "./Images/HyderatingBL250ML.jpeg";
-import soapexFeetCream from "./Images/soapexFeetCream.jpeg";
-import XQMFaceBodyScrub from "./Images/XQMFaceBodyScrub.jpeg";
-import CharismaHandAndFeet from "./Images/CharismaHandAndFeet.jpeg";
-import WhiteningSpraySunProtector from "./Images/WhiteningSpraySunProtector.jpeg";
+import {
+  HyderatingBL250ML,
+  soapexFeetCream,
+  XQMFaceBodyScrub,
+  CharismaHandAndFeet,
+  WhiteningSpraySunProtector,
+} from "./Images/bodyLotions";
 function BodyLotions() {
   return (
     <>
