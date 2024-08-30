@@ -5,7 +5,7 @@ import sunBlockPackOfThree from "../FeaturedProducts/Images/sunBlockPackOfThree.
 function FeaturedProducts() {
   return (
     <>
-      <section className="bg-white py-12 text-gray-700 sm:py-16 lg:py-8">
+      <section className="bg-white py-6 text-gray-700 sm:py-16 lg:py-8">
         <div className="mx-auto max-w-screen-xl ">
           <div className="mx-auto max-w-md text-center">
             <h2 className="font-serif text-2xl font-bold sm:text-3xl">
@@ -24,8 +24,8 @@ function FeaturedProducts() {
               reducedPrice="549/-"
               productCode="MZ15300406WZRSP"
               shortDetail="Material: Jade
-Texture: Smooth
-Product Feature: Rejuvenating, Treat Fine Lines"
+              Texture: Smooth
+              Product Feature: Rejuvenating, Treat Fine Lines"
             />
             <ProductCard
               img={sunBlockPackOfThree}

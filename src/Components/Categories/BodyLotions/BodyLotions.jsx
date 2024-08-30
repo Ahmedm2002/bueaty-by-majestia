@@ -19,12 +19,12 @@ function BodyLotions() {
           reducedPrice="659/-"
           productCode="MZ66600064GNCS"
           shortDetail="Material: Cream
-Product Feature: Exfoliator, Dead Skin Remover
-Package Includes: 1 x Face & Body Scrubbing Mask
-Directions: Apply 2 times a day for the best results
-Apply on your skin where dirt or dead skin is present, rub it then remove. 
-Package Includes: 1 x Face & Body Pure Active Plant Energy
-Weight: 100 g"
+            Product Feature: Exfoliator, Dead Skin Remover
+            Package Includes: 1 x Face & Body Scrubbing Mask
+            Directions: Apply 2 times a day for the best results
+            Apply on your skin where dirt or dead skin is present, rub it then remove. 
+            Package Includes: 1 x Face & Body Pure Active Plant Energy
+            Weight: 100 g"
         />
 
         <ProductCard
@@ -33,8 +33,8 @@ Weight: 100 g"
           price="699/-"
           reducedPrice="539/-"
           shortDetail="Hydrating
-Package Includes: 2 x Body Lotion
-Volume: 250 Ml"
+            Package Includes: 2 x Body Lotion
+            Volume: 250 Ml"
           productCode="MZ69120180AIBSFD"
         />
 
@@ -45,7 +45,7 @@ Volume: 250 Ml"
           reducedPrice="389/-"
           productCode="MZ19920069RAAS"
           shortDetail="Material: Cream
-Imported Cracked Foot And Hands Skin Repair Cream, Ultra-Hydrating, Professional-Strength Formula Delivering Triple Action –Moisturizing, Repairing, And Soothing Dry, Cracked Feet."
+            Imported Cracked Foot And Hands Skin Repair Cream, Ultra-Hydrating, Professional-Strength Formula             Delivering Triple Action –Moisturizing, Repairing, And Soothing Dry, Cracked Feet."
         />
         <ProductCard
           img={CharismaHandAndFeet}
@@ -54,10 +54,10 @@ Imported Cracked Foot And Hands Skin Repair Cream, Ultra-Hydrating, Professional
           reducedPrice="589/-"
           productCode={null}
           shortDetail="Material: Scrub
-Product Type: Dead Skin Remover Foot & Hand Scrub
-Product Details: Scrub Deep Cleans To Leave Skin Healthy And Refreshed, Contains Natural Ingredients That Purify And Exfoliate For A Radiant Complexion, By Gently Removing Excess Callus And Dead Skin, This Scrub Lets Skin Natural Radiance Shine
-Package Includes: 1 x Scrub, 1 x Sunblock
-Weight: 30 g"
+            Product Type: Dead Skin Remover Foot & Hand Scrub
+            Product Details: Scrub Deep Cleans To Leave Skin Healthy And Refreshed, Contains Natural Ingredients That Purify And Exfoliate For A Radiant Complexion, By Gently Removing Excess Callus And Dead Skin, This Scrub Lets Skin Natural Radiance Shine
+            Package Includes: 1 x Scrub, 1 x Sunblock
+            Weight: 30 g"
           rating="5.0"
         />
         <ProductCard
@@ -67,12 +67,12 @@ Weight: 30 g"
           reducedPrice="719/-"
           productCode="MZ67200225ALIBF"
           shortDetail="UV Protectant Sunblock
-Product Details:Material: Cream
-Product Type: Whitening Spray
-Product Details: Helps Protect The Skin Against Sun Broad Spectrum Of Harmful UV Radiations, No White Sheen, For All Skin Types, Paraben Free
-Color: White
-Package Includes: 1 x Skin Spray
-Weight: 150 Ml"
+            Product Details:Material: Cream
+            Product Type: Whitening Spray
+            Product Details: Helps Protect The Skin Against Sun Broad Spectrum Of Harmful UV Radiations, No White Sheen, For All Skin Types, Paraben Free
+            Color: White
+            Package Includes: 1 x Skin Spray
+            Weight: 150 Ml"
           rating="5.0"
         />
       </div>

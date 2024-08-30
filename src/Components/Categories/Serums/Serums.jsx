@@ -20,10 +20,10 @@ function Serums() {
           reducedPrice="539/-"
           productCode={null}
           shortDetail="Material: Liquid
-Product Type: Tea Tree Oil Anti-Acne Serum
-Product Details: Specially Formulated To Target Acne Prone Skin, This Serum Helps Clear Blemishes, Control Oil, And Promote A Healthy, Balanced Complexion, Soothing And Calming, Regulates Oil Production, Clearer And Healthier Skin. Multiple Uses: (1) Face Care: 1-3 drops into the foam cleanser, water, milk, cream, facial mask etc in the mix to use, (2) Hair Care: 5 drops into the water to wash your hair, or drop into the shampoo and conditioner used in, or directly to massage the scalp, (3)Bady Care: Bubble bath, bath, or feet, etc. (4) Environmental Care: It can be as perfume spray in the environment.
-Package Includes: 1 x Serum
-Weight: 10 Ml"
+            Product Type: Tea Tree Oil Anti-Acne Serum
+            Product Details: Specially Formulated To Target Acne Prone Skin, This Serum Helps Clear Blemishes, Control Oil, And Promote A Healthy, Balanced Complexion, Soothing And Calming, Regulates Oil Production, Clearer And Healthier Skin. Multiple Uses: (1) Face Care: 1-3 drops into the foam cleanser, water, milk, cream, facial mask etc in the mix to use, (2) Hair Care: 5 drops into the water to wash your hair, or drop into the shampoo and conditioner used in, or directly to massage the scalp, (3)Bady Care: Bubble bath, bath, or feet, etc. (4) Environmental Care: It can be as perfume spray in the environment.
+            Package Includes: 1 x Serum
+            Weight: 10 Ml"
         />
 
         <ProductCard
@@ -33,12 +33,12 @@ Weight: 10 Ml"
           reducedPrice="959/-"
           productCode={null}
           shortDetail="Tea Tree Oil Serum
-Product Details:Material: Liquid
-Product Type: Tea Tree Oil 
-Product Details: Specially Formulated To Target Acne Prone Skin, This Serum Helps Clear Blemishes, Control Oil, And Promote A Healthy, Balanced Complexion, Soothing And Calming, Regulates Oil Production, Clearer And Healthier Skin
-Color: Green
-Package Includes: 1 x Serum
-Weight: 30 Ml"
+            Product Details:Material: Liquid
+            Product Type: Tea Tree Oil 
+            Product Details: Specially Formulated To Target Acne Prone Skin, This Serum Helps Clear Blemishes, Control Oil, And Promote A Healthy, Balanced Complexion, Soothing And Calming, Regulates Oil Production, Clearer And Healthier Skin
+            Color: Green
+            Package Includes: 1 x Serum
+            Weight: 30 Ml"
         />
 
         <ProductCard
@@ -48,8 +48,8 @@ Weight: 30 Ml"
           reducedPrice="1449/-"
           productCode="MZ18700837RFAAC"
           shortDetail="Material: Cream
-Product Type: Rice Cream, Rice Lotion And Rice Serum Deal
-Product Details: Nourish Your Skin, Moisture Replenish for Body, Soothing And Cooling, Hydration"
+            Product Type: Rice Cream, Rice Lotion And Rice Serum Deal
+            Product Details: Nourish Your Skin, Moisture Replenish for Body, Soothing And Cooling, Hydration"
         />
 
         <ProductCard
@@ -59,8 +59,8 @@ Product Details: Nourish Your Skin, Moisture Replenish for Body, Soothing And Co
           reducedPrice="259/-"
           productCode="MZ88300009UNQWD"
           shortDetail="Material: Oil
-Volume: 10 Ml
-Package Includes: 1 x Oil"
+            Volume: 10 Ml
+            Package Includes: 1 x Oil"
         />
 
         <ProductCard
@@ -70,8 +70,8 @@ Package Includes: 1 x Oil"
           reducedPrice="719/-"
           productCode="MZ69120013AIBSFD"
           shortDetail="Product Details: Skin Brightening, Evens Skin Tone, Hydration Boost, Gentle And Non Irritating, Kin Plump And Hydrated, Unveil Your Natural Beauty
-Package Includes: 1 x Serum
-Weight: 30 Ml"
+            Package Includes: 1 x Serum
+            Weight: 30 Ml"
         />
 
         <ProductCard

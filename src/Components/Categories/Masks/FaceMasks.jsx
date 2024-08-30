@@ -20,10 +20,10 @@ function FaceMasks() {
           reducedPrice="719/-"
           productCode="MZ65500101CLSCL"
           shortDetail="Material: Liquid
-Product Type: Face Mask
-Product Details: Deep Cleansing, Suck Out Black Heads, Erase Dark Spots
-Package Includes: 1 x Face Mask
-Weight: 120 ml"
+            Product Type: Face Mask
+            Product Details: Deep Cleansing, Suck Out Black Heads, Erase Dark Spots
+            Package Includes: 1 x Face Mask
+            Weight: 120 ml"
         />
 
         <ProductCard
@@ -33,9 +33,9 @@ Weight: 120 ml"
           reducedPrice="399/-"
           productCode="MZ19920102RAAS"
           shortDetail="Material: Synthetic
-Texture: Smooth
-Color: Black
-Product Feature: Dead Skin Remover, Hydrating, Peel-off"
+            Texture: Smooth
+            Color: Black
+            Product Feature: Dead Skin Remover, Hydrating, Peel-off"
         />
 
         <ProductCard
@@ -45,7 +45,7 @@ Product Feature: Dead Skin Remover, Hydrating, Peel-off"
           reducedPrice="599/-"
           productCode=" MZ55700000027BYBR"
           shortDetail="Material: Cream
-Package Includes: 1 x Face Sheet Mask"
+            Package Includes: 1 x Face Sheet Mask"
         />
 
         <ProductCard
@@ -55,13 +55,13 @@ Package Includes: 1 x Face Sheet Mask"
           reducedPrice="529/-"
           productCode="MZ90000000031MJCN"
           shortDetail="Material: Stick
-For All Skin Types
-•  Moisturizing And Cleansing
-•  For Soft And Smooth Skin
-•  Anti Acne And Oil Control
-•  Weight: 40g
-Package Includes: 1 x Face Mask
-"
+            For All Skin Types
+            •  Moisturizing And Cleansing
+            •  For Soft And Smooth Skin
+            •  Anti Acne And Oil Control
+            •  Weight: 40g
+            Package Includes: 1 x Face Mask
+            "
         />
 
         <ProductCard
@@ -71,7 +71,7 @@ Package Includes: 1 x Face Mask
           reducedPrice="599/-"
           productCode="MZ19920011RAAS"
           shortDetail="Details: Moisturizing And Clear, Moisturizing And Tender Skin Care, 3. Tight And Tender, Lifting And Lifting The Skin Moisturizing And Translucent, Full And Elastic, Tightening The Muscle Contour
-Package Includes: 1 x Face Mask"
+          Package Includes: 1 x Face Mask"
         />
 
         <ProductCard
@@ -81,9 +81,9 @@ Package Includes: 1 x Face Mask"
           reducedPrice="359/-"
           productCode="MZ19920101RAAS"
           shortDetail="Material: Synthetic
-Texture: Smooth
-Color: Golden
-Product Feature: Rejuvenating, Absorbent, Peel-off, Nourishing"
+            Texture: Smooth
+            Color: Golden
+            Product Feature: Rejuvenating, Absorbent, Peel-off, Nourishing"
         />
       </div>
     </>

@@ -73,7 +73,7 @@ Package Includes: 1 x Sunblock"
           price="999/-"
           reducedPrice="699/-"
           productCode={null}
-          shortDetail="Experience a deep, revitalizing cleanse! Infused with activated charcoal, it detoxifies, controls oil, and prevents breakouts, leaving your skin clearer and healthier. Perfect for daily use, this 100g tube ensures smooth, refreshed skin. "
+          shortDetail="Experience a deep, revitalizing cleanse! Infused with activated charcoal, it   detoxifies, controls oil, and prevents breakouts, leaving your skin clearer and healthier. Perfect for daily use, this 100g tube ensures smooth, refreshed skin. "
         />
         <ProductCard
           img={AcneControlTea}
@@ -82,10 +82,10 @@ Package Includes: 1 x Sunblock"
           reducedPrice="939/-"
           productCode="MZ100320007TEBYEL"
           shortDetail="Revitalize Your Skincare Routine With Acne Tea Tree Face Wash
-A Potent Solution For Clearer, Healthier-Looking Skin
-Infused With The Purifying Essence Of Tea Tree Oil
-This Invigorating Cleanser Effectively Targets Acne-Causing Bacteria While Gently Unclogging Pores
-Package Includes: 1 x Face Wash"
+            A Potent Solution For Clearer, Healthier-Looking Skin
+            Infused With The Purifying Essence Of Tea Tree Oil
+            This Invigorating Cleanser Effectively Targets Acne-Causing Bacteria While Gently Unclogging Pores
+            Package Includes: 1 x Face Wash"
           rating="5.0"
         />
         <ProductCard
@@ -95,14 +95,14 @@ Package Includes: 1 x Face Wash"
           reducedPrice="659/-"
           productCode="MZ485000036ECKSP"
           shortDetail="This Revitalizing Tan-Removal scrub is blended with aloe vera
-Dissolve dead surface cells
-Unclog pore openings and smooth the way for clear skin to surface
-Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
-This Revitalizing tan removal scrub is blended with aloe vera
-Dissolve dead surface cells
-Unclog pore openings and smooth the way for clear skin to surface
-Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
-Package Includes: 1 x Blackhead Clearing Oil-Free Salicylic Acid Aloe Scrub - 170g"
+            Dissolve dead surface cells
+            Unclog pore openings and smooth the way for clear skin to surface
+            Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
+            This Revitalizing tan removal scrub is blended with aloe vera
+            Dissolve dead surface cells
+            Unclog pore openings and smooth the way for clear skin to surface
+            Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
+            Package Includes: 1 x Blackhead Clearing Oil-Free Salicylic Acid Aloe Scrub - 170g"
           rating="5.0"
         />
       </div>

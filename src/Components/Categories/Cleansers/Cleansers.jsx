@@ -16,9 +16,9 @@ function Cleansers() {
           price="2999/-"
           reducedPrice="2699/-"
           shortDetail="Material: Cream
-Texture: High Pigmented
-Moisturizing Lotion Is A Lightweight, Oil-Free Moisturizer With Three Essential Ceramides That Lock In The Skin's Moisture
-Hydrating Cleanser With Hyaluronic Acid For Normal To Dry Skin"
+            Texture: High Pigmented
+            Moisturizing Lotion Is A Lightweight, Oil-Free Moisturizer With Three Essential Ceramides That Lock In The Skin's Moisture
+            Hydrating Cleanser With Hyaluronic Acid For Normal To Dry Skin"
           productCode="MZ23800117SKTS"
           rating="5.0"
         />
@@ -29,9 +29,9 @@ Hydrating Cleanser With Hyaluronic Acid For Normal To Dry Skin"
           reducedPrice="959/-"
           productCode="MZ23800000007SKTS"
           shortDetail="Material: Cream
-Weight: 180Grams
-Package Includes: 1 x Whitening Cream
-"
+            Weight: 180Grams
+            Package Includes: 1 x Whitening Cream
+            "
         />
         <ProductCard
           img={VeetPeelOffNoseStrip}
@@ -40,11 +40,11 @@ Package Includes: 1 x Whitening Cream
           reducedPrice="839/-"
           productCode="MZ83100018NANTR"
           shortDetail="Nose Strips
-Product Details:Material: Strips
-Product Type: Peel Off Nose Strips
-Product Details: Deep Cleansing, Suck Out Black Heads, Erase Dark Spots
-Package Includes: 1 x Peel Off Nose Strips
-6 Nose Strips In Each Pack"
+            Product Details:Material: Strips
+            Product Type: Peel Off Nose Strips
+            Product Details: Deep Cleansing, Suck Out Black Heads, Erase Dark Spots
+            Package Includes: 1 x Peel Off Nose Strips
+            6 Nose Strips In Each Pack"
         />
         {/* <ProductCard
             img={exfoliatingNCPck2}
@@ -52,8 +52,8 @@ Package Includes: 1 x Peel Off Nose Strips
             price="999/-"
             reducedPrice="499/-"
             shortDetail="Material: Gel, Cream
-Texture: High Pigmented
-Plant Extraction Can Effectively Replenish Skin Moisture And Make Skin Tender And Smooth"
+              Texture: High Pigmented
+              Plant Extraction Can Effectively Replenish Skin Moisture And Make Skin Tender And Smooth"
             rating="5.0"
           /> */}
       </div>

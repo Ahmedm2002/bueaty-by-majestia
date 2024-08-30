@@ -11,7 +11,7 @@ function NightSkinCare() {
       <h1 className="text-2xl text-center font-semibold my-4">
         Products in Night Skin Care
       </h1>
-      <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+      <div className="mt- lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
         <ProductCard
           img={retinolSaeedGhaniAntiAging}
           text="Anti Aging Retinol Night Cream"
@@ -19,9 +19,9 @@ function NightSkinCare() {
           reducedPrice="1259/-"
           productCode="MZ23800000006SKTS"
           shortDetail="Material: Cream
-          Niacinamide (Vitamin B3)
-Weight: 40g
-Package Includes: 1 x Night Cream"
+            Niacinamide (Vitamin B3)
+            Weight: 40g
+            Package Includes: 1 x Night Cream"
           rating="5.0"
         />
 
@@ -32,10 +32,10 @@ Package Includes: 1 x Night Cream"
           reducedPrice="1099/-"
           productCode="MZ117420031FZCS"
           shortDetail="Material: Cream
-Texture: Smooth
-Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
-Color: Orange
-Product Feature: Whitening And Brightening"
+            Texture: Smooth
+            Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
+            Color: Orange
+            Product Feature: Whitening And Brightening"
         />
 
         <ProductCard
@@ -45,10 +45,10 @@ Product Feature: Whitening And Brightening"
           reducedPrice="459/-"
           productCode="MZ23800144SKTS"
           shortDetail="Material: Cream
-Whitening And Brightening
-Extreme Strong Whitening And Aging Night Cream
-Formulated To Heal And Rejuvenate The Skin Overnight
-Targets Dark Spots, Fine Lines, And Uneven Skin Tone"
+            Whitening And Brightening
+            Extreme Strong Whitening And Aging Night Cream
+            Formulated To Heal And Rejuvenate The Skin Overnight
+            Targets Dark Spots, Fine Lines, And Uneven Skin Tone"
         />
         <ProductCard
           img={exfoliatingNCPck2}
@@ -57,8 +57,8 @@ Targets Dark Spots, Fine Lines, And Uneven Skin Tone"
           reducedPrice="1399/-"
           productCode="MZ23800118SKTS"
           shortDetail="Material: Gel, Cream
-Texture: High Pigmented
-Plant Extraction Can Effectively Replenish Skin Moisture And Make Skin Tender And Smooth"
+            Texture: High Pigmented
+            Plant Extraction Can Effectively Replenish Skin Moisture And Make Skin Tender And Smooth"
           rating="5.0"
         />
       </div>

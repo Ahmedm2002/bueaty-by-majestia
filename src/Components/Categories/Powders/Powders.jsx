@@ -26,14 +26,11 @@ function Powders() {
           reducedPrice="469/-"
           productCode="MZ88700004ARSML"
           shortDetail="Face Mask
-Product Details:Material: Liquid
-Product Type: Face Mask
-Product Details: Moisture, Anti Ageing, Cleaning Facial, Pore Reducer And Helps Clean Acne
-Package Includes: 1 x Face Mask
-Weight: 75 G
-Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin
-If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction
-Always read the warning labels and directions on the package for using any cosmetic products."
+            Product Details:Material: Liquid
+            Product Type: Face Mask
+            Product Details: Moisture, Anti Ageing, Cleaning Facial, Pore Reducer And Helps Clean Acne
+            Package Includes: 1 x Face Mask
+            Weight: 75 G."
         />
 
         <ProductCard
@@ -43,10 +40,10 @@ Always read the warning labels and directions on the package for using any cosme
           reducedPrice="819/-"
           productCode="MZ88200003INFST"
           shortDetail="Material: Powder
-Product Type: Beetroot Powder
-Product Details: Beetroot Powder Antioxidants Promote A Youthful Glow By Combating Free Radicals And Reducing Oxidative Stress.
-Package Includes: 1 x Powder
-Weight: 140g"
+            Product Type: Beetroot Powder
+            Product Details: Beetroot Powder Antioxidants Promote A Youthful Glow By Combating Free Radicals And Reducing Oxidative Stress.
+            Package Includes: 1 x Powder
+            Weight: 140g"
         />
 
         <ProductCard
@@ -56,8 +53,8 @@ Weight: 140g"
           reducedPrice="229/-"
           productCode="MZ109220005COZMO"
           shortDetail="Natural Brightening
-          Material: Powder
-Package Includes: 1 x Skin Moisturizing Face Powder"
+            Material: Powder
+            Package Includes: 1 x Skin Moisturizing Face Powder"
         />
 
         <ProductCard
@@ -67,8 +64,8 @@ Package Includes: 1 x Skin Moisturizing Face Powder"
           reducedPrice="229/-"
           productCode="MZ109220005COZMO"
           shortDetail="Natural Brightening
-          Material: Powder
-Package Includes: 1 x Skin Moisturizing Face Powder"
+            Material: Powder
+            Package Includes: 1 x Skin Moisturizing Face Powder"
         />
 
         <ProductCard
@@ -78,8 +75,8 @@ Package Includes: 1 x Skin Moisturizing Face Powder"
           reducedPrice="229/-"
           productCode="MZ109220005COZMO"
           shortDetail="Natural Brightening
-          Material: Powder
-Package Includes: 1 x Skin Moisturizing Face Powder"
+            Material: Powder
+            Package Includes: 1 x Skin Moisturizing Face Powder"
         />
 
         <ProductCard
@@ -89,7 +86,7 @@ Package Includes: 1 x Skin Moisturizing Face Powder"
           reducedPrice="229/-"
           productCode="MZ109220004COZMO"
           shortDetail="Material: Powder
-Package Includes: 1 x Orange Peel Face Powder"
+            Package Includes: 1 x Orange Peel Face Powder"
         />
 
         <ProductCard
@@ -99,7 +96,7 @@ Package Includes: 1 x Orange Peel Face Powder"
           reducedPrice="1499/-"
           productCode="MZ23800077SKTS"
           shortDetail="Material: Powder
-Package Includes: 1 x Face Powder"
+            Package Includes: 1 x Face Powder"
         />
 
         <ProductCard
@@ -109,7 +106,7 @@ Package Includes: 1 x Face Powder"
           reducedPrice="429/-"
           productCode="MZ109220005COZMO"
           shortDetail="Material: Powder
-Package Includes: 1 x Skin Moisturizing Face Powder"
+            Package Includes: 1 x Skin Moisturizing Face Powder"
         />
 
         <ProductCard
@@ -119,7 +116,7 @@ Package Includes: 1 x Skin Moisturizing Face Powder"
           reducedPrice="429/-"
           productCode="MZ109220011COZMO"
           shortDetail="Material: Powder
-Package Includes: 2 x Skin Moisturizing Face Powder"
+            Package Includes: 2 x Skin Moisturizing Face Powder"
         />
 
         <ProductCard
@@ -128,8 +125,8 @@ Package Includes: 2 x Skin Moisturizing Face Powder"
           price="699/-"
           reducedPrice="489/-"
           shortDetail="Material: Powder
-Package Includes: 2 x Skin Moisturizing Face Powder
-"
+            Package Includes: 2 x Skin Moisturizing Face Powder
+            "
           rating="5.0"
           productCode="MZ109220016COZMO"
         />
@@ -140,7 +137,7 @@ Package Includes: 2 x Skin Moisturizing Face Powder
           price="649/-"
           reducedPrice="489/-"
           shortDetail="Material: Powder
-Package Includes: 2 x Skin Moisturizing Face Powder"
+            Package Includes: 2 x Skin Moisturizing Face Powder"
           productCode="MZ109220017COZMO"
         />
 
@@ -150,7 +147,7 @@ Package Includes: 2 x Skin Moisturizing Face Powder"
           price="549/-"
           reducedPrice="429/-"
           shortDetail="Material: Powder
-Package Includes: 2 x Skin Moisturizing Face Powder"
+            Package Includes: 2 x Skin Moisturizing Face Powder"
           productCode="MZ109220021COZMO"
         />
       </div>

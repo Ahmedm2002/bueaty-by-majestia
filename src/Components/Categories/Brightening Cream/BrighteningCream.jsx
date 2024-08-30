@@ -40,9 +40,9 @@ function BrighteningCream() {
           reducedPrice="539/-"
           productCode="MZ84200076DOSTC"
           shortDetail="Anti Acne, Whitening, Suitable for All Skin Types
-Product Details:Material: Cream
-Product Type: Vitamin C Beauty Cream
-Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quality with SPF45."
+            Product Details:Material: Cream
+            Product Type: Vitamin C Beauty Cream
+            Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quality with SPF45."
         />
 
         <ProductCard
@@ -53,9 +53,9 @@ Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quali
           reducedPrice="539/-"
           productCode="MZ84200076DOSTC"
           shortDetail="Anti Acne, Whitening, Suitable for All Skin Types
-Product Details:Material: Cream
-Product Type: Vitamin C Beauty Cream
-Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quality with SPF45."
+            Product Details:Material: Cream
+            Product Type: Vitamin C Beauty Cream
+            Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quality with SPF45."
         />
 
         <ProductCard
@@ -66,11 +66,11 @@ Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quali
           reducedPrice="489/-"
           productCode="MZ57300128UDEES"
           shortDetail="Skin Polisher
-Product Details:Material: Cream
-Product Type: Skin Polisher
-Product Details: Brighten And Rejuvenate The Skin, It Combines The Benefits Of Traditional Bleach With Added Elements To Exfoliate And Enhance The Skin Texture, Leaving It Smoother, Softer, And More Radiant
-Package Includes: 1 x Skin Polisher, 1 x Powder
-Weight: 300 g"
+            Product Details:Material: Cream
+            Product Type: Skin Polisher           
+            Product Details: Brighten And Rejuvenate The Skin, It Combines The Benefits Of Traditional Bleach             With Added Elements To Exfoliate And Enhance The Skin Texture, Leaving It Smoother, Softer, And More Radiant
+            Package Includes: 1 x Skin Polisher, 1 x Powder           
+            Weight: 300 g"
         />
 
         <ProductCard
@@ -81,11 +81,11 @@ Weight: 300 g"
           reducedPrice="899/-"
           productCode="MZ35500121GLABM"
           shortDetail="Brightening Cream
-Product Details:Material: Cream
-Product Type: Brightening Cream
-Product Details: Deep Fresh Brightening Cream, Crafted With Premium Herbs And Fruits, Provides Optimal Skin Care For All Types, Offering Protection From Sunlight And A Rejuvenating Touch For Soft, Radiant Skin.
-Package Includes: 1 X Brightening Cream
-Weight: 20 Gm"
+            Product Details:Material: Cream
+            Product Type: Brightening Cream
+            Product Details: Deep Fresh Brightening Cream, Crafted With Premium Herbs And Fruits, Provides Optimal Skin Care For All Types, Offering Protection From Sunlight And A Rejuvenating Touch For Soft, Radiant Skin.
+            Package Includes: 1 X Brightening Cream
+            Weight: 20 Gm"
         />
 
         <ProductCard
@@ -96,10 +96,10 @@ Weight: 20 Gm"
           reducedPrice="468/-"
           productCode="MZ88700003ARSML"
           shortDetail="Material: Liquid
-Product Type: Vitamin E Capsule Jar
-Product Details: Skin Can Benefit From Both Protein And Natural Oils.
-Color: Yellow
-Package Includes: 20 x Vitamin E Hair Capsule"
+            Product Type: Vitamin E Capsule Jar
+            Product Details: Skin Can Benefit From Both Protein And Natural Oils.
+            Color: Yellow
+            Package Includes: 20 x Vitamin E Hair Capsule"
         />
 
         <ProductCard
@@ -110,9 +110,9 @@ Package Includes: 20 x Vitamin E Hair Capsule"
           reducedPrice="1319/-"
           productCode="MZ48800055ARUMT"
           shortDetail="Material: Cream
-Texture: Smooth
-Pack Of: Pack Of 3
-Package Includes: 1 x Skin Polisher"
+            Texture: Smooth
+            Pack Of: Pack Of 3
+            Package Includes: 1 x Skin Polisher"
         />
 
         <ProductCard
@@ -123,11 +123,11 @@ Package Includes: 1 x Skin Polisher"
           reducedPrice="359/-"
           productCode="MZ59300116FIFEC"
           shortDetail="Material: Cream
-Product Type: Salicylic Acid Acne Removal Cream 
-Product Details: Restores The Healthy Metabolism Of Skin And Reduces To Acne Scars, Reduces Redness Relieves Acne Scars
-Color: Purple
-Package Includes: 1 x Salicylic Acid Acne Removal Cream 
-Weight: 20 g"
+            Product Type: Salicylic Acid Acne Removal Cream 
+            Product Details: Restores The Healthy Metabolism Of Skin And Reduces To Acne Scars, Reduces Redness Relieves Acne Scars
+            Color: Purple
+            Package Includes: 1 x Salicylic Acid Acne Removal Cream 
+            Weight: 20 g"
         />
 
         <ProductCard
@@ -138,9 +138,9 @@ Weight: 20 g"
           reducedPrice="749/-"
           productCode="MZ67400000027CYCH"
           shortDetail="Material: Cream
-Size: 150g
-HEAVEN DOVE Water Lock hydration beautiful Moisturizing Skin Whitening Cream 150g HD-1053B
-Package Includes: 1 x Moisturizer"
+            Size: 150g
+            HEAVEN DOVE Water Lock hydration beautiful Moisturizing Skin Whitening Cream 150g HD-1053B
+            Package Includes: 1 x Moisturizer"
         />
 
         <ProductCard
@@ -151,7 +151,7 @@ Package Includes: 1 x Moisturizer"
           reducedPrice="539/-"
           productCode="MZ22100017MSEE"
           shortDetail="Product Feature: Whitening, Exfoliation, Brightening
-Package Includes: 1 x Facial 
+            Package Includes: 1 x Facial 
 "
         />
 
@@ -163,10 +163,10 @@ Package Includes: 1 x Facial
           reducedPrice="349/-"
           productCode="MZ53500000003HHK"
           shortDetail="Material: Facial
-Whitening Urgent Facial with natural ingredients
-Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
-Radiant in just a few minutes! It leaves your skin with a perfect glow
-Package Includes: 1 x Unique Formula Whitening Urgent Facial Tube - 75ml"
+            Whitening Urgent Facial with natural ingredients
+            Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
+            Radiant in just a few minutes! It leaves your skin with a perfect glow
+            Package Includes: 1 x Unique Formula Whitening Urgent Facial Tube - 75ml"
         />
 
         <ProductCard
@@ -187,7 +187,7 @@ Package Includes: 1 x Unique Formula Whitening Urgent Facial Tube - 75ml"
           reducedPrice="419/-"
           productCode="MZ60720008AASGML"
           shortDetail="Package Includes: 1 x Face Cream
-Weight: 25 Grams"
+            Weight: 25 Grams"
         />
 
         <ProductCard
@@ -197,8 +197,8 @@ Weight: 25 Grams"
           reducedPrice="1799/-"
           productCode="MZ80120008LABY"
           shortDetail="Product Feature: Whitening
-Package Includes: 1 x Oxygen Skin Gloss Polish, 1 x Dust Free Facial Blond Brightener, 1 x Harmless Facial Blond Activater
-"
+            Package Includes: 1 x Oxygen Skin Gloss Polish, 1 x Dust Free Facial Blond Brightener, 1 x Harmless Facial Blond Activater
+            "
         />
         <ProductCard
           img={BiPureAcneCream}
@@ -215,11 +215,11 @@ Package Includes: 1 x Oxygen Skin Gloss Polish, 1 x Dust Free Facial Blond Brigh
           reducedPrice="959/-"
           productCode="MZ23800030SKTS"
           shortDetail="Material: Cream
-Nourishes And Moisturizes Your Skin Through All Seasons
-Gives Your Skin A Natural Glow And Makes It Brighter
-Helps Fight Acne And Skin Cracks To Give You Healthier Skin
-Gives you younger-Looking Skin
-Package Includes: 1 x Hand Cream"
+            Nourishes And Moisturizes Your Skin Through All Seasons
+            Gives Your Skin A Natural Glow And Makes It Brighter
+            Helps Fight Acne And Skin Cracks To Give You Healthier Skin
+            Gives you younger-Looking Skin
+            Package Includes: 1 x Hand Cream"
         />
 
         <ProductCard
@@ -229,10 +229,10 @@ Package Includes: 1 x Hand Cream"
           reducedPrice="649/-"
           productCode="MZ726002801BSMCS"
           shortDetail="Material: Cream
-Skin Types: Combination Skin
-Product Feature: Anti-Aging, Brightening, Whitening
-Package Includes: 1 x Vitamin-C Hand Cream
-"
+            Skin Types: Combination Skin
+            Product Feature: Anti-Aging, Brightening, Whitening
+            Package Includes: 1 x Vitamin-C Hand Cream
+            "
         />
 
         <ProductCard
@@ -241,7 +241,7 @@ Package Includes: 1 x Vitamin-C Hand Cream
           price="749/-"
           reducedPrice="549/-"
           shortDetail="Material: Cream
-Package Includes:  1 x Facial Beauty Cream"
+            Package Includes:  1 x Facial Beauty Cream"
           productCode="MZ60320025MNSRPS"
         />
 
@@ -251,7 +251,7 @@ Package Includes:  1 x Facial Beauty Cream"
           price="699/-"
           reducedPrice="549/-"
           shortDetail="Material: Cream
-Package Includes:  1 x Facial Beauty Cream"
+            Package Includes:  1 x Facial Beauty Cream"
           rating="5.0"
           productCode="MZ60320024MNSRPS"
         />
@@ -262,8 +262,8 @@ Package Includes:  1 x Facial Beauty Cream"
           price="999/-"
           reducedPrice="769/-"
           shortDetail="Material: Cream
-Product Feature: Whitening And Brightening
-"
+            Product Feature: Whitening And Brightening
+            "
           productCode="MZ109020208QYCSSE"
         />
 
@@ -273,8 +273,8 @@ Product Feature: Whitening And Brightening
           price="999/-"
           reducedPrice="699/-"
           shortDetail="Material: Cream
-New Skin Beauty Skin Polishing Is A Technique Used To Brighten
-Exfoliate Dull Skin By Removing The Dead Skin On The Surface"
+            New Skin Beauty Skin Polishing Is A Technique Used To Brighten
+            Exfoliate Dull Skin By Removing The Dead Skin On The Surface"
           rating="5.0"
           productCode="MZ108920020NWSNBY"
         />
@@ -285,13 +285,13 @@ Exfoliate Dull Skin By Removing The Dead Skin On The Surface"
           price="899/-"
           reducedPrice="599/-"
           shortDetail="Centella Asiatica Extract
-Soothing And Repairing
-Solution For Sensitive Skin
-Strenghten The Skin Bottom
-Moisturizing
-Rebuild The Skin Surface
-Size: 30G
-"
+            Soothing And Repairing
+            Solution For Sensitive Skin
+            Strenghten The Skin Bottom
+            Moisturizing
+            Rebuild The Skin Surface
+            Size: 30G
+            "
           productCode="MZ2600085ARCC"
           rating="5.0"
         />
@@ -303,11 +303,11 @@ Size: 30G
           reducedPrice="649/-"
           productCode="MZ726002801BSMCS"
           shortDetail="Material: Cream
-Skin Types: Normal Skin
-Product Feature: Whitening
-Quantity: 50 G
-Package Includes: 1 x Vitamin  C Whitening Cream
-"
+            Skin Types: Normal Skin
+            Product Feature: Whitening
+            Quantity: 50 G
+            Package Includes: 1 x Vitamin  C Whitening Cream
+            "
         />
 
         <ProductCard
@@ -316,7 +316,7 @@ Package Includes: 1 x Vitamin  C Whitening Cream
           price="899/-"
           reducedPrice="599/-"
           shortDetail="Material: Cream
-Product Feature: Whitening"
+            Product Feature: Whitening"
           productCode="MZ66600110GNCS"
         />
 
@@ -335,7 +335,7 @@ Product Feature: Whitening"
           price="419/-"
           reducedPrice="699/-"
           shortDetail="Product Description: 
-Product Details:Package Includes: 1 x Acne Scar Removal Rejuvenation Cream"
+            Product Details:Package Includes: 1 x Acne Scar Removal Rejuvenation Cream"
           productCode="MZ19920097RAAS"
         />
       </div>

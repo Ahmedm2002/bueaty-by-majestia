@@ -27,10 +27,10 @@ function FacialKit() {
           productCode="MZ73200027TNDML"
           rating="5.0"
           shortDetail="Whitening Facial Kit
-Product Details:Material: Cream
-Product Type: Whitening And Glowing Facial Kit
-Product Details: Gives A Natural Glow To Your Skin, Improve Complexion, Anti-Aging Glycolic Peel
-Package Includes: 1 x Scrub, 1 x Mask, 1 x Face Wash"
+            Product Details:Material: Cream
+            Product Type: Whitening And Glowing Facial Kit
+            Product Details: Gives A Natural Glow To Your Skin, Improve Complexion, Anti-Aging Glycolic Peel
+            Package Includes: 1 x Scrub, 1 x Mask, 1 x Face Wash"
         />
 
         <ProductCard
@@ -41,11 +41,11 @@ Package Includes: 1 x Scrub, 1 x Mask, 1 x Face Wash"
           productCode="MZ53500000002HHK"
           rating="5.0"
           shortDetail="Material: Facial
-Whitening Urgent Facial with natural ingredients
-Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
-Radiant in just a few minutes! It leaves your skin with a perfect glow
-Package Includes: 1 x Fruity Whitening Urgent Facial Tube - 75ml
-"
+            Whitening Urgent Facial with natural ingredients
+            Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
+            Radiant in just a few minutes! It leaves your skin with a perfect glow
+            Package Includes: 1 x Fruity Whitening Urgent Facial Tube - 75ml
+            "
         />
 
         <ProductCard
@@ -55,13 +55,13 @@ Package Includes: 1 x Fruity Whitening Urgent Facial Tube - 75ml
           reducedPrice="4699/-"
           productCode="MZ80120009LABY"
           shortDetail="Material: Cream
-Texture: Smooth
-Skin Types: Normal Skin
-Product Feature: Whitening And Brightening
-Package Includes: 1 x Facial Kit
-Product Features: Infused With Fruit Extracts For A Refreshing Experience.
-suitableFor All Skin Types.  This Multi-Pack Offers A Refreshing And Rejuvenating Experience, Perfect For Your Skincare Routine. 
-Weight: 200 Grams"
+            Texture: Smooth
+            Skin Types: Normal Skin
+            Product Feature: Whitening And Brightening
+            Package Includes: 1 x Facial Kit
+            Product Features: Infused With Fruit Extracts For A Refreshing Experience.
+            suitableFor All Skin Types.  This Multi-Pack Offers A Refreshing And Rejuvenating Experience, Perfect For Your Skincare Routine. 
+            Weight: 200 Grams"
         />
 
         <ProductCard
@@ -71,14 +71,14 @@ Weight: 200 Grams"
           reducedPrice="3849/-"
           productCode="MZ90200000004UEWD"
           shortDetail="Material: Liquid
-Pack Of: Pack Of 6
-Package Includes: 1 x Whitening Facial Kit Set
-Glutapone Facial Face Wash,  180ml
-Glutapone Facial Cleanser.180ml
-Glutapone Facial Skin Polish, 180ml
-Glutapone Facial Scrub, 180ml
-Glutapone Facial Massage Cream, 180ml
-Glutapone Facial Mask, 180ml"
+            Pack Of: Pack Of 6
+            Package Includes: 1 x Whitening Facial Kit Set
+            Glutapone Facial Face Wash,  180ml
+            Glutapone Facial Cleanser.180ml
+            Glutapone Facial Skin Polish, 180ml
+            Glutapone Facial Scrub, 180ml
+            Glutapone Facial Massage Cream, 180ml
+            Glutapone Facial Mask, 180ml"
         />
 
         <ProductCard
@@ -88,8 +88,8 @@ Glutapone Facial Mask, 180ml"
           reducedPrice="539/-"
           productCode="MZ22100021MSEE"
           shortDetail="Product Feature: Whitening, Exfoliation, Brightening
-Package Includes: 1 x Facial 
-"
+            Package Includes: 1 x Facial 
+            "
         />
 
         <ProductCard
@@ -108,9 +108,9 @@ Package Includes: 1 x Facial
           reducedPrice="1269/-"
           productCode="MZ118320064CCCS"
           shortDetail="Material: Cream
-Blend Of Fruit Extracts And Oils, Gives A Natural Glow To Your Skin, Improve Complexion
-Whitening Face Wash, Whitening Facial Cleanser, Whitening Facial Scrub
-Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
+            Blend Of Fruit Extracts And Oils, Gives A Natural Glow To Your Skin, Improve Complexion
+            Whitening Face Wash, Whitening Facial Cleanser, Whitening Facial Scrub
+            Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
         />
 
         <ProductCard
@@ -120,9 +120,9 @@ Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
           reducedPrice="389/-"
           productCode="MZ57520029HYCS"
           shortDetail="Material: Cream
-Size: 100 Ml
-Package Includes: 1 x Facial Scrub
-Restores skin beauty, Health and radiance, For all skin types"
+            Size: 100 Ml
+            Package Includes: 1 x Facial Scrub
+            Restores skin beauty, Health and radiance, For all skin types"
         />
 
         <ProductCard
@@ -141,10 +141,10 @@ Restores skin beauty, Health and radiance, For all skin types"
           reducedPrice="1599/-"
           productCode="MZ115720075ARTS"
           shortDetail="Material: Cream
-Texture: Smooth
-Color: White
-Product Feature: Nourishing, Rejuvenating, Glowing
-Package Includes: 1 x Facial Scrub, 1 x Face Mud Mask, 1 x Face Massage Cream, 1 x Skin Polisher, 1 x Double Action, 1 x Triple Action"
+            Texture: Smooth
+            Color: White
+            Product Feature: Nourishing, Rejuvenating, Glowing
+            Package Includes: 1 x Facial Scrub, 1 x Face Mud Mask, 1 x Face Massage Cream, 1 x Skin Polisher, 1 x Double Action, 1 x Triple Action"
         />
         <ProductCard
           img={TheOdinaryFacialKit}
@@ -153,11 +153,10 @@ Package Includes: 1 x Facial Scrub, 1 x Face Mud Mask, 1 x Face Massage Cream, 1
           reducedPrice="2699/-"
           productCode="MZ19920112RAAS"
           shortDetail="Material: Cream
-A Fast-Absorbing Serum That Targets Dark Spots And Hyperpigmentation
-A Gentle Yet Effective Exfoliation That Removes Dead Skin Cells And Unclogs Pores
-Hydrates And Brightens The Skin
-Package Includes: 4 x Brightening Glow Kit
-"
+            A Fast-Absorbing Serum That Targets Dark Spots And Hyperpigmentation
+            A Gentle Yet Effective Exfoliation That Removes Dead Skin Cells And Unclogs Pores
+            Hydrates And Brightens The Skin
+            Package Includes: 4 x Brightening Glow Kit"
           rating="5.0"
         />
         <ProductCard
@@ -167,10 +166,10 @@ Package Includes: 4 x Brightening Glow Kit
           reducedPrice="1999/-"
           productCode="MZ19920079RAAS"
           shortDetail="Material: Cream
-Texture: Smooth
-Color: Pink
-No. Of Pcs: 3
-Product Feature: Whitening And Brightening, Exfoliator, Nourishing"
+            Texture: Smooth
+            Color: Pink
+            No. Of Pcs: 3
+            Product Feature: Whitening And Brightening, Exfoliator, Nourishing"
           rating="5.0"
         />
       </div>

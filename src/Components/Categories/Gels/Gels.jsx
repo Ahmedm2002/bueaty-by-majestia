@@ -19,9 +19,9 @@ function Gels() {
           reducedPrice="229/-"
           productCode="MZ88300007UNQWD"
           shortDetail=":Material: Gel
-Texture: Glossy
-Weight: 300 Grams
-Package Includes: 1 x Aloe Vera Gel"
+            Texture: Glossy
+            Weight: 300 Grams
+            Package Includes: 1 x Aloe Vera Gel"
         />
 
         <ProductCard
@@ -31,11 +31,11 @@ Package Includes: 1 x Aloe Vera Gel"
           reducedPrice="239/-"
           productCode="MZ103420052FSBY"
           shortDetail="Soothing Hydration
-Instant Cooling Relief
-Deeply Moisturizing
-Natural Aloe Vera Extract
-Non-Greasy Formula
-Refreshes And Revitalizes"
+            Instant Cooling Relief
+            Deeply Moisturizing
+            Natural Aloe Vera Extract
+            Non-Greasy Formula
+            Refreshes And Revitalizes"
         />
         <ProductCard
           img={ExfoliatorGel}
@@ -44,7 +44,7 @@ Refreshes And Revitalizes"
           reducedPrice="299/-"
           productCode="MZ103420045FSBY"
           shortDetail="Material: Gel
-Product Feature: Exfoliator, Dead Skin Remover"
+            Product Feature: Exfoliator, Dead Skin Remover"
         />
         <ProductCard
           img={RiceAndPeachGel}
@@ -53,9 +53,9 @@ Product Feature: Exfoliator, Dead Skin Remover"
           reducedPrice="959/-"
           productCode="MZ60320026MNSRPS"
           shortDetail="Material: Gel
-Texture: Smooth
-Color: White
-Product Feature: Exfoliator, Whitening And Brightening"
+            Texture: Smooth
+            Color: White
+            Product Feature: Exfoliator, Whitening And Brightening"
           rating="5.0"
         />
         <ProductCard
@@ -65,9 +65,9 @@ Product Feature: Exfoliator, Whitening And Brightening"
           reducedPrice="549/-"
           productCode="MZ19920100RAAS"
           shortDetail="Material: Gel
-Texture: Smooth
-Color: Green
-Product Feature: Exfoliator, Whitening And Brightening, Acne Scar Removal"
+            Texture: Smooth
+            Color: Green
+            Product Feature: Exfoliator, Whitening And Brightening, Acne Scar Removal"
           rating="5.0"
         />
       </div>
