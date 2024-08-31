@@ -14,6 +14,10 @@ import {
   DisaarSunscreenLotion,
   OilFreeTintedSaeedGhani,
 } from "./Images/SunblocksImgs";
+import {
+  OilFreeTintedSaeedGhaniDesc,
+  DisaarSunscreenLotionDesc,
+} from "./sunblocksDesc";
 function Sunblock() {
   return (
     <>
@@ -27,24 +31,17 @@ function Sunblock() {
           price="1599/-"
           reducedPrice="1259/-"
           productCode="MZ23800000005SKTS"
-          shortDetail="Material: Cream
-            Volume: 30Ml
-            Package Includes: 1 x Sunscreen"
+          shortDetail={OilFreeTintedSaeedGhaniDesc}
           rating="5.0"
         />
 
         <ProductCard
           img={DisaarSunscreenLotion}
-          text="UV Protectant Sunblock Lotion, 50 Ml"
+          text="UV Protectant Sunblock Lotion"
           price="899/-"
           reducedPrice="599/-"
           productCode="MZ655000000112CLSCL"
-          shortDetail="Material: Cream
-            Product Type: UV Protectant Sunblock Spf 50
-            Product Details: Helps Protect The Skin Against Sun Broad Spectrum Of Harmful UV Radiations, No White Sheen, For All Skin Types, Paraben Free
-            Color: White
-            Package Includes: 1 x Sunblock
-            Weight: 50 Ml"
+          shortDetail={DisaarSunscreenLotionDesc}
         />
 
         <ProductCard

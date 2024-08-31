@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Stars from "../Stars";
 import FeaturedProducts from "../FeaturedProducts/FeaturedProducts";
+
+import parse from "html-react-parser";
+
 const ProductDetails = () => {
   const location = useLocation();
   const { img, text, price, reducedPrice, shortDetail, rating, productCode } =
@@ -35,10 +38,12 @@ Please provide more details.`;
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />
           </div>
-          <div className="md:w-1/2 lg:w-3/4 md:ml-6 mt-4 md:mt-0 flex flex-col justify-between">
+          <div className="browser-css md:w-1/2 lg:w-3/4 md:ml-6 mt-4 md:mt-0 flex flex-col justify-between">
             <div>
               <h2 className="text-2xl font-bold">{text}</h2>
-              <p className="mt-2 text-gray-700">{shortDetail}</p>
+              <div className="mt-2 text-gray-700 browser-css">
+                {parse(shortDetail)}
+              </div>
               <p className="text-xl md:text-3xl font-bold text-slate-900">
                 Rs.{reducedPrice}{" "}
                 <span className="line-through text-sm font-normal">
@@ -68,7 +73,6 @@ Please provide more details.`;
           </div>
         </div>
       </div>
-      {/* <FeaturedProducts /> */}
     </>
   );
 };

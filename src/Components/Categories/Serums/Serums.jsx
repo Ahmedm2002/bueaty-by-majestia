@@ -10,6 +10,12 @@ import {
   teaTreeEssentialOil,
 } from "./Images/SerumsImgs";
 
+import {
+  pixiSerumDesc,
+  TeaTreeOilSerumDesc,
+  NiacinamideSkinpeelingDesc,
+} from "./serumsDescriptions";
+
 function Serums() {
   return (
     <>
@@ -23,11 +29,7 @@ function Serums() {
           price="749/-"
           reducedPrice="539/-"
           productCode={null}
-          shortDetail="Material: Liquid
-            Product Type: Tea Tree Oil Anti-Acne Serum
-            Product Details: Specially Formulated To Target Acne Prone Skin, This Serum Helps Clear Blemishes, Control Oil, And Promote A Healthy, Balanced Complexion, Soothing And Calming, Regulates Oil Production, Clearer And Healthier Skin. Multiple Uses: (1) Face Care: 1-3 drops into the foam cleanser, water, milk, cream, facial mask etc in the mix to use, (2) Hair Care: 5 drops into the water to wash your hair, or drop into the shampoo and conditioner used in, or directly to massage the scalp, (3)Bady Care: Bubble bath, bath, or feet, etc. (4) Environmental Care: It can be as perfume spray in the environment.
-            Package Includes: 1 x Serum
-            Weight: 10 Ml"
+          shortDetail={TeaTreeOilSerumDesc}
         />
 
         <ProductCard
@@ -73,9 +75,7 @@ function Serums() {
           price="849/-"
           reducedPrice="719/-"
           productCode="MZ69120013AIBSFD"
-          shortDetail="Product Details: Skin Brightening, Evens Skin Tone, Hydration Boost, Gentle And Non Irritating, Kin Plump And Hydrated, Unveil Your Natural Beauty
-            Package Includes: 1 x Serum
-            Weight: 30 Ml"
+          shortDetail={NiacinamideSkinpeelingDesc}
         />
 
         <ProductCard
@@ -84,8 +84,7 @@ function Serums() {
           price="899/-"
           reducedPrice="649/-"
           productCode="1949615"
-          shortDetail="Repair damaged skin provide glow in skin help to remove pigmentation acne scars tighten your skin work as anti aging.
-          Helps In: This concentrated, volumizing serum is formulated with Acacia Collagen, Retinol and vitamins to help restore skin’s elasticity."
+          shortDetail={pixiSerumDesc}
         />
       </div>
     </>

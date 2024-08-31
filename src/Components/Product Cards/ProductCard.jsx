@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import parse from "html-react-parser";
 import Stars from "../Stars";
 
 function truncateText(text) {
@@ -75,7 +76,7 @@ Please provide more details.`;
             </h3>
             {shortDetail && (
               <p className="text-sm text-gray-900">
-                {truncateText(shortDetail)}{" "}
+                {parse(truncateText(shortDetail))}
                 <p
                   onClick={handleDetailsClick}
                   className="cursor-pointer inline text-pink-600"
