@@ -50,6 +50,7 @@ Please provide more details.`;
                   Rs.{price}
                 </span>
               </p>
+              <p>{productCode}</p>
               <div className="mt-4">
                 <Stars stars={rating} />
               </div>

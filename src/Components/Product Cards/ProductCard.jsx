@@ -96,7 +96,7 @@ Please provide more details.`;
               </p>
               <br />
             </div>
-            {/* <p>{productCode}</p> */}
+            <p>{productCode}</p>
 
             <div className="md:inline block">
               <Stars stars={rating} />
