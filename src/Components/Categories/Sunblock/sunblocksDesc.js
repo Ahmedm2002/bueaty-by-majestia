@@ -53,5 +53,31 @@ const DisaarSunscreenLotionDesc = `
 
 `
 
+const spf60SunScreenDesc = `
 
-export {OilFreeTintedSaeedGhaniDesc, DisaarSunscreenLotionDesc}
+<p><strong>Product Type:</strong> Sunscreen</p>
+<p><strong>SPF:</strong> 60</p>
+<p><strong>Color:</strong> Yellow</p>
+<p><strong>Package Includes:</strong> 1 x Sunscreen</p>
+
+<p><strong>Product Description:</strong></p>
+<p>Stay protected under the sun with our Sunscreen SPF-60. This high-performance sunscreen is designed to provide superior protection against harmful UVA and UVB rays, helping to prevent sunburn, skin damage, and premature aging. With a high SPF of 60, this sunscreen offers broad-spectrum defense, ensuring your skin remains shielded from the sun's harsh effects.</p>
+<p>The lightweight formula glides smoothly onto the skin, absorbing quickly without leaving a greasy residue. Its yellow tint blends seamlessly, providing a subtle glow while protecting your skin. Suitable for all skin types, this sunscreen is an essential part of your daily skincare routine, whether you're heading to the beach or running errands in the city.</p>
+
+<p><strong>Key Benefits:</strong></p>
+<ul>
+    <li><strong>High SPF 60 Protection:</strong> Offers strong defense against UVA and UVB rays, reducing the risk of sunburn and long-term skin damage.</li>
+    <li><strong>Lightweight and Non-Greasy:</strong> Easily absorbs into the skin, leaving a smooth, matte finish without a heavy or oily feel.</li>
+    <li><strong>Subtle Yellow Tint:</strong> Blends effortlessly into all skin tones, providing a natural glow while protecting your skin.</li>
+    <li><strong>For All Skin Types:</strong> Gentle enough for sensitive skin yet effective for normal, oily, and dry skin.</li>
+</ul>
+
+<p><strong>How to Use:</strong></p>
+<p>Apply generously to all exposed areas of the skin 15 minutes before sun exposure. Reapply every two hours or immediately after swimming, sweating, or towel drying to maintain optimal protection.</p>
+
+<p>Embrace the outdoors with confidence, knowing your skin is well-protected with our Sunscreen SPF-60.</p>
+
+`;
+
+
+export {OilFreeTintedSaeedGhaniDesc,spf60SunScreenDesc,  DisaarSunscreenLotionDesc}

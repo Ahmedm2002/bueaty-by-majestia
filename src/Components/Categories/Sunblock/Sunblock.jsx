@@ -14,10 +14,13 @@ import {
   DisaarSunscreenLotion,
   OilFreeTintedSaeedGhani,
 } from "./Images/SunblocksImgs";
+
 import {
   OilFreeTintedSaeedGhaniDesc,
   DisaarSunscreenLotionDesc,
+  spf60SunScreenDesc,
 } from "./sunblocksDesc";
+
 function Sunblock() {
   return (
     <>
@@ -70,8 +73,7 @@ function Sunblock() {
           price="799/-"
           reducedPrice="599/-"
           productCode="MZ118320032CCCS"
-          shortDetail="Product Feature: UV Protectant, Protects From Sunburn
-            sun screen with spf-60 & vitamin E highly effective and immediate UVA/UVV protection against sun burn "
+          shortDetail={spf60SunScreenDesc}
         />
         <ProductCard
           img={uvSunblock}
