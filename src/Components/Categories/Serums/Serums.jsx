@@ -1,11 +1,15 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import RiceSkinBueatyEssence from "./Images/RiceSkinBueatyEssence.jpeg";
-import pixiSerum from "./Images/pixiSerum.jpeg";
-import NiacinamideSkinpeeling from "./Images/NiacinamideSkinpeeling.jpeg";
-import TeaTreeSerum from "./Images/TeaTreeSerum.jpeg";
-import TeaTreeOilSerum from "./Images/TeaTreeOilSerum.jpeg";
-import teaTreeEssentialOil from "./Images/teaTreeEssentialOil.jpeg";
+
+import {
+  RiceSkinBueatyEssence,
+  pixiSerum,
+  NiacinamideSkinpeeling,
+  TeaTreeSerum,
+  TeaTreeOilSerum,
+  teaTreeEssentialOil,
+} from "./Images/SerumsImgs";
+
 function Serums() {
   return (
     <>

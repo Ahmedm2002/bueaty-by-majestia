@@ -1,17 +1,21 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import NeemLeavesPowder from "./Images/NeemLeavesPowder.jpeg";
-import RicePowderandMultaniMitti from "./Images/RicePowderandMultaniMitti.jpeg";
-import RicePwdrCharcoal from "./Images/RicePwdrCharcoal.jpeg";
-import RoseNeemPowder from "./Images/RoseNeemPowder.jpeg";
-import RicePowderFacePack from "./Images/RicePowderFacePack.jpeg";
-import multaniMittiPwdr from "./Images/multaniMittiPwdr.jpeg";
-import OrangePeelsPwdr from "./Images/OrangePeelsPwdr.jpeg";
-import neemLeavesPwdr from "./Images/neemLeavesPwdr.jpeg";
-import roseFlowerPwdr from "./Images/roseFlowerPwdr.jpeg";
-import FacePowder from "./Images/FacePowder.jpeg";
-import BeetrootPowder from "./Images/BeetrootPowder.jpeg";
-import MuddMaskGolendGirl from "./Images/MuddMaskGolendGirl.jpeg";
+
+import {
+  NeemLeavesPowder,
+  RicePowderandMultaniMitti,
+  RicePwdrCharcoal,
+  RoseNeemPowder,
+  RicePowderFacePack,
+  multaniMittiPwdr,
+  OrangePeelsPwdr,
+  neemLeavesPwdr,
+  roseFlowerPwdr,
+  FacePowder,
+  BeetrootPowder,
+  MuddMaskGolendGirl,
+} from "./Images/PowdersImgs";
+
 function Powders() {
   return (
     <>

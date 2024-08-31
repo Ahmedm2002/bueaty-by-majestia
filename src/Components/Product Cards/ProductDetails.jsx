@@ -68,7 +68,7 @@ Please provide more details.`;
           </div>
         </div>
       </div>
-      <FeaturedProducts />
+      {/* <FeaturedProducts /> */}
     </>
   );
 };

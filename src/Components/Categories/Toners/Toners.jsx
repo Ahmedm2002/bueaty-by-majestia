@@ -1,6 +1,8 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import DermaSkinToner from "./Imgaes/DermaSkinToner.jpeg";
+
+import { DermaSkinToner } from "./Imgaes/TonersImgs";
+
 function Toners() {
   return (
     <>

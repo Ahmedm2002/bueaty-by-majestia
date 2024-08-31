@@ -1,11 +1,15 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import OliveBlackMask from "./Images/OliveBlackMask.jpeg";
-import PeelOffMask from "./Images/PeelOffMask.jpeg";
-import SadoerGoldMask from "./Images/SadoerGoldMask.jpeg";
-import StrawberryMaskStick from "./Images/StrawberryMaskStick.jpeg";
-import DrRaheelGoldenCollagen from "./Images/DrRaheelGoldenCollagen.jpeg";
-import VitaminCAichunBueaty from "./Images/VitaminCAichunBueaty.jpeg";
+
+import {
+  OliveBlackMask,
+  PeelOffMask,
+  SadoerGoldMask,
+  StrawberryMaskStick,
+  DrRaheelGoldenCollagen,
+  VitaminCAichunBueaty,
+} from "./Images/MasksImgs";
+
 function FaceMasks() {
   return (
     <>

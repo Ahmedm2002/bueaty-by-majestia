@@ -1,16 +1,19 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import spf60SunScreen from "./Images/spf60SunScreen.jpeg";
-import uvSunblock from "./Images/uvSunblock.jpeg";
-import sunblock120gUV from "./Images/sunblock120gUV.jpeg";
-import CeraVeSunblock from "./Images/CeraVeSunblock.jpeg";
-import SunblockPackOf3 from "./Images/SunblockPackOf3.jpeg";
-import AntheliosUvmune from "./Images/AntheliosUvmune.jpeg";
-import pondsUvProtect from "./Images/pondsUvProtect.jpeg";
-import NeutrogenaSunblock from "./Images/NeutrogenaSunblock.jpeg";
-import JessicaSunblock from "./Images/JessicaSunblock.jpeg";
-import DisaarSunscreenLotion from "./Images/DisaarSunscreenLotion.jpeg";
-import OilFreeTintedSaeedGhani from "./Images/OilFreeTintedSaeedGhani.jpeg";
+
+import {
+  spf60SunScreen,
+  uvSunblock,
+  sunblock120gUV,
+  CeraVeSunblock,
+  SunblockPackOf3,
+  AntheliosUvmune,
+  pondsUvProtect,
+  NeutrogenaSunblock,
+  JessicaSunblock,
+  DisaarSunscreenLotion,
+  OilFreeTintedSaeedGhani,
+} from "./Images/SunblocksImgs";
 function Sunblock() {
   return (
     <>

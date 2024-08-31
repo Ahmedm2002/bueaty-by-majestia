@@ -1,9 +1,11 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-import nightCream from "./Images/nightCream.jpeg";
-import exfoliatingNCPck2 from "./Images/exfoliatingNCPck2.jpeg";
-import vitaminCnightCream from "./Images/vitaminCnightCream.jpeg";
-import retinolSaeedGhaniAntiAging from "./Images/retinolSaeedGhaniAntiAging.jpeg";
+import {
+  nightCream,
+  exfoliatingNCPck2,
+  vitaminCnightCream,
+  retinolSaeedGhaniAntiAging,
+} from "./Images/NightSkinCareImgs";
 
 function NightSkinCare() {
   return (
