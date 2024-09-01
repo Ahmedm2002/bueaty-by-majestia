@@ -13,6 +13,7 @@ import {
   HyderatingBL250MLDesc,
   soapexFeetCreamDesc,
   CharismaHandAndFeetDesc,
+  WhiteningSpraySunProtectorDesc,
 } from "./bodyLotionsDesc";
 function BodyLotions() {
   return (
@@ -62,13 +63,7 @@ function BodyLotions() {
           price="999/-"
           reducedPrice="719/-"
           productCode="MZ67200225ALIBF"
-          shortDetail="UV Protectant Sunblock
-            Product Details:Material: Cream
-            Product Type: Whitening Spray
-            Product Details: Helps Protect The Skin Against Sun Broad Spectrum Of Harmful UV Radiations, No White Sheen, For All Skin Types, Paraben Free
-            Color: White
-            Package Includes: 1 x Skin Spray
-            Weight: 150 Ml"
+          shortDetail={WhiteningSpraySunProtectorDesc}
           rating="5.0"
         />
       </div>

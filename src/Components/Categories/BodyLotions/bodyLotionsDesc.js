@@ -6,14 +6,14 @@ const XQMFaceBodyScrubDesc = `
   <p><strong>Package Includes:</strong> 1 x Face & Body Scrubbing Mask</p>
 
   <h3>Product Features:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Exfoliator:</strong> Gently removes dead skin cells, revealing a smoother, more radiant complexion.</li>
     <li><strong>Dead Skin Remover:</strong> Effectively targets areas with dirt or dead skin, promoting clearer and healthier skin.</li>
     <li><strong>Plant Energy Formula:</strong> Enriched with natural plant extracts to invigorate the skin, leaving it feeling fresh and rejuvenated.</li>
   </ul>
 
   <h3>Directions for Use:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Application:</strong> Apply the scrub to areas of your face or body where dirt or dead skin is present.</li>
     <li><strong>Massage:</strong> Gently rub the scrub into the skin using circular motions for a few minutes.</li>
     <li><strong>Removal:</strong> Rinse off thoroughly with lukewarm water.</li>
@@ -34,7 +34,7 @@ const HyderatingBL250MLDesc = `
   <p><strong>Package Includes:</strong> 2 x Body Lotion</p>
 
   <h3>Product Features:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Hydrating Formula:</strong> Deeply moisturizes the skin, providing long-lasting hydration and leaving it feeling soft and supple.</li>
     <li><strong>Nourishing Ingredients:</strong> Enriched with essential nutrients to replenish and revitalize dry or dull skin.</li>
     <li><strong>Lightweight Texture:</strong> Absorbs quickly without leaving a greasy residue, making it perfect for daily use on all skin types.</li>
@@ -45,7 +45,7 @@ const HyderatingBL250MLDesc = `
   <p>Experience deep hydration and skin nourishment with our Hydrating Body Lotion. Each bottle is formulated to deliver intense moisture, keeping your skin soft, smooth, and refreshed all day long. This lotion is perfect for combating dryness and maintaining healthy, glowing skin, thanks to its rich blend of hydrating and nourishing ingredients. With a lightweight texture that absorbs quickly, this lotion is suitable for all skin types, including sensitive skin.</p>
 
   <h3>How to Use:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Apply:</strong> After a shower or bath, apply a generous amount of lotion to your entire body.</li>
     <li><strong>Massage:</strong> Gently massage into the skin until fully absorbed, focusing on particularly dry areas.</li>
     <li><strong>Reapply as needed:</strong> Use throughout the day for continuous hydration and softness.</li>
@@ -60,11 +60,11 @@ const soapexFeetCreamDesc = `
   <p><strong>Product ID:</strong> MZ19920069RAAS</p>
 
   <h3>Product Features:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Imported Formula:</strong> High-quality heel cream designed to repair and rejuvenate cracked skin on the feet and hands.</li>
     <li><strong>Ultra-Hydrating:</strong> Provides intense moisture to deeply hydrate and nourish dry, damaged skin.</li>
     <li><strong>Professional-Strength Formula:</strong> Specially formulated to deliver triple action benefits:</li>
-    <ul>
+    <ul className="list-disc ml-6 pl-4">
       <li><strong>Moisturizing:</strong> Restores moisture to dry, rough skin for a smoother, softer feel.</li>
       <li><strong>Repairing:</strong> Helps repair cracked and damaged skin, promoting healthier, more resilient skin over time.</li>
       <li><strong>Soothing:</strong> Calms and soothes irritated skin, providing immediate relief to discomfort caused by dryness and cracking.</li>
@@ -75,7 +75,7 @@ const soapexFeetCreamDesc = `
   <p>Say goodbye to dry, cracked feet and hands with Soapex Heel Cream. This imported, professional-strength formula is designed to target severely dry and damaged skin, delivering a powerful combination of moisturizing, repairing, and soothing benefits. The ultra-hydrating cream deeply penetrates the skin to restore moisture, repair cracks, and soothe irritation, leaving your skin feeling soft, smooth, and revitalized.</p>
 
   <h3>How to Use:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Cleanse:</strong> Wash your feet or hands and pat them dry.</li>
     <li><strong>Apply:</strong> Squeeze a small amount of cream onto the affected areas.</li>
     <li><strong>Massage:</strong> Gently massage into the skin, focusing on dry, cracked areas until fully absorbed.</li>
@@ -95,7 +95,7 @@ const CharismaHandAndFeetDesc = `
   <p><strong>Original Price:</strong> Rs. 799/-</p>
 
   <h3>Product Features:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Deep Cleansing Formula:</strong> Designed to remove dead skin and excess calluses from feet and hands, leaving the skin feeling smooth and refreshed.</li>
     <li><strong>Natural Ingredients:</strong> Enriched with natural purifying and exfoliating ingredients to help reveal a radiant complexion.</li>
     <li><strong>Exfoliating Action:</strong> Gently exfoliates to remove impurities and dead skin cells, allowing your skin’s natural radiance to shine through.</li>
@@ -103,7 +103,7 @@ const CharismaHandAndFeetDesc = `
   </ul>
 
   <h3>Package Includes:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li>1 x Dead Skin Remover Foot & Hand Scrub (30g)</li>
     <li>1 x Free Sunblock</li>
   </ul>
@@ -113,7 +113,7 @@ const CharismaHandAndFeetDesc = `
   <p>As an added bonus, each purchase comes with a Free Sunblock to protect your newly revitalized skin from harmful UV rays, ensuring your skin remains healthy and vibrant all day long.</p>
 
   <h3>How to Use:</h3>
-  <ul>
+  <ul className="list-disc ml-6 pl-4">
     <li><strong>Apply:</strong> Wet your feet or hands and apply a small amount of the scrub to the desired areas.</li>
     <li><strong>Massage:</strong> Gently massage in circular motions to exfoliate and remove dead skin.</li>
     <li><strong>Rinse:</strong> Rinse thoroughly with warm water and pat dry.</li>
@@ -123,5 +123,37 @@ const CharismaHandAndFeetDesc = `
   <p>Enjoy smooth, radiant skin with the Dead Skin Remover Foot & Hand Scrub, complete with a free sunblock to protect your glow.</p>
 `;
 
+const WhiteningSpraySunProtectorDesc = `
+<p><strong>Product Type:</strong> UV Protectant Sunblock</p>
+  <p><strong>Material:</strong> Cream</p>
+ 
+  <h3>Product Features:</h3>
+  <ul className="list-disc ml-6 pl-4">
+    <li><strong>Whitening and Sun Protection:</strong> This dual-action spray not only helps to brighten and even out skin tone but also offers broad-spectrum protection against harmful UV rays.</li>
+    <li><strong>Broad-Spectrum UV Protection:</strong> Shields skin from UVA and UVB rays, helping to prevent sunburn, skin damage, and signs of premature aging.</li>
+    <li><strong>No White Sheen:</strong> Designed to blend seamlessly into the skin without leaving a white residue, making it ideal for daily use on all skin types.</li>
+    <li><strong>Paraben-Free Formula:</strong> Safe for all skin types, including sensitive skin, as it is free from harmful parabens and chemicals.</li>
+    <li><strong>Convenient Spray Application:</strong> The easy-to-use spray format allows for quick and even application, ensuring full coverage and protection.</li>
+  </ul>
 
-export {XQMFaceBodyScrubDesc, HyderatingBL250MLDesc , soapexFeetCreamDesc, CharismaHandAndFeetDesc}
+  <h3>Package Includes:</h3>
+  <ul className="list-disc ml-6 pl-4">
+    <li>1 x Whitening Spray & Sun Protector (150 ml)</li>
+  </ul>
+
+  <h3>Description:</h3>
+  <p>Protect your skin while enhancing its natural radiance with the Whitening Spray & Sun Protector. This versatile product offers the dual benefits of brightening and UV protection in one convenient formula. Crafted from a creamy texture that feels light and comfortable on the skin, it effectively shields against a broad spectrum of harmful UV rays without leaving a white sheen. Its paraben-free composition makes it suitable for all skin types, providing peace of mind for those with sensitive skin.</p>
+
+  <h3>How to Use:</h3>
+  <ol>
+    <li><strong>Shake Well:</strong> Shake the bottle thoroughly before use to ensure even distribution of ingredients.</li>
+    <li><strong>Apply Generously:</strong> Spray evenly over the face and exposed areas of the body before sun exposure.</li>
+    <li><strong>Reapply as Needed:</strong> For optimal protection, reapply every 2 hours or after swimming, sweating, or towel drying.</li>
+  </ol>
+
+  <p>Embrace a brighter, more protected complexion with the Whitening Spray & Sun Protector, your perfect companion for sunny days!</p>
+
+`;
+
+
+export {XQMFaceBodyScrubDesc, HyderatingBL250MLDesc , soapexFeetCreamDesc, CharismaHandAndFeetDesc, WhiteningSpraySunProtectorDesc}

@@ -14,6 +14,9 @@ import {
   pixiSerumDesc,
   TeaTreeOilSerumDesc,
   NiacinamideSkinpeelingDesc,
+  TeaTreeSerumDesc,
+  RiceSkinBueatyEssenceDesc,
+  teaTreeEssentialOilDesc,
 } from "./serumsDescriptions";
 
 function Serums() {
@@ -38,13 +41,7 @@ function Serums() {
           price="1299/-"
           reducedPrice="959/-"
           productCode={null}
-          shortDetail="Tea Tree Oil Serum
-            Product Details:Material: Liquid
-            Product Type: Tea Tree Oil 
-            Product Details: Specially Formulated To Target Acne Prone Skin, This Serum Helps Clear Blemishes, Control Oil, And Promote A Healthy, Balanced Complexion, Soothing And Calming, Regulates Oil Production, Clearer And Healthier Skin
-            Color: Green
-            Package Includes: 1 x Serum
-            Weight: 30 Ml"
+          shortDetail={TeaTreeSerumDesc}
         />
 
         <ProductCard
@@ -53,9 +50,7 @@ function Serums() {
           price="1599/-"
           reducedPrice="1449/-"
           productCode="MZ18700837RFAAC"
-          shortDetail="Material: Cream
-            Product Type: Rice Cream, Rice Lotion And Rice Serum Deal
-            Product Details: Nourish Your Skin, Moisture Replenish for Body, Soothing And Cooling, Hydration"
+          shortDetail={RiceSkinBueatyEssenceDesc}
         />
 
         <ProductCard
@@ -64,9 +59,7 @@ function Serums() {
           price="349/-"
           reducedPrice="259/-"
           productCode="MZ88300009UNQWD"
-          shortDetail="Material: Oil
-            Volume: 10 Ml
-            Package Includes: 1 x Oil"
+          shortDetail={teaTreeEssentialOilDesc}
         />
 
         <ProductCard
