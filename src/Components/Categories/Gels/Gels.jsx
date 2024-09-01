@@ -8,6 +8,14 @@ import {
   AloeveraGel,
 } from "./Images/GelsImgs";
 
+import {
+  AloeVeraSmoothingGelDesc,
+  AloeveraGelDesc,
+  ExfoliatorGelDesc,
+  RiceAndPeachGelDesc,
+  XQMExfoliatingGelDesc,
+} from "./GelsDesc";
+
 function Gels() {
   return (
     <>
@@ -17,14 +25,11 @@ function Gels() {
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
         <ProductCard
           img={AloeVeraSmoothingGel}
-          text="Soothing Aloe Vera Gel "
+          text="Soothing Aloe Vera Gel"
           price="499/-"
           reducedPrice="229/-"
           productCode="MZ88300007UNQWD"
-          shortDetail=":Material: Gel
-            Texture: Glossy
-            Weight: 300 Grams
-            Package Includes: 1 x Aloe Vera Gel"
+          shortDetail={AloeVeraSmoothingGelDesc}
         />
 
         <ProductCard
@@ -33,12 +38,7 @@ function Gels() {
           price="299/-"
           reducedPrice="239/-"
           productCode="MZ103420052FSBY"
-          shortDetail="Soothing Hydration
-            Instant Cooling Relief
-            Deeply Moisturizing
-            Natural Aloe Vera Extract
-            Non-Greasy Formula
-            Refreshes And Revitalizes"
+          shortDetail={AloeveraGelDesc}
         />
         <ProductCard
           img={ExfoliatorGel}
@@ -46,8 +46,7 @@ function Gels() {
           price="349/-"
           reducedPrice="299/-"
           productCode="MZ103420045FSBY"
-          shortDetail="Material: Gel
-            Product Feature: Exfoliator, Dead Skin Remover"
+          shortDetail={ExfoliatorGelDesc}
         />
         <ProductCard
           img={RiceAndPeachGel}
@@ -55,10 +54,7 @@ function Gels() {
           price="1099/-"
           reducedPrice="959/-"
           productCode="MZ60320026MNSRPS"
-          shortDetail="Material: Gel
-            Texture: Smooth
-            Color: White
-            Product Feature: Exfoliator, Whitening And Brightening"
+          shortDetail={RiceAndPeachGelDesc}
           rating="5.0"
         />
         <ProductCard
@@ -67,10 +63,7 @@ function Gels() {
           price="699/-"
           reducedPrice="549/-"
           productCode="MZ19920100RAAS"
-          shortDetail="Material: Gel
-            Texture: Smooth
-            Color: Green
-            Product Feature: Exfoliator, Whitening And Brightening, Acne Scar Removal"
+          shortDetail={XQMExfoliatingGelDesc}
           rating="5.0"
         />
       </div>

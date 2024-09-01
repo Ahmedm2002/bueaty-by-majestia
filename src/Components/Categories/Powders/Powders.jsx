@@ -16,6 +16,8 @@ import {
   MuddMaskGolendGirl,
 } from "./Images/PowdersImgs";
 
+import { MuddMaskGolendGirlDesc } from "./PowdersDesc";
+
 function Powders() {
   return (
     <>
@@ -29,12 +31,7 @@ function Powders() {
           price="659/-"
           reducedPrice="469/-"
           productCode="MZ88700004ARSML"
-          shortDetail="Face Mask
-            Product Details:Material: Liquid
-            Product Type: Face Mask
-            Product Details: Moisture, Anti Ageing, Cleaning Facial, Pore Reducer And Helps Clean Acne
-            Package Includes: 1 x Face Mask
-            Weight: 75 G."
+          shortDetail={MuddMaskGolendGirlDesc}
         />
 
         <ProductCard

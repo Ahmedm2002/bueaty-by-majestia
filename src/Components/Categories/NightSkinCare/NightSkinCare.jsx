@@ -7,6 +7,13 @@ import {
   retinolSaeedGhaniAntiAging,
 } from "./Images/NightSkinCareImgs";
 
+import {
+  retinolSaeedGhaniAntiAgingDesc,
+  vitaminCnightCreamDesc,
+  nightCreamDesc,
+  exfoliatingNCPck2Desc,
+} from "./NightSkinCareDesc";
+
 function NightSkinCare() {
   return (
     <>
@@ -20,10 +27,7 @@ function NightSkinCare() {
           price="1599/-"
           reducedPrice="1259/-"
           productCode="MZ23800000006SKTS"
-          shortDetail="Material: Cream
-            Niacinamide (Vitamin B3)
-            Weight: 40g
-            Package Includes: 1 x Night Cream"
+          shortDetail={retinolSaeedGhaniAntiAgingDesc}
           rating="5.0"
         />
 
@@ -33,11 +37,7 @@ function NightSkinCare() {
           price="1299/-"
           reducedPrice="1099/-"
           productCode="MZ117420031FZCS"
-          shortDetail="Material: Cream
-            Texture: Smooth
-            Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
-            Color: Orange
-            Product Feature: Whitening And Brightening"
+          shortDetail={vitaminCnightCreamDesc}
         />
 
         <ProductCard
@@ -46,11 +46,7 @@ function NightSkinCare() {
           price="699/-"
           reducedPrice="459/-"
           productCode="MZ23800144SKTS"
-          shortDetail="Material: Cream
-            Whitening And Brightening
-            Extreme Strong Whitening And Aging Night Cream
-            Formulated To Heal And Rejuvenate The Skin Overnight
-            Targets Dark Spots, Fine Lines, And Uneven Skin Tone"
+          shortDetail={nightCreamDesc}
         />
         <ProductCard
           img={exfoliatingNCPck2}
@@ -58,9 +54,7 @@ function NightSkinCare() {
           price="1699/-"
           reducedPrice="1399/-"
           productCode="MZ23800118SKTS"
-          shortDetail="Material: Gel, Cream
-            Texture: High Pigmented
-            Plant Extraction Can Effectively Replenish Skin Moisture And Make Skin Tender And Smooth"
+          shortDetail={exfoliatingNCPck2Desc}
           rating="5.0"
         />
       </div>

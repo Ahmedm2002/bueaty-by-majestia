@@ -7,6 +7,12 @@ import {
   VeetPeelOffNoseStrip,
 } from "./Images/cleansersImgs";
 
+import {
+  CleanserAndMosturizingLotionDesc,
+  GoatMilkSaeedGhaniDesc,
+  VeetPeelOffNoseStripDesc,
+} from "./CleansersDesc";
+
 function Cleansers() {
   return (
     <>
@@ -19,10 +25,7 @@ function Cleansers() {
           text="Hydrating Cleanser And Moisturizing Lotion, Pack Of 2"
           price="2999/-"
           reducedPrice="2699/-"
-          shortDetail="Material: Cream
-            Texture: High Pigmented
-            Moisturizing Lotion Is A Lightweight, Oil-Free Moisturizer With Three Essential Ceramides That Lock In The Skin's Moisture
-            Hydrating Cleanser With Hyaluronic Acid For Normal To Dry Skin"
+          shortDetail={CleanserAndMosturizingLotionDesc}
           productCode="MZ23800117SKTS"
           rating="5.0"
         />
@@ -32,10 +35,7 @@ function Cleansers() {
           price="1199/-"
           reducedPrice="959/-"
           productCode="MZ23800000007SKTS"
-          shortDetail="Material: Cream
-            Weight: 180Grams
-            Package Includes: 1 x Whitening Cream
-            "
+          shortDetail={GoatMilkSaeedGhaniDesc}
         />
         <ProductCard
           img={VeetPeelOffNoseStrip}
@@ -43,12 +43,7 @@ function Cleansers() {
           price="1099/-"
           reducedPrice="839/-"
           productCode="MZ83100018NANTR"
-          shortDetail="Nose Strips
-            Product Details:Material: Strips
-            Product Type: Peel Off Nose Strips
-            Product Details: Deep Cleansing, Suck Out Black Heads, Erase Dark Spots
-            Package Includes: 1 x Peel Off Nose Strips
-            6 Nose Strips In Each Pack"
+          shortDetail={VeetPeelOffNoseStripDesc}
         />
         {/* <ProductCard
             img={exfoliatingNCPck2}
