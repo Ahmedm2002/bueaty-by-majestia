@@ -7,6 +7,13 @@ import {
   CharismaHandAndFeet,
   WhiteningSpraySunProtector,
 } from "./Images/bodyLotions";
+
+import {
+  XQMFaceBodyScrubDesc,
+  HyderatingBL250MLDesc,
+  soapexFeetCreamDesc,
+  CharismaHandAndFeetDesc,
+} from "./bodyLotionsDesc";
 function BodyLotions() {
   return (
     <>
@@ -20,13 +27,7 @@ function BodyLotions() {
           price="899/-"
           reducedPrice="659/-"
           productCode="MZ66600064GNCS"
-          shortDetail="Material: Cream
-            Product Feature: Exfoliator, Dead Skin Remover
-            Package Includes: 1 x Face & Body Scrubbing Mask
-            Directions: Apply 2 times a day for the best results
-            Apply on your skin where dirt or dead skin is present, rub it then remove. 
-            Package Includes: 1 x Face & Body Pure Active Plant Energy
-            Weight: 100 g"
+          shortDetail={XQMFaceBodyScrubDesc}
         />
 
         <ProductCard
@@ -34,9 +35,7 @@ function BodyLotions() {
           text="Hydrating Body Lotion, 250 Ml"
           price="699/-"
           reducedPrice="539/-"
-          shortDetail="Hydrating
-            Package Includes: 2 x Body Lotion
-            Volume: 250 Ml"
+          shortDetail={HyderatingBL250MLDesc}
           productCode="MZ69120180AIBSFD"
         />
 
@@ -46,8 +45,7 @@ function BodyLotions() {
           price="499/-"
           reducedPrice="389/-"
           productCode="MZ19920069RAAS"
-          shortDetail="Material: Cream
-            Imported Cracked Foot And Hands Skin Repair Cream, Ultra-Hydrating, Professional-Strength Formula             Delivering Triple Action –Moisturizing, Repairing, And Soothing Dry, Cracked Feet."
+          shortDetail={soapexFeetCreamDesc}
         />
         <ProductCard
           img={CharismaHandAndFeet}
@@ -55,11 +53,7 @@ function BodyLotions() {
           price="799/-"
           reducedPrice="589/-"
           productCode={null}
-          shortDetail="Material: Scrub
-            Product Type: Dead Skin Remover Foot & Hand Scrub
-            Product Details: Scrub Deep Cleans To Leave Skin Healthy And Refreshed, Contains Natural Ingredients That Purify And Exfoliate For A Radiant Complexion, By Gently Removing Excess Callus And Dead Skin, This Scrub Lets Skin Natural Radiance Shine
-            Package Includes: 1 x Scrub, 1 x Sunblock
-            Weight: 30 g"
+          shortDetail={CharismaHandAndFeetDesc}
           rating="5.0"
         />
         <ProductCard

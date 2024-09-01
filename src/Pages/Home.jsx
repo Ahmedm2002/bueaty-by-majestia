@@ -5,7 +5,7 @@ import banner from "../../public/banner.jpg";
 function Home() {
   return (
     <>
-      {/* <img src={banner} className="w-full h-96 md:w-[97%] mx-auto" /> */}
+      {/* <img src={banner} className="w-full" /> */}
       <AllCategories />
       <FeaturedProducts />
     </>
