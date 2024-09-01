@@ -8,7 +8,7 @@ const DeepFreshFaceWashDesc = `
 <p>Revitalize your skin with the Deep Fresh Brightening Face Wash. Crafted with a blend of premium herbs and fruits, this face wash is designed to provide optimal skincare for all skin types. It offers a gentle yet effective cleansing experience, helping to brighten your complexion while protecting your skin from sunlight and environmental pollutants.</p>
 
 <h3>Key Features:</h3>
-<ul>
+<ul className="list-disc ml-6 pl-4">
   <li><strong>Brightening Formula:</strong> Infused with natural herbs and fruits, this face wash helps to enhance your skin's radiance and even out your complexion.</li>
   <li><strong>Deep Cleansing:</strong> Effectively removes impurities, excess oil, and daily grime, leaving your skin feeling fresh, clean, and rejuvenated.</li>
   <li><strong>Sunlight Protection:</strong> Provides a layer of protection against harmful environmental factors, contributing to healthier and more resilient skin.</li>
@@ -32,7 +32,7 @@ const GalipWashScrubMaskDesc = `
 <p>Elevate your skincare routine with the 3 in 1 Face & Body Scrubbing Mask. This versatile scrubbing mask is designed to cleanse, exfoliate, and rejuvenate both your face and body. With a luxurious cream texture, it provides a thorough yet gentle exfoliation, removing dead skin cells and impurities to reveal smoother, healthier skin.</p>
 
 <h3>Key Features:</h3>
-<ul>
+<ul className="list-disc ml-6 pl-4">
   <li><strong>3 in 1 Function:</strong> Combines the benefits of a cleanser, exfoliator, and mask in one easy-to-use product, making it a versatile addition to your skincare routine.</li>
   <li><strong>Exfoliating Power:</strong> Effectively sloughs off dead skin cells and impurities, helping to improve skin texture and promote a radiant complexion.</li>
   <li><strong>Creamy Texture:</strong> The rich, creamy formula glides on smoothly, providing a soothing and pampering experience for both the face and body.</li>
@@ -59,7 +59,7 @@ const RiceFaceWashDesc = `
 <p>Experience gentle, effective cleansing with the Rice Face Wash. This luxurious liquid face wash features a smooth texture that glides effortlessly over the skin, providing a thorough cleanse while maintaining hydration. Enriched with rice extract, it offers a soothing and nourishing formula that is suitable for all skin types, including sensitive and acne-prone skin.</p>
 
 <h3>Key Features:</h3>
-<ul>
+<ul className="list-disc ml-6 pl-4">
   <li><strong>Hydrating Formula:</strong> Provides essential moisture while cleansing, ensuring that your skin remains hydrated and refreshed after every wash.</li>
   <li><strong>Smooth Texture:</strong> The silky, liquid texture spreads easily, creating a luxurious lather that gently cleanses without stripping the skin of its natural oils.</li>
   <li><strong>Suitable for All Skin Types:</strong> Formulated to be gentle and effective on normal, oily, dry, combination, sensitive, and acne-prone skin, making it a versatile choice for everyone.</li>
@@ -85,7 +85,7 @@ const GoldernPearlTripleProtectionDesc = `
 <p>Experience superior sun protection with Sunblock Triple Protection. This advanced sunblock offers a comprehensive defense against harmful UV rays, ensuring your skin is shielded from sunburn and premature aging. Designed for effective skin care, this sunblock is ideal for use on all exposed areas, including often-overlooked spots like the ears, neck, back of the hands, and tops of the feet.</p>
 
 <h3>Key Features:</h3>
-<ul>
+<ul className="list-disc ml-6 pl-4">
   <li><strong>Triple Protection:</strong> Provides robust defense against UV-A and UV-B rays, helping to prevent sunburn and protect your skin from long-term damage.</li>
   <li><strong>Generous Size:</strong> Comes in a 200 g tube, offering ample product for extended use and frequent application.</li>
   <li><strong>Skin Care Benefits:</strong> Formulated with skin-loving ingredients to nourish and protect, contributing to a healthier and more resilient complexion.</li>
@@ -108,7 +108,7 @@ const DrRashelFaceWashDesc = `
 <p>Experience a deep and revitalizing cleanse with Dr. Rashel's Purifying Face Wash. Infused with activated charcoal, this face wash is designed to detoxify your skin, control oil production, and prevent breakouts. Its powerful formula purifies and refreshes your complexion, leaving your skin feeling clearer, healthier, and more vibrant.</p>
 
 <h3>Key Features:</h3>
-<ul>
+<ul className="list-disc ml-6 pl-4">
   <li><strong>Activated Charcoal:</strong> Harnesses the purifying power of activated charcoal to draw out impurities, toxins, and excess oil from the skin, helping to unclog pores and prevent breakouts.</li>
   <li><strong>Deep Cleansing:</strong> Provides a thorough cleanse that removes dirt, oil, and pollutants, ensuring a fresh and revitalized complexion.</li>
   <li><strong>Oil Control:</strong> Helps regulate sebum production, making it an ideal choice for oily and combination skin types.</li>
@@ -130,7 +130,7 @@ const AcneControlTeaDesc = `
 <p>Revitalize your skincare routine with Acne Control Tea Tree Face Wash, a potent solution designed for clearer, healthier-looking skin. Infused with the purifying essence of tea tree oil, this invigorating cleanser is specifically formulated to target acne-causing bacteria while gently unclogging pores. Ideal for daily use, it helps to keep your skin fresh, clean, and free from blemishes.</p>
 
 <h3>Key Features:</h3>
-<ul>
+<ul className="list-disc ml-6 pl-4">
   <li><strong>Tea Tree Oil Infusion:</strong> Harnesses the natural antibacterial and antiseptic properties of tea tree oil to combat acne-causing bacteria and prevent breakouts.</li>
   <li><strong>Effective Acne Treatment:</strong> Works to clear existing acne and prevent future outbreaks by deeply cleansing and purifying the skin.</li>
   <li><strong>Gentle Pore Unclogging:</strong> Gently removes impurities, excess oil, and dead skin cells to keep pores clear and reduce the risk of clogged pores.</li>
@@ -154,7 +154,7 @@ const SQMBlackHeadClearingDesc = `
 <p>Transform your skincare routine with the Blackhead Clearing Oil-Free Salicylic Acid Aloe Scrub. This revitalizing scrub is expertly formulated with salicylic acid and soothing aloe vera to tackle blackheads, dissolve dead surface cells, and unclog pores. The gentle refining action reveals your skin’s natural brightness, promoting a clearer, smoother, and more youthful complexion.</p>
 
 <h3>Key Features:</h3>
-<ul>
+<ul className="list-disc ml-6 pl-4">
   <li><strong>Salicylic Acid:</strong> Penetrates deep into pores to effectively dissolve blackheads and control excess oil, helping to prevent future breakouts.</li>
   <li><strong>Aloe Vera Infusion:</strong> Infuses the scrub with aloe vera to soothe and calm the skin, reducing irritation and leaving your complexion feeling refreshed.</li>
   <li><strong>Gentle Exfoliation:</strong> Provides a gentle yet effective exfoliation that removes dead skin cells and unclogs pores, smoothing the way for clearer skin to surface.</li>
