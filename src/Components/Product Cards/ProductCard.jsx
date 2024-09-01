@@ -87,7 +87,7 @@ Please provide more details.`;
             )}
             <div className="mt-2 flex items-center justify-between">
               <p>
-                <span className="text-xl md:text-3xl font-bold text-slate-900">
+                <span className="text-xl md:text-2xl font-semibold text-slate-900">
                   Rs.{reducedPrice}
                 </span>
                 <span className="ml-2 text-sm text-slate-900 line-through">
@@ -96,7 +96,12 @@ Please provide more details.`;
               </p>
               <br />
             </div>
-            <p>{productCode}</p>
+
+            <p>
+              {productCode
+                ? `Product Code: ${productCode}`
+                : `Product Code: N/A`}
+            </p>
 
             <div className="md:inline block">
               <Stars stars={rating} />
