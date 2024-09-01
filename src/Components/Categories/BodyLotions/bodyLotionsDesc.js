@@ -2,7 +2,6 @@ const XQMFaceBodyScrubDesc = `
 <p><strong>Product Type:</strong> Exfoliating Scrub</p>
   <p><strong>Material:</strong> Cream</p>
   <p><strong>Weight:</strong> 100 grams</p>
-  <p><strong>Product ID:</strong> MZ66600064GNCS</p>
   <p><strong>Package Includes:</strong> 1 x Face & Body Scrubbing Mask</p>
 
   <h3>Product Features:</h3>
@@ -30,7 +29,6 @@ const XQMFaceBodyScrubDesc = `
 const HyderatingBL250MLDesc = `
 <p><strong>Product Type:</strong> Body Lotion</p>
   <p><strong>Volume:</strong> 250 ml per bottle</p>
-  <p><strong>Product ID:</strong> MZ69120180AIBSFD</p>
   <p><strong>Package Includes:</strong> 2 x Body Lotion</p>
 
   <h3>Product Features:</h3>
@@ -57,7 +55,6 @@ const HyderatingBL250MLDesc = `
 const soapexFeetCreamDesc = `
 <p><strong>Product Type:</strong> Heel Cream</p>
   <p><strong>Material:</strong> Cream</p>
-  <p><strong>Product ID:</strong> MZ19920069RAAS</p>
 
   <h3>Product Features:</h3>
   <ul className="list-disc ml-6 pl-4">
@@ -88,11 +85,6 @@ const soapexFeetCreamDesc = `
 const CharismaHandAndFeetDesc = `
 <p><strong>Product Type:</strong> Foot & Hand Scrub</p>
   <p><strong>Material:</strong> Scrub</p>
-  <p><strong>Product ID:</strong> N/A</p>
-
-  <h3>Pricing:</h3>
-  <p><strong>Current Price:</strong> Rs. 589/-</p>
-  <p><strong>Original Price:</strong> Rs. 799/-</p>
 
   <h3>Product Features:</h3>
   <ul className="list-disc ml-6 pl-4">
