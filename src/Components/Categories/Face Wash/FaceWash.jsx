@@ -10,6 +10,16 @@ import {
   GoldernPearlTripleProtection,
 } from "./Images/FaceWashImgs";
 
+import {
+  DeepFreshFaceWashDesc,
+  GalipWashScrubMaskDesc,
+  RiceFaceWashDesc,
+  GoldernPearlTripleProtectionDesc,
+  DrRashelFaceWashDesc,
+  AcneControlTeaDesc,
+  SQMBlackHeadClearingDesc,
+} from "./FaceWashsDesc";
+
 function FaceWash() {
   return (
     <>
@@ -23,12 +33,7 @@ function FaceWash() {
           price="699/-"
           reducedPrice="489/-"
           productCode="MZ57300131UDEES"
-          shortDetail="Brightening Face Wash
-Product Details:Material: Face Wash
-Product Type: Brightening Face Wash
-Product Details: Deep Fresh Brightening Facewash, Crafted With Premium Herbs And Fruits, Provides Optimal Skin Care For All Types, Offering Protection From Sunlight And A Rejuvenating Touch For Soft, Radiant Skin.
-Package Includes: 1 X Brightening Facewash
-Weight:75 G"
+          shortDetail={DeepFreshFaceWashDesc}
         />
 
         <ProductCard
@@ -37,9 +42,7 @@ Weight:75 G"
           price="799/-"
           reducedPrice="519/-"
           productCode="MZ25200000011GLUS"
-          shortDetail="Material: Cream
-Weight: 170 Grams
-Package Includes: 1 x Face Scrubbing Mask"
+          shortDetail={GalipWashScrubMaskDesc}
         />
 
         <ProductCard
@@ -48,9 +51,7 @@ Package Includes: 1 x Face Scrubbing Mask"
           price="1099/-"
           reducedPrice="849/-"
           productCode="MZ69120300AIBSFD"
-          shortDetail="Liquid Material Smooth Texture
-Skin Types: Normal, Oily, Dry, Combination, Sensitive, Or Acne-Prone
-Product Feature: Hydrating, Absorbent"
+          shortDetail={RiceFaceWashDesc}
         />
 
         <ProductCard
@@ -59,15 +60,7 @@ Product Feature: Hydrating, Absorbent"
           price="1499/-"
           reducedPrice="1169/-"
           productCode="MZ37000012GWAYBYMT"
-          shortDetail="LProduct Material: Skin Care
-Product Finish-type: Skin Care
-Apply a sufficient amount of sunblock to cover all exposed areas of your skin.
-Don’t forget areas like the ears, neck, back of the hands, and tops of the feet.
-Ideally, do it at least 15 to 30 minutes before going into the sun to allow the sunscreen to bind to your skin properly.
-Product Dimension Value (L5 x W2 x H3 (inches): 
-Weight - 200Gram
-Product Warranty: 100% Original
-Package Includes: 1 x Sunblock"
+          shortDetail={GoldernPearlTripleProtectionDesc}
         />
 
         <ProductCard
@@ -76,7 +69,7 @@ Package Includes: 1 x Sunblock"
           price="999/-"
           reducedPrice="699/-"
           productCode={null}
-          shortDetail="Experience a deep, revitalizing cleanse! Infused with activated charcoal, it   detoxifies, controls oil, and prevents breakouts, leaving your skin clearer and healthier. Perfect for daily use, this 100g tube ensures smooth, refreshed skin. "
+          shortDetail={DrRashelFaceWashDesc}
         />
         <ProductCard
           img={AcneControlTea}
@@ -84,11 +77,7 @@ Package Includes: 1 x Sunblock"
           price="1299/-"
           reducedPrice="939/-"
           productCode="MZ100320007TEBYEL"
-          shortDetail="Revitalize Your Skincare Routine With Acne Tea Tree Face Wash
-            A Potent Solution For Clearer, Healthier-Looking Skin
-            Infused With The Purifying Essence Of Tea Tree Oil
-            This Invigorating Cleanser Effectively Targets Acne-Causing Bacteria While Gently Unclogging Pores
-            Package Includes: 1 x Face Wash"
+          shortDetail={AcneControlTeaDesc}
           rating="5.0"
         />
         <ProductCard
@@ -97,15 +86,7 @@ Package Includes: 1 x Sunblock"
           price="999/-"
           reducedPrice="659/-"
           productCode="MZ485000036ECKSP"
-          shortDetail="This Revitalizing Tan-Removal scrub is blended with aloe vera
-            Dissolve dead surface cells
-            Unclog pore openings and smooth the way for clear skin to surface
-            Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
-            This Revitalizing tan removal scrub is blended with aloe vera
-            Dissolve dead surface cells
-            Unclog pore openings and smooth the way for clear skin to surface
-            Gentle refining action uncovers skin's natural brightness for a younger-looking complexion
-            Package Includes: 1 x Blackhead Clearing Oil-Free Salicylic Acid Aloe Scrub - 170g"
+          shortDetail={SQMBlackHeadClearingDesc}
           rating="5.0"
         />
       </div>

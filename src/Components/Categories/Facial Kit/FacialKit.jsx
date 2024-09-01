@@ -16,7 +16,20 @@ import {
   DrRaheelWiteningRiceFacial,
 } from "./Images/FacialKitsImgs";
 
-import { kalonjiFKDesc } from "./facialKitsDesc";
+import {
+  kalonjiFKDesc,
+  DrRaheelWiteningRiceFacialDesc,
+  FruityWhiteningFacialDesc,
+  DermaWhiteningAndBrighteningDesc,
+  GlutaponeFKDesc,
+  SkinTouchGoldDesc,
+  TeaTreeOrganicSkincareKitDesc,
+  BNBFacialKitDesc,
+  riceCleaningScrubDesc,
+  nourishingFacialKitDesc,
+  TheOdinaryFacialKitDesc,
+  BrighteningFacialKitBNBDesc,
+} from "./facialKitsDesc";
 
 function FacialKit() {
   return (
@@ -32,11 +45,7 @@ function FacialKit() {
           reducedPrice="1199/-"
           productCode="MZ73200027TNDML"
           rating="5.0"
-          shortDetail="Whitening Facial Kit
-            Product Details:Material: Cream
-            Product Type: Whitening And Glowing Facial Kit
-            Product Details: Gives A Natural Glow To Your Skin, Improve Complexion, Anti-Aging Glycolic Peel
-            Package Includes: 1 x Scrub, 1 x Mask, 1 x Face Wash"
+          shortDetail={DrRaheelWiteningRiceFacialDesc}
         />
 
         <ProductCard
@@ -46,12 +55,7 @@ function FacialKit() {
           reducedPrice="349/-"
           productCode="MZ53500000002HHK"
           rating="5.0"
-          shortDetail="Material: Facial
-            Whitening Urgent Facial with natural ingredients
-            Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
-            Radiant in just a few minutes! It leaves your skin with a perfect glow
-            Package Includes: 1 x Fruity Whitening Urgent Facial Tube - 75ml
-            "
+          shortDetail={FruityWhiteningFacialDesc}
         />
 
         <ProductCard
@@ -60,14 +64,7 @@ function FacialKit() {
           price="6999/-"
           reducedPrice="4699/-"
           productCode="MZ80120009LABY"
-          shortDetail="Material: Cream
-            Texture: Smooth
-            Skin Types: Normal Skin
-            Product Feature: Whitening And Brightening
-            Package Includes: 1 x Facial Kit
-            Product Features: Infused With Fruit Extracts For A Refreshing Experience.
-            suitableFor All Skin Types.  This Multi-Pack Offers A Refreshing And Rejuvenating Experience, Perfect For Your Skincare Routine. 
-            Weight: 200 Grams"
+          shortDetail={DermaWhiteningAndBrighteningDesc}
         />
 
         <ProductCard
@@ -76,15 +73,7 @@ function FacialKit() {
           price="4099/-"
           reducedPrice="3849/-"
           productCode="MZ90200000004UEWD"
-          shortDetail="Material: Liquid
-            Pack Of: Pack Of 6
-            Package Includes: 1 x Whitening Facial Kit Set
-            Glutapone Facial Face Wash,  180ml
-            Glutapone Facial Cleanser.180ml
-            Glutapone Facial Skin Polish, 180ml
-            Glutapone Facial Scrub, 180ml
-            Glutapone Facial Massage Cream, 180ml
-            Glutapone Facial Mask, 180ml"
+          shortDetail={GlutaponeFKDesc}
         />
 
         <ProductCard
@@ -93,9 +82,7 @@ function FacialKit() {
           price="699/-"
           reducedPrice="539/-"
           productCode="MZ22100021MSEE"
-          shortDetail="Product Feature: Whitening, Exfoliation, Brightening
-            Package Includes: 1 x Facial 
-            "
+          shortDetail={SkinTouchGoldDesc}
         />
 
         <ProductCard
@@ -104,7 +91,7 @@ function FacialKit() {
           price="2699/-"
           reducedPrice="2199/-"
           productCode="MZ69120050AIBSFD"
-          shortDetail="Package Includes: 1 x Skincare Kit"
+          shortDetail={TeaTreeOrganicSkincareKitDesc}
         />
 
         <ProductCard
@@ -113,10 +100,7 @@ function FacialKit() {
           price="1699/-"
           reducedPrice="1269/-"
           productCode="MZ118320064CCCS"
-          shortDetail="Material: Cream
-            Blend Of Fruit Extracts And Oils, Gives A Natural Glow To Your Skin, Improve Complexion
-            Whitening Face Wash, Whitening Facial Cleanser, Whitening Facial Scrub
-            Whitening Facial Polish, Whitening Facial Massage Cream, Whitening Face Mask"
+          shortDetail={BNBFacialKitDesc}
         />
 
         <ProductCard
@@ -125,10 +109,7 @@ function FacialKit() {
           price="599/-"
           reducedPrice="389/-"
           productCode="MZ57520029HYCS"
-          shortDetail="Material: Cream
-            Size: 100 Ml
-            Package Includes: 1 x Facial Scrub
-            Restores skin beauty, Health and radiance, For all skin types"
+          shortDetail={riceCleaningScrubDesc}
         />
 
         <ProductCard
@@ -146,11 +127,7 @@ function FacialKit() {
           price="1799/-"
           reducedPrice="1599/-"
           productCode="MZ115720075ARTS"
-          shortDetail="Material: Cream
-            Texture: Smooth
-            Color: White
-            Product Feature: Nourishing, Rejuvenating, Glowing
-            Package Includes: 1 x Facial Scrub, 1 x Face Mud Mask, 1 x Face Massage Cream, 1 x Skin Polisher, 1 x Double Action, 1 x Triple Action"
+          shortDetail={nourishingFacialKitDesc}
         />
         <ProductCard
           img={TheOdinaryFacialKit}
@@ -158,11 +135,7 @@ function FacialKit() {
           price="2999/-"
           reducedPrice="2699/-"
           productCode="MZ19920112RAAS"
-          shortDetail="Material: Cream
-            A Fast-Absorbing Serum That Targets Dark Spots And Hyperpigmentation
-            A Gentle Yet Effective Exfoliation That Removes Dead Skin Cells And Unclogs Pores
-            Hydrates And Brightens The Skin
-            Package Includes: 4 x Brightening Glow Kit"
+          shortDetail={TheOdinaryFacialKitDesc}
           rating="5.0"
         />
         <ProductCard
@@ -171,11 +144,7 @@ function FacialKit() {
           price="2499/-"
           reducedPrice="1999/-"
           productCode="MZ19920079RAAS"
-          shortDetail="Material: Cream
-            Texture: Smooth
-            Color: Pink
-            No. Of Pcs: 3
-            Product Feature: Whitening And Brightening, Exfoliator, Nourishing"
+          shortDetail={BrighteningFacialKitBNBDesc}
           rating="5.0"
         />
       </div>
