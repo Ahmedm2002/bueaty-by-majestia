@@ -28,7 +28,19 @@ import {
   RubellaWhitenningCream,
 } from "./Images/exportBCImgs";
 
-import { bioaouaUnderArmCreamDetails } from "./productDescription";
+import {
+  bioaouaUnderArmCreamDetails,
+  RubellaWhitenningCreamDesc,
+  DeuuHerbalSkinPolishDesc,
+  DeepFreshUVCreamDesc,
+  VitaminECapsuleJarDesc,
+  GlowAndCleanSkinPolishDesc,
+  BioaquaAcneRemovalDesc,
+  HeavenDoveCreamDesc,
+  dermawickUrgerntFacialDesc,
+  GoldenPearlUrgentFacialDesc,
+  SeiBellaDesc,
+} from "./productDescription";
 
 function BrighteningCream() {
   return (
@@ -54,10 +66,7 @@ function BrighteningCream() {
           price="649/-"
           reducedPrice="539/-"
           productCode="MZ84200076DOSTC"
-          shortDetail="Anti Acne, Whitening, Suitable for All Skin Types
-            Product Details:Material: Cream
-            Product Type: Vitamin C Beauty Cream
-            Product Details: Anti Acne, Whitening, Suitable for All Skin Types, Export Quality with SPF45."
+          shortDetail={RubellaWhitenningCreamDesc}
         />
 
         <ProductCard
@@ -80,12 +89,7 @@ function BrighteningCream() {
           price="699/-"
           reducedPrice="489/-"
           productCode="MZ57300128UDEES"
-          shortDetail="Skin Polisher
-            Product Details:Material: Cream
-            Product Type: Skin Polisher           
-            Product Details: Brighten And Rejuvenate The Skin, It Combines The Benefits Of Traditional Bleach             With Added Elements To Exfoliate And Enhance The Skin Texture, Leaving It Smoother, Softer, And More Radiant
-            Package Includes: 1 x Skin Polisher, 1 x Powder           
-            Weight: 300 g"
+          shortDetail={DeuuHerbalSkinPolishDesc}
         />
 
         <ProductCard
@@ -95,12 +99,7 @@ function BrighteningCream() {
           price="1099/-"
           reducedPrice="899/-"
           productCode="MZ35500121GLABM"
-          shortDetail="Brightening Cream
-            Product Details:Material: Cream
-            Product Type: Brightening Cream
-            Product Details: Deep Fresh Brightening Cream, Crafted With Premium Herbs And Fruits, Provides Optimal Skin Care For All Types, Offering Protection From Sunlight And A Rejuvenating Touch For Soft, Radiant Skin.
-            Package Includes: 1 X Brightening Cream
-            Weight: 20 Gm"
+          shortDetail={DeepFreshUVCreamDesc}
         />
 
         <ProductCard
@@ -110,11 +109,7 @@ function BrighteningCream() {
           price="699/-"
           reducedPrice="468/-"
           productCode="MZ88700003ARSML"
-          shortDetail="Material: Liquid
-            Product Type: Vitamin E Capsule Jar
-            Product Details: Skin Can Benefit From Both Protein And Natural Oils.
-            Color: Yellow
-            Package Includes: 20 x Vitamin E Hair Capsule"
+          shortDetail={VitaminECapsuleJarDesc}
         />
 
         <ProductCard
@@ -124,10 +119,7 @@ function BrighteningCream() {
           price="1599/-"
           reducedPrice="1319/-"
           productCode="MZ48800055ARUMT"
-          shortDetail="Material: Cream
-            Texture: Smooth
-            Pack Of: Pack Of 3
-            Package Includes: 1 x Skin Polisher"
+          shortDetail={GlowAndCleanSkinPolishDesc}
         />
 
         <ProductCard
@@ -137,12 +129,7 @@ function BrighteningCream() {
           price="449/-"
           reducedPrice="359/-"
           productCode="MZ59300116FIFEC"
-          shortDetail="Material: Cream
-            Product Type: Salicylic Acid Acne Removal Cream 
-            Product Details: Restores The Healthy Metabolism Of Skin And Reduces To Acne Scars, Reduces Redness Relieves Acne Scars
-            Color: Purple
-            Package Includes: 1 x Salicylic Acid Acne Removal Cream 
-            Weight: 20 g"
+          shortDetail={BioaquaAcneRemovalDesc}
         />
 
         <ProductCard
@@ -152,10 +139,7 @@ function BrighteningCream() {
           rating="4.0"
           reducedPrice="749/-"
           productCode="MZ67400000027CYCH"
-          shortDetail="Material: Cream
-            Size: 150g
-            HEAVEN DOVE Water Lock hydration beautiful Moisturizing Skin Whitening Cream 150g HD-1053B
-            Package Includes: 1 x Moisturizer"
+          shortDetail={HeavenDoveCreamDesc}
         />
 
         <ProductCard
@@ -165,9 +149,7 @@ function BrighteningCream() {
           rating="5.0"
           reducedPrice="539/-"
           productCode="MZ22100017MSEE"
-          shortDetail="Product Feature: Whitening, Exfoliation, Brightening
-            Package Includes: 1 x Facial 
-"
+          shortDetail={dermawickUrgerntFacialDesc}
         />
 
         <ProductCard
@@ -177,11 +159,7 @@ function BrighteningCream() {
           rating="4.0"
           reducedPrice="349/-"
           productCode="MZ53500000003HHK"
-          shortDetail="Material: Facial
-            Whitening Urgent Facial with natural ingredients
-            Precious Herbs is a complete facial treatment that will make your skin healthy, fresh
-            Radiant in just a few minutes! It leaves your skin with a perfect glow
-            Package Includes: 1 x Unique Formula Whitening Urgent Facial Tube - 75ml"
+          shortDetail={GoldenPearlUrgentFacialDesc}
         />
 
         <ProductCard
@@ -191,7 +169,7 @@ function BrighteningCream() {
           rating="5.0"
           reducedPrice="659/-"
           productCode="MZ100700007RTBY"
-          shortDetail="Package Includes: 1 x Skin Whitening Cream"
+          shortDetail={SeiBellaDesc}
         />
 
         <ProductCard
