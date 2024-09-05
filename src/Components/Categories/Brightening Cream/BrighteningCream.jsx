@@ -40,6 +40,10 @@ import {
   dermawickUrgerntFacialDesc,
   GoldenPearlUrgentFacialDesc,
   SeiBellaDesc,
+  FairandLovelyCreamDesc,
+  DermacosWhiteningSkinPolishBleachSetDesc,
+  BiPureAcneCreamDesc,
+  SaeedGhaniFootAndHandCreamDesc,
 } from "./productDescription";
 
 function BrighteningCream() {
@@ -179,8 +183,7 @@ function BrighteningCream() {
           rating="5.0"
           reducedPrice="419/-"
           productCode="MZ60720008AASGML"
-          shortDetail="Package Includes: 1 x Face Cream
-            Weight: 25 Grams"
+          shortDetail={FairandLovelyCreamDesc}
         />
 
         <ProductCard
@@ -189,9 +192,7 @@ function BrighteningCream() {
           price="2199/-"
           reducedPrice="1799/-"
           productCode="MZ80120008LABY"
-          shortDetail="Product Feature: Whitening
-            Package Includes: 1 x Oxygen Skin Gloss Polish, 1 x Dust Free Facial Blond Brightener, 1 x Harmless Facial Blond Activater
-            "
+          shortDetail={DermacosWhiteningSkinPolishBleachSetDesc}
         />
         <ProductCard
           img={BiPureAcneCream}
@@ -199,7 +200,7 @@ function BrighteningCream() {
           price="849/-"
           reducedPrice="619/-"
           productCode="MZ100700011RTBY"
-          shortDetail="Package Includes: 1 x Bi Pure Acne Cream"
+          shortDetail={BiPureAcneCreamDesc}
         />
         <ProductCard
           img={SaeedGhaniFootAndHandCream}
@@ -207,12 +208,7 @@ function BrighteningCream() {
           price="1099/-"
           reducedPrice="959/-"
           productCode="MZ23800030SKTS"
-          shortDetail="Material: Cream
-            Nourishes And Moisturizes Your Skin Through All Seasons
-            Gives Your Skin A Natural Glow And Makes It Brighter
-            Helps Fight Acne And Skin Cracks To Give You Healthier Skin
-            Gives you younger-Looking Skin
-            Package Includes: 1 x Hand Cream"
+          shortDetail={SaeedGhaniFootAndHandCreamDesc}
         />
 
         <ProductCard

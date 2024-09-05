@@ -433,4 +433,139 @@ const SeiBellaDesc = `
 </ul>
 `;
 
-export {bioaouaUnderArmCreamDetails, RubellaWhitenningCreamDesc, DeuuHerbalSkinPolishDesc , DeepFreshUVCreamDesc , VitaminECapsuleJarDesc, GlowAndCleanSkinPolishDesc, BioaquaAcneRemovalDesc , HeavenDoveCreamDesc, dermawickUrgerntFacialDesc, GoldenPearlUrgentFacialDesc, SeiBellaDesc}
+const FairandLovelyCreamDesc = `
+<p>Material: Cream</p>
+
+<p>Package Includes: 1 x Face Cream</p>
+
+<p>Weight: 25 Grams</p>
+
+<h3>Description:</h3>
+<p>Fair and Lovely Cream is formulated to enhance skin fairness and even out complexion. It is designed to provide a radiant look and improve skin tone.</p>
+
+<h3>Key Benefits:</h3>
+<ul>
+  <li><strong>Fairness:</strong> Helps in lightening and brightening the skin tone.</li>
+  <li><strong>Even Skin Tone:</strong> Aims to even out skin complexion.</li>
+  <li><strong>Radiance:</strong> Provides a natural glow to the skin.</li>
+</ul>
+
+<h3>How to Use:</h3>
+<ol>
+  <li><strong>Cleanse:</strong> Begin with a clean, dry face.</li>
+  <li><strong>Apply Cream:</strong> Apply a small amount of the cream evenly on your face and neck.</li>
+  <li><strong>Massage:</strong> Gently massage in upward circular motions.</li>
+  <li><strong>Use:</strong> Apply regularly for best results.</li>
+</ol>
+
+<h3>Usage Tips:</h3>
+<ul>
+  <li>Perform a patch test before full application to check for any allergic reactions.</li>
+  <li>For enhanced results, use daily as part of your skincare routine.</li>
+</ul>
+
+
+`;
+
+const DermacosWhiteningSkinPolishBleachSetDesc = `
+<p>Product Features: Whitening</p>
+
+<h3>Package Includes:</h3>
+<ul>
+  <li>Oxygen Skin Gloss Polish</li>
+  <li>Dust Free Facial Blond Brightener</li>
+  <li>Harmless Facial Blond Activator</li>
+</ul>
+
+<h3>Description:</h3>
+<p>This Whitening Skin Polish Bleach Set is designed to enhance skin brightness and provide a radiant glow. It includes three essential products that work together to improve skin tone and texture.</p>
+
+<h3>Key Benefits:</h3>
+<ul>
+  <li><strong>Whitening:</strong> Helps in achieving a lighter and brighter complexion.</li>
+  <li><strong>Skin Polish:</strong> Gently exfoliates and removes dead skin cells for a smoother skin texture.</li>
+  <li><strong>Brightening:</strong> Activates and maintains a natural glow.</li>
+</ul>
+
+<h3>How to Use:</h3>
+<ol>
+  <li><strong>Cleanse Skin:</strong> Start with a clean face.</li>
+  <li><strong>Apply Polish:</strong> Use the Oxygen Skin Gloss Polish to exfoliate and brighten the skin.</li>
+  <li><strong>Apply Brightener:</strong> Follow with the Dust Free Facial Blond Brightener.</li>
+  <li><strong>Apply Activator:</strong> Finish with the Harmless Facial Blond Activator to activate the bleach.</li>
+</ol>
+
+<h3>Usage Tips:</h3>
+<ul>
+  <li>Perform a patch test before use to ensure compatibility with your skin.</li>
+  <li>Follow the instructions on each product for optimal results.</li>
+  <li>Use regularly for best results and a radiant complexion.</li>
+</ul>
+`;
+
+const BiPureAcneCreamDesc= `
+<p>Package Includes: 1 x Bi Pure Acne Cream</p>
+
+<h3>Description:</h3>
+<p>Bi Pure Acne Cream is designed to address acne-related issues, targeting breakouts and blemishes effectively. The formula is tailored to help clear acne and reduce redness, promoting clearer skin.</p>
+
+<h3>Key Benefits:</h3>
+<ul>
+  <li><strong>Acne Treatment:</strong> Helps reduce acne and prevent future breakouts.</li>
+  <li><strong>Reduces Redness:</strong> Soothes and calms inflamed skin.</li>
+  <li><strong>Clearer Skin:</strong> Aims to improve the overall appearance and texture of the skin.</li>
+</ul>
+
+<h3>How to Use:</h3>
+<ol>
+  <li><strong>Cleanse Face:</strong> Wash your face with a gentle cleanser and pat dry.</li>
+  <li><strong>Apply Cream:</strong> Apply a thin layer of Bi Pure Acne Cream directly to affected areas.</li>
+  <li><strong>Leave On:</strong> Allow the cream to absorb and remain on the skin.</li>
+  <li><strong>Use Regularly:</strong> For best results, use the cream consistently as part of your skincare routine.</li>
+</ol>
+
+<h3>Usage Tips:</h3>
+<ul>
+  <li>For external use only.</li>
+  <li>Avoid contact with eyes.</li>
+  <li>If irritation occurs, discontinue use and consult a dermatologist.</li>
+</ul>
+`;
+
+const SaeedGhaniFootAndHandCreamDesc = `
+<p>Material: Cream</p>
+
+<p>Weight: 150g</p>
+
+<p>Package Includes: 1 x Hand Cream</p>
+
+<h3>Description:</h3>
+<p>Saeed Ghani Foot & Hand Whitening Cream is designed to nourish and moisturize the skin on your hands and feet. Its formula aims to brighten the skin, combat acne and skin cracks, and provide a youthful glow.</p>
+
+<h3>Key Benefits:</h3>
+<ul>
+  <li><strong>Nourishing:</strong> Hydrates and replenishes skin moisture, ideal for all seasons.</li>
+  <li><strong>Brightening:</strong> Helps to brighten and even out skin tone.</li>
+  <li><strong>Acne and Cracks:</strong> Assists in fighting acne and repairing skin cracks.</li>
+  <li><strong>Youthful Appearance:</strong> Promotes healthier and younger-looking skin.</li>
+</ul>
+
+<h3>How to Use:</h3>
+<ol>
+  <li><strong>Cleanse Area:</strong> Wash hands and feet thoroughly.</li>
+  <li><strong>Apply Cream:</strong> Massage a generous amount of cream into your hands and feet.</li>
+  <li><strong>Absorb:</strong> Allow the cream to fully absorb into the skin.</li>
+  <li><strong>Use Regularly:</strong> For best results, use daily.</li>
+</ol>
+
+<h3>Usage Tips:</h3>
+<ul>
+  <li>For external use only.</li>
+  <li>Avoid contact with eyes.</li>
+  <li>If irritation occurs, discontinue use and consult a dermatologist.</li>
+</ul>
+`;
+
+export {bioaouaUnderArmCreamDetails, RubellaWhitenningCreamDesc, DeuuHerbalSkinPolishDesc , DeepFreshUVCreamDesc , VitaminECapsuleJarDesc, GlowAndCleanSkinPolishDesc, BioaquaAcneRemovalDesc , HeavenDoveCreamDesc, dermawickUrgerntFacialDesc, GoldenPearlUrgentFacialDesc, SeiBellaDesc , FairandLovelyCreamDesc, DermacosWhiteningSkinPolishBleachSetDesc, BiPureAcneCreamDesc, 
+  SaeedGhaniFootAndHandCreamDesc
+}
