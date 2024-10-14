@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "../Product Cards/ProductCard";
-import JadeRollerAndGuaSha from "../FeaturedProducts/Images/JadeRollerAndGuaSha.jpeg";
-import sunBlockPackOfThree from "../FeaturedProducts/Images/sunBlockPackOfThree.jpg";
+import { featuredProductsArr } from "./FeaturedProducts.js";
+
 function FeaturedProducts() {
   return (
     <>
@@ -17,24 +17,19 @@ function FeaturedProducts() {
             </p> */}
           </div>
           <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
-            <ProductCard
-              img={JadeRollerAndGuaSha}
-              text="Jade Roller And Gua Sha"
-              price="749/-"
-              reducedPrice="549/-"
-              productCode="MZ15300406WZRSP"
-              shortDetail="Material: Jade
-              Texture: Smooth
-              Product Feature: Rejuvenating, Treat Fine Lines"
-            />
-            <ProductCard
-              img={sunBlockPackOfThree}
-              text="Foaming Facial Cleanser"
-              price="849/-"
-              reducedPrice="599/-"
-              shortDetail="A gentle enzyme and amino acid blend loosens makeup, oil and other impurities on the skin and in the pores"
-              rating="5.0"
-            />
+            {featuredProductsArr.map((product, index) => (
+              <ProductCard
+                key={index}
+                img={product.img}
+                text={product.text}
+                price={product.price}
+                reducedPrice={product.reducedPrice}
+                productCode={product.productCode}
+                shortDetail={product.shortDetail}
+                rating={product.rating}
+                category="featuredproduct"
+              />
+            ))}
           </div>
         </div>
       </section>
