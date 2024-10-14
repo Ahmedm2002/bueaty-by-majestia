@@ -3,6 +3,7 @@ import close from "../assets/close.svg";
 import menu from "../assets/menu.svg";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.jpg";
+import Search from "./Search/Search";
 function Header() {
   const Links = [
     { name: "Home", link: "/" },
@@ -41,7 +42,6 @@ function Header() {
             </Link>
           </div>
         </div>
-
         <ul
           className={`md:flex ml-auto md:items-center md:pb-0 pb-2 absolute md:static
                  bg-pink-200 text-black md:z-auto z-50 left-0 w-full md:w-auto md:pl-0 pl-4 transition-all duration-200 ease-in ${

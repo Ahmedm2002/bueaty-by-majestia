@@ -1,14 +1,27 @@
-import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import Stars from "../Stars";
-import FeaturedProducts from "../FeaturedProducts/FeaturedProducts";
-
 import parse from "html-react-parser";
+import allProducts from "../../../allProducts";
 
 const ProductDetails = () => {
-  const location = useLocation();
+  const { productName } = useParams();
+  const [product, setProduct] = useState(null);
+
+  useEffect(() => {
+    const foundProduct = allProducts.find(
+      (item) => item.text.replace(/\s+/g, "-").toLowerCase() === productName
+    );
+    setProduct(foundProduct);
+    window.scrollTo(0, 0);
+  }, [productName, allProducts]);
+
+  if (!product) {
+    return <p>Product not found.</p>;
+  }
+
   const { img, text, price, reducedPrice, shortDetail, rating, productCode } =
-    location.state;
+    product;
 
   const handleBuyNow = () => {
     const message = `I'm interested in buying the following product:\n
@@ -22,10 +35,6 @@ Please provide more details.`;
     )}`;
     window.open(whatsappUrl, "_blank");
   };
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <>
@@ -53,7 +62,6 @@ Please provide more details.`;
               <div className="mt-4">
                 <Stars stars={rating} />
               </div>
-              {/* Disclaimer */}
               <p className="my-4 text-sm text-red-600">
                 Disclaimer: Before using a new cosmetic product, conduct a test
                 on a small area of your skin. If you have a specific allergy or

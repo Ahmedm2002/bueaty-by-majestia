@@ -20,21 +20,13 @@ function ProductCard({
   salePercentage,
   rating = "4.0",
   productCode,
+  category,
 }) {
   const navigate = useNavigate();
 
   const handleDetailsClick = () => {
-    navigate("/productDetails", {
-      state: {
-        img,
-        text,
-        price,
-        reducedPrice,
-        shortDetail,
-        rating,
-        productCode,
-      },
-    });
+    const formattedProductName = text.replace(/\s+/g, "-").toLowerCase();
+    navigate(`/${category}/${formattedProductName}`);
   };
 
   const handleBuyNow = () => {

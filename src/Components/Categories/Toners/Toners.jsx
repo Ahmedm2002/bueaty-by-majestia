@@ -1,9 +1,6 @@
 import React from "react";
 import ProductCard from "../../Product Cards/ProductCard";
-
-import { DermaSkinToner } from "./Imgaes/TonersImgs";
-
-import { DermaSkinTonerDesc } from "./TonersDesc";
+import { tonersArr } from "./Toners";
 
 function Toners() {
   return (
@@ -12,14 +9,19 @@ function Toners() {
         Products Toners
       </h1>
       <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
-        <ProductCard
-          img={DermaSkinToner}
-          text="Honey And Lemon Brightening Skin Toner, 320 Ml"
-          price="1299/-"
-          reducedPrice="1019/-"
-          productCode="MZ37000000002GWAYBYMT"
-          shortDetail={DermaSkinTonerDesc}
-        />
+        {tonersArr.map((product, index) => (
+          <ProductCard
+            key={index}
+            img={product.img}
+            text={product.text}
+            price={product.price}
+            reducedPrice={product.reducedPrice}
+            productCode={product.productCode}
+            shortDetail={product.shortDetail}
+            rating={product.rating}
+            category="toners"
+          />
+        ))}
       </div>
     </>
   );
