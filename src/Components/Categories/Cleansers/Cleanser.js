@@ -11,7 +11,7 @@ import {
 } from "./CleansersDesc";
 
 
-const CleansersArr = [
+let CleansersArr = [
   {
     img: CleanserAndMosturizingLotion,
     text: "Hydrating Cleanser And Moisturizing Lotion, Pack Of 2",
@@ -47,5 +47,9 @@ const CleansersArr = [
   //   rating: "5.0"
   // }
 ];
+CleansersArr = CleansersArr.map((product) => ({
+  ...product, 
+  category : "cleansers"
+}))
 
 export { CleansersArr }

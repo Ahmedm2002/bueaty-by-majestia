@@ -19,7 +19,7 @@ function BodyLotions() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="bodyLotions"
+            category={product.category}
           />
         ))}
       </div>

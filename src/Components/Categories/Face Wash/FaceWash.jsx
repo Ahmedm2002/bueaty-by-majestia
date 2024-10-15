@@ -19,7 +19,7 @@ function FaceWash() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="faceWash"
+            category={product.category}
           />
         ))}
       </div>

@@ -15,7 +15,7 @@ import {
 } from "./GelsDesc";
 
 
-const GelsArr = [
+let GelsArr = [
   {
     img: AloeVeraSmoothingGel,
     text: "Soothing Aloe Vera Gel",
@@ -59,5 +59,10 @@ const GelsArr = [
     rating: "5.0",
   }
 ];
+
+GelsArr = GelsArr.map((product) => ({
+  ...product, 
+  category : "gels"
+}))
 
 export { GelsArr }

@@ -19,7 +19,7 @@ function Toners() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="toners"
+            category={product.category}
           />
         ))}
       </div>

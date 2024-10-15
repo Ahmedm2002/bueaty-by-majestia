@@ -19,7 +19,7 @@ function Powders() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="powders"
+            category={product.category}
           />
         ))}
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import FeaturedProducts from "../Components/FeaturedProducts/FeaturedProducts.jsx";
-import AllCategories from "../Components/Categories/AllCategories";
+import AllCategories from "../Components/Categories/AllCategories.jsx";
 function Home() {
   return (
     <>

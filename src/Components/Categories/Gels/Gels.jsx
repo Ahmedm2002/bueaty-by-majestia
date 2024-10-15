@@ -19,7 +19,7 @@ function Gels() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="gels"
+            category={product.category}
           />
         ))}
       </div>

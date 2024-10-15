@@ -19,7 +19,7 @@ function Serums() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="serums"
+            category={product.category}
           />
         ))}
       </div>

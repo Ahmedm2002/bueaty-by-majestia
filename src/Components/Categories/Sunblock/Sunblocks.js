@@ -19,7 +19,7 @@ import {
 } from "./sunblocksDesc";
 
 
-const sunblocksArr = [
+let sunblocksArr = [
   {
     img: OilFreeTintedSaeedGhani,
     text: "Oil Free Tinted Sunscreen With Niacinamide Serum",
@@ -115,5 +115,11 @@ const sunblocksArr = [
     rating: "5.0",
   },
 ];
+
+sunblocksArr = sunblocksArr.map((product) => ({
+  ...product, 
+  category : "sunblock"
+}))
+
 
 export { sunblocksArr }

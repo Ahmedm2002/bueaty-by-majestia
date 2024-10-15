@@ -15,7 +15,7 @@ import {
 } from "./bodyLotionsDesc";
 
 
-let bodyLotionsArr = [
+const bodyLotionsArr = [
   {
     img: XQMFaceBodyScrub,
     text: "Face & Body Plant Energy Scrub",
@@ -60,9 +60,12 @@ let bodyLotionsArr = [
   },
 ];
 
+// bodyLotionsArr = bodyLotionsArr.map((product) => ({...product, category: "bodyLotions"}))
+
 bodyLotionsArr = bodyLotionsArr.map((product) => ({
   ...product,
-  category : "bodyLotions"
-}))
+  category: "bodyLotions",
+}));
+
 
 export { bodyLotionsArr }

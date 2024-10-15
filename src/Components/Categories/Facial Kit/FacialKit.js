@@ -30,7 +30,7 @@ import {
 } from "./facialKitsDesc";
 
 
-const FacialKitsArr = [
+let FacialKitsArr = [
   {
     img: DrRaheelWiteningRiceFacial,
     text: "Whitening And Glowing Facial Kit",
@@ -132,5 +132,10 @@ const FacialKitsArr = [
     rating: "5.0",
   }
 ];
+
+FacialKitsArr = FacialKitsArr.map((product) => ({
+  ...product, 
+  category : "facialKit"
+}))
 
 export { FacialKitsArr }

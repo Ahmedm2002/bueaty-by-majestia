@@ -19,7 +19,7 @@ function Sunblock() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="sunblock"
+            category={product.category}
           />
         ))}
       </div>

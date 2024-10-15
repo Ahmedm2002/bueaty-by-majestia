@@ -42,9 +42,10 @@ function Header() {
             </Link>
           </div>
         </div>
+
         <ul
           className={`md:flex ml-auto md:items-center md:pb-0 pb-2 absolute md:static
-                 bg-pink-200 text-black md:z-auto z-50 left-0 w-full md:w-auto md:pl-0 pl-4 transition-all duration-200 ease-in ${
+                 bg-pink-200 mr-5 text-black md:z-auto z-50 left-0 w-full md:w-auto md:pl-0 pl-4 transition-all duration-200 ease-in ${
                    open ? "top-16 opacity-95" : "top-[-490px] opacity-100"
                  }`}
         >

@@ -44,7 +44,7 @@ import {
   SaeedGhaniFootAndHandCreamDesc,
 } from "./productDescription";
 
-const BrighteningCreamsArr = [
+let BrighteningCreamsArr = [
   {
     img: bioaouaUnderArmCream,
     text: "Underarm Whitening Cream",
@@ -284,5 +284,9 @@ const BrighteningCreamsArr = [
   },
 ];
 
+BrighteningCreamsArr = BrighteningCreamsArr.map((product) => ({
+  ...product, 
+  category: "brighteningCreams"
+}))
 
 export { BrighteningCreamsArr }

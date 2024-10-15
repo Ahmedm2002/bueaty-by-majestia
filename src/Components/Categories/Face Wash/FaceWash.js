@@ -19,7 +19,7 @@ import {
 } from "./FaceWashsDesc";
 
 
-const FaceWashArr = [
+let FaceWashArr = [
   {
     img: DeepFreshFaceWash,
     text: "Deep Fresh Brightening Face Wash",
@@ -79,5 +79,11 @@ const FaceWashArr = [
     rating: "5.0",
   }
 ];
+
+
+FaceWashArr = FaceWashArr.map((product) => ({
+  ...product, 
+  category : "faceWash"
+}))
 
 export { FaceWashArr }

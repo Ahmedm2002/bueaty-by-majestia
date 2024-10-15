@@ -16,7 +16,7 @@ import {
   PeelOffMaskDesc,
 } from "./FaceMasksDesc";
 
-const FaceMasksArr = [
+let FaceMasksArr = [
   {
     img: VitaminCAichunBueaty,
     text: "Vitamin C Honey Peel-Off Face Mask",
@@ -66,5 +66,11 @@ const FaceMasksArr = [
     shortDetail: PeelOffMaskDesc,
   }
 ];
+
+FaceMasksArr = FaceMasksArr.map((product) => ({
+  ...product, 
+  category : "facemasks"
+}))
+
 
 export { FaceMasksArr }

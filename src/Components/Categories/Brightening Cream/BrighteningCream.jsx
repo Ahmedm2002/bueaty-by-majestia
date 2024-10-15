@@ -19,7 +19,7 @@ function BrighteningCream() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="brighteningCreams"
+            category={product.category}
           />
         ))}
       </div>

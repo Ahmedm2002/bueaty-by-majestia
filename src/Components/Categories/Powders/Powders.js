@@ -15,7 +15,7 @@ import {
 
 import { MuddMaskGolendGirlDesc } from "./PowdersDesc";
 
-const powdersArr = [
+let powdersArr = [
   {
     img: MuddMaskGolendGirl,
     text: "Mud Mask, 75 G",
@@ -114,5 +114,10 @@ const powdersArr = [
     productCode: "MZ109220021COZMO",
   },
 ];
+
+powdersArr = powdersArr.map((product) => ({
+  ...product, 
+  category : "powders"
+}))
 
 export { powdersArr }

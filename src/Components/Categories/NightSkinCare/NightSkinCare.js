@@ -12,7 +12,7 @@ import {
   exfoliatingNCPck2Desc,
 } from "./NightSkinCareDesc";
 
-const NightCreamsArr = [
+let NightCreamsArr = [
   {
     img: retinolSaeedGhaniAntiAging,
     text: "Anti Aging Retinol Night Cream",
@@ -48,5 +48,10 @@ const NightCreamsArr = [
     rating: "5.0",
   }
 ];
+
+NightCreamsArr = NightCreamsArr.map((product) => ({
+  ...product, 
+  category : "nightSkinCare"
+}))
 
 export { NightCreamsArr }

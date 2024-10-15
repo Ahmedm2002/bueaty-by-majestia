@@ -2,7 +2,7 @@ import { DermaSkinToner } from "./Imgaes/TonersImgs";
 
 import { DermaSkinTonerDesc } from "./TonersDesc";
 
-const tonersArr = [
+let tonersArr = [
   {
     img: DermaSkinToner,
     text: "Honey And Lemon Brightening Skin Toner, 320 Ml",
@@ -12,5 +12,11 @@ const tonersArr = [
     shortDetail: DermaSkinTonerDesc,
   },
 ];
+
+
+tonersArr = tonersArr.map((product) => ({
+  ...product, 
+  category : "toners"
+}))
 
 export { tonersArr }

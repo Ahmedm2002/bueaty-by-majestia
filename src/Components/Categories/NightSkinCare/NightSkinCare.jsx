@@ -19,7 +19,7 @@ function NightSkinCare() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="nightSkinCare"
+            category={product.category}
           />
         ))}
       </div>

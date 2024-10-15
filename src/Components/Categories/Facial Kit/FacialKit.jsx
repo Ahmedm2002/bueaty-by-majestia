@@ -19,7 +19,7 @@ function FacialKit() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="facialKit"
+            category={product.category}
           />
         ))}
       </div>

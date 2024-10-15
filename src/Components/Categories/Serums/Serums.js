@@ -16,7 +16,7 @@ import {
   teaTreeEssentialOilDesc,
 } from "./serumsDescriptions";
 
-const serumsArr = [
+let serumsArr = [
   {
     img: TeaTreeOilSerum,
     text: "Aiken Tea Tree Oil Serum",
@@ -66,5 +66,10 @@ const serumsArr = [
     shortDetail: pixiSerumDesc,
   },
 ];
+
+serumsArr = serumsArr.map((product) => ({
+  ...product, 
+  category : "serums"
+}))
 
 export { serumsArr }

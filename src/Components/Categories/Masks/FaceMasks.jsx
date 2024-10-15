@@ -19,7 +19,7 @@ function FaceMasks() {
             productCode={product.productCode}
             shortDetail={product.shortDetail}
             rating={product.rating}
-            category="facemasks"
+            category={product.category}
           />
         ))}
       </div>
