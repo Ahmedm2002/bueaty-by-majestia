@@ -53,23 +53,6 @@ const App = () => {
         <Route path="powders" element={<Powders />} />
         <Route path="toners" element={<Toners />} />
         <Route path="/:category/:productName" element={<ProductDetails />} />
-
-        {/* Dynamic Product Routes for Each Category 
-        {/* <Route path="serums/:productName" element={<ProductDetails />} />
-        <Route path="cleansers/:productName" element={<ProductDetails />} />
-        <Route path="sunblock/:productName" element={<ProductDetails />} />
-        <Route path="faceWash/:productName" element={<ProductDetails />} />
-        <Route path="facialKit/:productName" element={<ProductDetails />} />
-        <Route path="gels/:productName" element={<ProductDetails />} />
-        <Route path="nightSkinCare/:productName" element={<ProductDetails />} />
-        <Route path="bodyLotions/:productName" element={<ProductDetails />} />
-        <Route
-          path="brighteningCreams/:productName"
-          element={<ProductDetails />}
-        />
-        <Route path="facemasks/:productName" element={<ProductDetails />} />
-        <Route path="powders/:productName" element={<ProductDetails />} />
-        <Route path="toners/:productName" element={<ProductDetails />} /> */}
         <Route path="calculatePrice" element={<CalculatePrice />} />
         <Route path="calculateDiscount" element={<CalculateDiscount />} />
       </Route>

@@ -64,9 +64,10 @@ function Search() {
           type="text"
           placeholder="Search products"
           value={search}
-          className="w-full outline-none bg-white text-gray-600 text-sm px-4 py-2"
+          className="w-full outline-none bg-white text-gray-600 text-sm px-4 py-2 md:text-sm"
           onChange={searchProducts}
         />
+
         <button
           type="button"
           className="flex items-center justify-center bg-pink-500 hover:bg-pink-600 transition-colors px-4"
@@ -109,7 +110,9 @@ function Search() {
         </div>
       )}
       {search && searchedProduct.length === 0 && isSearchActive && (
-        <p className="mt-4">No products found.</p>
+        <p className="mt-4 p-3 bg-pink-300 mx-auto rounded-md text-center">
+          No products found.
+        </p>
       )}
     </div>
   );
