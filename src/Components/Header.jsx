@@ -29,7 +29,7 @@ function Header() {
 
   return (
     <>
-      <div className="block shadow-md w-full top-0 z-50 sticky left-0">
+      <div className="block shadow-md w-full top-0 z-40 sticky left-0">
         <div className="flex items-center bg-pink-300 justify-between py-2 md:px-10 px-2">
           <div className="flex items-center flex-wrap">
             <div className="font-bold sm:text-xl text-lg cursor-pointer font-[Poppins]">
