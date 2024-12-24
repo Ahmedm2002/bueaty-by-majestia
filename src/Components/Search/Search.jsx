@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Search() {
   const [search, setSearch] = useState("");
   const [searchedProduct, setSearchedProduct] = useState([]);
-  const [isSearchActive, setIsSearchActive] = useState(false); // Track visibility of results
+  const [isSearchActive, setIsSearchActive] = useState(false);
   const searchRef = useRef(null);
   const navigate = useNavigate();
 

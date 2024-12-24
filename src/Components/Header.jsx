@@ -3,7 +3,6 @@ import close from "../assets/close.svg";
 import menu from "../assets/menu.svg";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.jpg";
-import Search from "./Search/Search";
 function Header() {
   const Links = [
     { name: "Home", link: "/" },
@@ -73,9 +72,17 @@ function Header() {
             className="text-xl w-12 rounded-lg absolute right-2 top-1 cursor-pointer md:hidden flex justify-center items-center"
           >
             {open ? (
-              <img src={close} className="w-10 mt-1" alt="Close Menu" />
+              <img
+                src={close}
+                className="w-10 mt-1"
+                alt="Close Menu"
+              />
             ) : (
-              <img src={menu} className="w-10 mt-1" alt="Open Menu" />
+              <img
+                src={menu}
+                className="w-10 mt-1"
+                alt="Open Menu"
+              />
             )}
           </div>
         </div>
