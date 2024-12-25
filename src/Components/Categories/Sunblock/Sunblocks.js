@@ -16,22 +16,23 @@ import {
   OilFreeTintedSaeedGhaniDesc,
   DisaarSunscreenLotionDesc,
   spf60SunScreenDesc,
+  NeutrogenaSunblockDesc,
 } from "./sunblocksDesc";
 
 
 let sunblocksArr = [
   {
     img: OilFreeTintedSaeedGhani,
-    text: "Oil Free Tinted Sunscreen With Niacinamide Serum",
+    text: "Oil-Free Tinted Sunscreen With Niacinamide Serum",
     price: "1599/-",
-    reducedPrice: "1259/-",
+    reducedPrice: "1149/-",
     productCode: "MZ23800000005SKTS",
     shortDetail: OilFreeTintedSaeedGhaniDesc,
     rating: "5.0",
   },
   {
     img: DisaarSunscreenLotion,
-    text: "UV Protectant Sunblock Lotion",
+    text: "DISAAR Sunscreen Lotion Spf-50 Advance UV Protection",
     price: "899/-",
     reducedPrice: "599/-",
     productCode: "MZ655000000112CLSCL",
@@ -39,11 +40,11 @@ let sunblocksArr = [
   },
   {
     img: NeutrogenaSunblock,
-    text: "Neutrogena Sunblock",
-    price: "N/A",
-    reducedPrice: "N/A",
+    text: "Neutrogena Ultra Sheer Dry Touch Sunblock SPF 50+",
+    price: "1899/-",
+    reducedPrice: "1499/-",
     productCode: "MZ67400046CYCH",
-    shortDetail: "Material: Cream\nPackage Includes: 1 x Sunblock",
+    shortDetail: NeutrogenaSunblockDesc,
   },
   {
     img: JessicaSunblock,
