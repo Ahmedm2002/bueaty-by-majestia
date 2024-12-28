@@ -19,7 +19,7 @@ import {
 let FaceMasksArr = [
   {
     img: VitaminCAichunBueaty,
-    text: "Vitamin C Honey Peel-Off Face Mask",
+    text: "Aichun Beauty Vitamin C Honey Peel Off Mask 120ml",
     price: "999/-",
     reducedPrice: "719/-",
     productCode: "MZ65500101CLSCL",
@@ -27,7 +27,7 @@ let FaceMasksArr = [
   },
   {
     img: OliveBlackMask,
-    text: "Dead Skin Remover Peel-Off Face Mask",
+    text: "Coswin Olive Facial Black Mask",
     price: "599/-",
     reducedPrice: "399/-",
     productCode: "MZ19920102RAAS",
@@ -35,23 +35,23 @@ let FaceMasksArr = [
   },
   {
     img: DrRaheelGoldenCollagen,
-    text: "Dr.Raheel Peel-Off Face Mask",
-    price: "899/-",
-    reducedPrice: "599/-",
+    text: "DR.RASHEL Facial Gold Collagen Peel Off Anti-Wrinkle mask Deep Clean Acne Gold face Mask 120ml",
+    price: "1099/-",
+    reducedPrice: "799/-",
     productCode: "MZ55700000027BYBR",
     shortDetail: DrRaheelGoldenCollagenDesc,
   },
   {
     img: StrawberryMaskStick,
-    text: "Moisturizing Stick Mask",
-    price: "699/-",
-    reducedPrice: "529/-",
+    text: "Moisturizing Strawberry Stick Mask",
+    price: "899/-",
+    reducedPrice: "599/-",
     productCode: "MZ90000000031MJCN",
     shortDetail: StrawberryMaskStickDesc,
   },
   {
     img: SadoerGoldMask,
-    text: "Retinol Snake Venom Peptide Anti-Wrinkle, Gold Mask",
+    text: "SADOER Retinol Snake Venom Peptide Gold Mask Deep Cleansing Gold Collagen Peel Off Face Mask",
     price: "899/-",
     reducedPrice: "599/-",
     productCode: "MZ19920011RAAS",
@@ -61,7 +61,7 @@ let FaceMasksArr = [
     img: PeelOffMask,
     text: "Rejuvenating Peel-Off Face Mask",
     price: "499/-",
-    reducedPrice: "359/-",
+    reducedPrice: "349/-",
     productCode: "MZ19920101RAAS",
     shortDetail: PeelOffMaskDesc,
   }
