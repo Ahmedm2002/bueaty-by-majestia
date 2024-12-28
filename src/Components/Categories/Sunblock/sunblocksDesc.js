@@ -20,9 +20,7 @@ const OilFreeTintedSaeedGhaniDesc = `
 
 const DisaarSunscreenLotionDesc = `
 <div>
-  <p>Product Type: UV Protectant Sunblock SPF 50</p>
-
-  <p>Material: Cream</p>
+ <p>Material: Cream</p>
 
   <p>Volume: 50 Ml</p>
 
@@ -50,7 +48,6 @@ const DisaarSunscreenLotionDesc = `
 `
 
 const spf60SunScreenDesc = `
-
 <p><strong>Product Type:</strong> Sunscreen</p>
 <p><strong>SPF:</strong> 60</p>
 <p><strong>Color:</strong> Yellow</p>
@@ -75,8 +72,6 @@ const spf60SunScreenDesc = `
 `;
 
 const NeutrogenaSunblockDesc = `
-<h2 className="text-xl">Neutrogena Sunblock</h2>
-
 <h3 className="text-2xl">Material:</h3>
 <p>Cream</p>
 
@@ -109,6 +104,188 @@ const NeutrogenaSunblockDesc = `
 <h3 className="text-2xl">Package Includes:</h3>
 <p>1 x Sunblock</p>
 `
+const JessicaSunblockDesc = `s
+<h3 className="text-2xl">Color:</h3><p>Yellow</p>
 
+<h3 className="text-2xl">Product Type:</h3>
+<p>Expert Solution Sunscreen</p>
 
-export {OilFreeTintedSaeedGhaniDesc,spf60SunScreenDesc,  DisaarSunscreenLotionDesc, NeutrogenaSunblockDesc}
+<h3 className="text-2xl">Product Description:</h3>
+<p>The Jessica Sunblock Expert Solution Sunscreen is your ultimate companion for effective sun protection. Designed to shield your skin from harmful UV rays, this sunscreen combines advanced sunblock technology with a lightweight, non-greasy formula, making it suitable for everyday use.</p>
+
+<h3 className="text-2xl">Key Features:</h3>
+<ul class="list-disc ml-6 pl-4">
+    <li className="mb-2"><strong>Comprehensive Sun Protection:</strong> Effectively blocks UVA and UVB rays, helping to prevent sunburn and long-term skin damage.</li>
+    <li className="mb-2"><strong>Lightweight Formula:</strong> Absorbs quickly into the skin, leaving no sticky or oily residue.</li>
+    <li className="mb-2"><strong>Hydrating Benefits:</strong> Keeps your skin moisturized while providing a protective barrier.</li>
+    <li className="mb-2"><strong>Bright Yellow Packaging:</strong> Easy to spot in your bag, perfect for on-the-go use.</li>
+    <li className="mb-2"><strong>Expert Solution:</strong> Specially formulated to cater to various skin types for maximum efficacy.</li>
+</ul>
+
+<h3 className="text-2xl">Usage Instructions:</h3>
+<ol>
+    <li className="mb-2">Apply generously and evenly to all exposed skin areas at least 15 minutes before sun exposure.</li>
+    <li className="mb-2">Reapply every 2 hours or after swimming, sweating, or towel drying.</li>
+    <li className="mb-2">Pair with other sun-protection measures like wearing hats and sunglasses for complete coverage.</li>
+</ol>
+
+<h3 className="text-2xl">Package Includes:</h3>
+<p>1 x Sunscreen</p>
+
+<p><strong>Pro Tip:</strong> For best results, use daily even on cloudy days, as UV rays can penetrate through clouds.</p>
+
+<p><strong>Stay protected and confident under the sun with Jessica Sunblock Expert Solution Sunscreen – your skin’s first line of defense!</strong></p>
+`
+const uvSunblockDesc = `
+<h3 className="text-2xl">Material: Cream</h3>
+
+<h3 className="text-2xl">Skin Types: Normal, Oily, Dry, Combination, Sensitive, or Acne-Prone</h3>
+
+<h3 className="text-2xl">Color: White</h3>
+
+<h3 className="text-2xl">Product Feature: UV Protectant</h3>
+
+<h3 className="text-2xl">Volume: 150 ml</h3>
+
+<h3 className="text-2xl">Product Description:</h3>
+<p>The UV Protectant Sunblock - SPF-60 offers superior sun protection for all skin types, ensuring a healthy and radiant complexion while shielding your skin from harmful UV rays. With an advanced SPF-60 formula, this sunblock is designed to provide broad-spectrum protection, making it ideal for daily use, even under extreme sun exposure.</p>
+
+<h3 className="text-2xl">Key Features:</h3>
+<ul class="list-disc ml-6 pl-4">
+    <li className="mb-2"><strong>Broad-Spectrum SPF-60:</strong> Protects against UVA and UVB rays, preventing sunburn, premature aging, and skin damage.</li>
+    <li className="mb-2"><strong>Versatile Skin Compatibility:</strong> Suitable for all skin types, including sensitive and acne-prone skin.</li>
+    <li className="mb-2"><strong>Non-Greasy Formula:</strong> Lightweight and fast-absorbing, leaving your skin feeling fresh and smooth.</li>
+    <li className="mb-2"><strong>Moisturizing Benefits:</strong> Hydrates the skin while creating a protective barrier against the sun.</li>
+    <li className="mb-2"><strong>Long-Lasting Protection:</strong> Provides extended coverage for outdoor activities.</li>
+</ul>
+
+<h3 className="text-2xl">How to Use:</h3>
+<ol>
+    <li className="mb-2">Apply generously and evenly to your face and body at least 15-20 minutes before sun exposure.</li>
+    <li className="mb-2">Reapply every 2 hours or after swimming, sweating, or towel drying.</li>
+    <li className="mb-2">For daily use, incorporate it as the last step of your skincare routine before makeup application.</li>
+</ol>
+
+<p>Package Includes: 1 x Sunblock (150 ml)</p>
+
+<p><strong>Pro Tip:</strong> Pair with a wide-brimmed hat and sunglasses for optimal sun protection during peak UV hours.</p>
+
+<p><strong>Stay protected, hydrated, and confident under the sun with UV Protectant Sunblock - SPF-60, your ultimate skincare essential!</strong></p>
+`
+
+const sunblock120gUVDesc = `
+<h3 className="text-2xl">Material: Cream</h3>
+
+<p>Product Feature: UV Protectant</p>
+
+<p>Weight: 120 grams</p>
+
+<h3 className="text-2xl">Product Description:</h3>
+<p>The Whitening & Vanishing SPF60 Sunblock is a dual-action skincare essential designed to protect your skin from harmful UV rays while promoting a brighter and more even complexion. Its lightweight formula combines effective sun protection with vanishing properties, leaving your skin fresh and smooth without any greasy residue.</p>
+
+<h3 className="text-2xl">Key Features:</h3>
+<ul class="list-disc ml-6 pl-4">
+    <li className="mb-2"><strong>SPF60 Protection:</strong> Shields your skin from UVA and UVB rays, reducing the risk of sunburn, dark spots, and premature aging.</li>
+    <li className="mb-2"><strong>Brightening Effect:</strong> Helps enhance your skin's natural radiance by targeting uneven tone and discoloration.</li>
+    <li className="mb-2"><strong>Non-Greasy Formula:</strong> Absorbs quickly into the skin, providing a matte finish ideal for everyday use.</li>
+    <li className="mb-2"><strong>Lightweight and Breathable:</strong> Perfect for hot climates or under makeup application.</li>
+    <li className="mb-2"><strong>Long-Lasting Coverage:</strong> Stays effective for hours, suitable for outdoor and daily activities.</li>
+</ul>
+
+<h3 className="text-2xl">How to Use:</h3>
+<ol>
+    <li className="mb-2">Apply a generous amount of sunblock to your face, neck, and exposed areas of the body.</li>
+    <li className="mb-2">Massage gently into the skin until fully absorbed.</li>
+    <li className="mb-2">Reapply every 2 hours or after swimming, sweating, or towel drying.</li>
+</ol>
+
+<h3 className="text-2xl">Package Includes:</h3>
+<p>1 x Whitening & Vanishing SPF60 Sunblock (120 grams)</p>
+
+<h3 className="text-2xl">Skin Compatibility:</h3>
+<p>This sunblock is suitable for all skin types and can be incorporated into your daily skincare routine to achieve optimal protection and glow.</p>
+
+<p><strong>Keep your skin protected and luminous with Whitening & Vanishing SPF60 Sunblock, the perfect blend of care and defense!</strong></p>
+`
+const CeraVeSunblockDesc = `
+<h3 className="text-2xl">Material: Lotion</h3>
+
+<p>Skin Types: Suitable for sensitive skin</p>
+
+<h3 className="text-2xl">Product Description:</h3>
+<p>The CeraVe Hydrating Mineral Sunscreen SPF 50 is a dermatologist-developed sunscreen lotion designed to provide broad-spectrum protection while offering long-lasting hydration. Formulated with mineral sunscreen ingredients, it creates a protective barrier to shield your skin from the sun’s harmful rays without irritating sensitive skin. Infused with Niacinamide, it helps to calm and soothe your skin, making it ideal for daily use.</p>
+
+<h3 className="text-2xl">Key Features:</h3>
+<ul class="list-disc ml-6 pl-4">
+    <li className="mb-2"><strong>Hydrating and Soothing:</strong> Contains Niacinamide, which helps to calm and replenish the skin, providing hydration throughout the day.</li>
+    <li className="mb-2"><strong>Mineral-Based Protection:</strong> Offers SPF 50 broad-spectrum protection from both UVA and UVB rays using Zinc Oxide and Titanium Dioxide.</li>
+    <li className="mb-2"><strong>Free of Harmful Ingredients:</strong> Allergy-tested, Paraben-free, Fragrance-free, Oil-free, Oxybenzone-free, and Octinoxate-free.</li>
+    <li className="mb-2"><strong>Non-Comedogenic:</strong> Won’t clog pores, making it suitable for acne-prone and sensitive skin.</li>
+    <li className="mb-2"><strong>Lightweight and Non-Greasy:</strong> A lightweight, oil-free formula that absorbs easily into the skin without leaving a greasy residue.</li>
+</ul>
+
+<h3 className="text-2xl">How to Use:</h3>
+<ol>
+    <li className="mb-2">Apply generously to the face and exposed areas of the skin 15 minutes before sun exposure.</li>
+    <li className="mb-2">Reapply every 2 hours or after swimming, sweating, or towel drying.</li>
+</ol>
+
+<h3 className="text-2xl">Package Includes:</h3>
+<p>1 x CeraVe Hydrating Mineral Sunscreen SPF 50</p>
+
+<p><strong>Protect your skin from harmful UV rays while nourishing and hydrating with CeraVe Hydrating Mineral Sunscreen SPF 50.</strong></p>
+`
+const SunblockPackOf3Desc = `
+<h3 className="text-2xl">Includes:</h3>
+<ul class="list-disc ml-6 pl-4">
+    <li className="mb-2"><strong>Organic Papaya White SPF 60</strong></li>
+    <li className="mb-2"><strong>Organic Aloe White SPF 30</strong></li>
+    <li className="mb-2"><strong>Organic Argan White SPF 45</strong></li>
+</ul>
+
+<h3 className="text-2xl">Material: Cream</h3>
+
+<p>Skin Types: Suitable for all skin types</p>
+
+<p>Water-Resistant: Offers long-lasting protection even in water exposure</p>
+
+<p>Anti-Dark Spots: Helps to reduce the appearance of dark spots and uneven skin tone</p>
+
+<p>Anti-Darkening: Prevents darkening and pigmentation caused by sun exposure</p>
+
+<p>Multipurpose: Protects skin from harmful UV-A and UV-B rays, making it ideal for daily use</p>
+
+<h3 className="text-2xl">SPF Protection:</h3>
+<ul class="list-disc ml-6 pl-4">
+    <li className="mb-2"><strong>Organic Papaya White:</strong> SPF 60 for high-level sun protection</li>
+    <li className="mb-2"><strong>Organic Aloe White:</strong> SPF 30 for moderate sun protection</li>
+    <li className="mb-2"><strong>Organic Argan White:</strong> SPF 45 for optimal protection</li>
+</ul>
+
+<h3 className="text-2xl">Package Includes:</h3>
+<p>1 x Sunblock Pack of 3 (Organic Papaya White SPF 60, Organic Aloe White SPF 30, Organic Argan White SPF 45)</p>
+
+<h3 className="text-2xl">Disclaimer:</h3>
+<p>Before using a new cosmetic product, conduct a test on a small area of your skin to ensure no allergic reactions. If you have a specific allergy or sensitivity, check the ingredients to avoid any adverse reactions. Always read and follow the directions and warning labels on the package for proper usage.</p>
+
+<p><strong>Protect your skin with the natural goodness of Organic Papaya, Aloe, and Argan, while ensuring long-lasting and effective sun protection with these multipurpose sunblocks.</strong></p>
+`
+const pondsUvProtectDesc = `
+<h3 className="text-2xl">Material: Cream</h3>
+
+<p>Texture: Smooth</p>
+
+<p>Skin Types: Ideal for normal skin</p>
+
+<p>Product Feature: UV Protectant, designed to protect your skin from harmful UV rays</p>
+
+<h3 className="text-2xl"></h3>
+<p>SPF Protection: Provides effective sun protection to prevent sun damage and premature aging</p>
+
+<h3 className="text-2xl">Package Includes:</h3>
+<p>1 x Pond's UV Protectant Sunblock</p>
+
+<p><strong>Stay protected from the sun's harmful rays with Pond's UV Protectant Sunblock, offering smooth and reliable skin protection for your daily routine.</strong></p>
+`
+
+export {OilFreeTintedSaeedGhaniDesc,spf60SunScreenDesc,  DisaarSunscreenLotionDesc,uvSunblockDesc, NeutrogenaSunblockDesc,JessicaSunblockDesc, sunblock120gUVDesc, CeraVeSunblockDesc, SunblockPackOf3Desc, pondsUvProtectDesc}
