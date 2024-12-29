@@ -56,7 +56,7 @@ function Search() {
 
   return (
     <div
-      className="w-full md:max-w-2xl p-1 mt-1 mx-auto z-20 md:z-50 sticky top-14 md:top-1 "
+      className="w-full md:max-w-xl p-1 mt-1 mx-auto z-20 md:z-50 sticky top-14 md:top-1 "
       ref={searchRef}
     >
       <div className="flex rounded-md border-2 border-pink-500 overflow-hidden shadow-lg">
