@@ -38,7 +38,7 @@ function Header() {
                   alt="logo"
                   className="w-10 h-10 inline rounded-md mr-2"
                 />
-                <h3 className="text-md inline">Bueaty By Majestia</h3>
+                <h3 className="text-md inline">Beauty By Majestia</h3>
               </Link>
             </div>
           </div>

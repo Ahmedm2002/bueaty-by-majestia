@@ -1,71 +1,77 @@
-import {
-  HyderatingBL250ML,
-  soapexFeetCream,
-  XQMFaceBodyScrub,
-  CharismaHandAndFeet,
-  WhiteningSpraySunProtector,
-} from "./Images/bodyLotions";
+// import {
+//   HyderatingBL250ML,
+//   soapexFeetCream,
+//   XQMFaceBodyScrub,
+//   CharismaHandAndFeet,
+//   WhiteningSpraySunProtector,
+// } from "./src/Components/Categories/BodyLotions/Images/bodyLotions";
 
-import {
-  XQMFaceBodyScrubDesc,
-  HyderatingBL250MLDesc,
-  soapexFeetCreamDesc,
-  CharismaHandAndFeetDesc,
-  WhiteningSpraySunProtectorDesc,
-} from "./bodyLotionsDesc";
+// import {
+//   XQMFaceBodyScrubDesc,
+//   HyderatingBL250MLDesc,
+//   soapexFeetCreamDesc,
+//   CharismaHandAndFeetDesc,
+//   WhiteningSpraySunProtectorDesc,
+// } from "./src/Components/Categories/BodyLotions/bodyLotionsDesc";
 
 
-const bodyLotionsArr = [
+let bodyLotionsArr = [
   {
-    img: XQMFaceBodyScrub,
-    text: "Face & Body Plant Energy Scrub",
+    // img: XQMFaceBodyScrub,
+    text: "XQM Pure Active Plant Energy 30 Second Dispel Horniness Cucumber & Green Tea Natural Essence 100gram",
     price: "899/-",
-    reducedPrice: "659/-",
+    reducedPrice: "699/-",
     productCode: "MZ66600064GNCS",
-    shortDetail: XQMFaceBodyScrubDesc,
+    // shortDetail: XQMFaceBodyScrubDesc,
   },
   {
-    img: HyderatingBL250ML,
+    // img: HyderatingBL250ML,
     text: "Hydrating Body Lotion, 250 Ml",
     price: "699/-",
-    reducedPrice: "539/-",
+    reducedPrice: "599/-",
     productCode: "MZ69120180AIBSFD",
-    shortDetail: HyderatingBL250MLDesc,
+    // shortDetail: HyderatingBL250MLDesc,
   },
   {
-    img: soapexFeetCream,
-    text: "Soapex Heel Cream",
-    price: "499/-",
-    reducedPrice: "389/-",
-    productCode: "MZ19920069RAAS",
-    shortDetail: soapexFeetCreamDesc,
-  },
-  {
-    img: CharismaHandAndFeet,
-    text: "Dead Skin Remover Foot & Hand Scrub, Free Sunblock",
+    // img: soapexFeetCream,
+    text: "Soapex foot cream",
     price: "799/-",
-    reducedPrice: "589/-",
-    productCode: null,
-    shortDetail: CharismaHandAndFeetDesc,
+    reducedPrice: "449/-",
+    productCode: "MZ19920069RAAS",
+    // shortDetail: soapexFeetCreamDesc,
+  },
+  {
+    // img: CharismaHandAndFeet,
+    text: "Hands and Feet Whitening Scrub with free Sunblock",
+    price: "799/-",
+    reducedPrice: "599/-",
+    productCode: "MZ23800112SKTS",
+    // shortDetail: CharismaHandAndFeetDesc,
     rating: "5.0",
   },
   {
-    img: WhiteningSpraySunProtector,
-    text: "Whitening Spray & Sun Protector",
+    // img: WhiteningSpraySunProtector,
+    text: "SunScreen & Skin Whitening Spray",
     price: "999/-",
-    reducedPrice: "719/-",
+    reducedPrice: "699/-",
     productCode: "MZ67200225ALIBF",
-    shortDetail: WhiteningSpraySunProtectorDesc,
+    // shortDetail: WhiteningSpraySunProtectorDesc,
     rating: "5.0",
   },
 ];
 
-// bodyLotionsArr = bodyLotionsArr.map((product) => ({...product, category: "bodyLotions"}))
-
 bodyLotionsArr = bodyLotionsArr.map((product) => ({
   ...product,
-  category: "bodyLotions",
-}));
+  category : "bodyLotions"
+}))
+
+// export { bodyLotionsArr }
+
+const filteredProds = bodyLotionsArr.filter((product) => product.text.toLowerCase().includes("cream".toLowerCase()));
+
+console.log(filteredProds);
 
 
-export { bodyLotionsArr }
+//  pack of bc = 1 , sb = 1, fw = 0, fk = 3, gl = 0, nsc = 1, cln = 0 , pwd = 1, BL = 0 , srm = 0 , fm = 0 , tn = 0
+
+// 1 + 1 + 3 + 1 + 1  = 7

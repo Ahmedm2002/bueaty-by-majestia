@@ -1,7 +1,4 @@
 import React from "react";
-import hamza from "../assets/owners/hamza.jpg";
-import adeel from "../assets/owners/adeel.jpg";
-import abdullah from "../assets/owners/abdullah.jpg";
 
 function AboutUs() {
   return (
@@ -21,7 +18,7 @@ function AboutUs() {
         </p>
       </div>
 
-      <div className="mt-8 flex flex-wrap justify-center gap-6">
+      {/* <div className="mt-8 flex flex-wrap justify-center gap-6">
         <div className="flex flex-col items-center">
           <img
             src={hamza}
@@ -50,7 +47,7 @@ function AboutUs() {
             Abdullah Naveed
           </h2>
         </div>
-      </div>
+      </div> */}
 
       <div className="mt-10 text-center">
         <h1 className="text-3xl font-bold text-pink-900">Our Mission</h1>

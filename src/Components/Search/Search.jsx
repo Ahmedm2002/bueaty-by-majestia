@@ -14,35 +14,33 @@ function Search() {
     setSearch(value);
     if (value === "") {
       setSearchedProduct([]);
-      setIsSearchActive(false); // Hide results if input is empty
+      setIsSearchActive(false); 
       return;
     }
     const filteredProducts = allProducts.filter((product) =>
       product.text.toLowerCase().includes(value.toLowerCase())
     );
     setSearchedProduct(filteredProducts);
-    setIsSearchActive(true); // Show results when typing
+    setIsSearchActive(true); 
   }
 
   function navigateToProduct(text, category) {
     let formattedProductName = text.replace(/\s+/g, "-").toLowerCase();
     setSearch("");
     setSearchedProduct([]);
-    setIsSearchActive(false); // Hide results after navigation
+    setIsSearchActive(false);
     navigate(`/${category}/${formattedProductName}`);
   }
-
-  // Hide search results on outside click or scroll
   useEffect(() => {
     function handleClickOutside(event) {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
-        setIsSearchActive(false); // Only hide the results, don't modify the products array
+        setIsSearchActive(false);
         setSearch("");
       }
     }
 
     function handleScroll() {
-      setIsSearchActive(false); // Hide search results on scroll
+      setIsSearchActive(false);
     }
 
     document.addEventListener("mousedown", handleClickOutside);

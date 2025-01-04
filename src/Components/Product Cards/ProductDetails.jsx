@@ -26,7 +26,6 @@ const ProductDetails = () => {
   const handleBuyNow = () => {
     const message = `I'm interested in buying the following product:\n
 Product: ${text}\nPrice: Rs.${reducedPrice}
-${productCode ? `Product Code: ${productCode}` : ""}
 
 Please provide more details.`;
 

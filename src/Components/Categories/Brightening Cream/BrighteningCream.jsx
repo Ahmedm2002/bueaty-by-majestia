@@ -8,7 +8,7 @@ function BrighteningCream() {
       <h1 className="text-2xl text-center font-semibold my-4">
         Products in Brightening Cream
       </h1>
-      <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+      <div className="mt-4 lg:mt-8 flex flex-row flex-wrap gap-8 justify-center">
         {BrighteningCreamsArr.map((product, index) => (
           <ProductCard
             key={index}

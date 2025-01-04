@@ -1,0 +1,15 @@
+SunBlocks:		        11
+Face Wash:		        7
+Facial Kit: 		      12
+Gels: 			          5
+Night Skin Care:	    4
+Cleansers:		        3	
+Powders:		          12
+Body Lotions: 		    5
+Brightening Creams: 	25
+Serums:			          6
+Face Masks: 		      6
+Toners: 		          1
+
+
+Total:                97                    

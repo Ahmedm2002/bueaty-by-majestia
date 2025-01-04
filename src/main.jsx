@@ -1,9 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Layout from "./Pages/Layout";
-import AboutUs from "./Pages/AboutUs";
-import ContactUs from "./Pages/ContactUs";
-import Home from "./Pages/Home";
 import "./index.css";
 import {
   Route,
@@ -11,6 +7,15 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
+
+// Pages
+
+import Layout from "./Pages/Layout";
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
+import Home from "./Pages/Home";
+
+//  Categories
 
 import Sunblock from "./Components/Categories/Sunblock/Sunblock.jsx";
 import FaceWash from "./Components/Categories/Face Wash/FaceWash.jsx";
@@ -27,6 +32,9 @@ import CalculatePrice from "../CalculatePrice";
 import CalculateDiscount from "../CalculateDiscount";
 import Powders from "./Components/Categories/Powders/Powders.jsx";
 import Toners from "./Components/Categories/Toners/Toners.jsx";
+import PackOfs from "./Components/PackOfs/PackOfs.jsx";
+
+// WhatsApp Logo
 import whatsapp from "./assets/whatsapp.png";
 
 const App = () => {
@@ -36,25 +44,86 @@ const App = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="aboutUs" element={<AboutUs />} />
-        <Route path="contactUs" element={<ContactUs />} />
-        <Route path="sunblock" element={<Sunblock />} />
-        <Route path="faceWash" element={<FaceWash />} />
-        <Route path="facialKit" element={<FacialKit />} />
-        <Route path="gels" element={<Gels />} />
-        <Route path="nightSkinCare" element={<NightSkinCare />} />
-        <Route path="cleansers" element={<Cleansers />} />
-        <Route path="bodyLotions" element={<BodyLotions />} />
-        <Route path="brighteningCreams" element={<BrighteningCream />} />
-        <Route path="serums" element={<Serums />} />
-        <Route path="facemasks" element={<FaceMasks />} />
-        <Route path="powders" element={<Powders />} />
-        <Route path="toners" element={<Toners />} />
-        <Route path="/:category/:productName" element={<ProductDetails />} />
-        <Route path="calculatePrice" element={<CalculatePrice />} />
-        <Route path="calculateDiscount" element={<CalculateDiscount />} />
+      <Route
+        path="/"
+        element={<Layout />}
+      >
+        <Route
+          index
+          element={<Home />}
+        />
+        <Route
+          path="aboutUs"
+          element={<AboutUs />}
+        />
+        <Route
+          path="contactUs"
+          element={<ContactUs />}
+        />
+        <Route
+          path="sunblock"
+          element={<Sunblock />}
+        />
+        <Route
+          path="faceWash"
+          element={<FaceWash />}
+        />
+        <Route
+          path="facialKit"
+          element={<FacialKit />}
+        />
+        <Route
+          path="gels"
+          element={<Gels />}
+        />
+        <Route
+          path="nightSkinCare"
+          element={<NightSkinCare />}
+        />
+        <Route
+          path="cleansers"
+          element={<Cleansers />}
+        />
+        <Route
+          path="bodyLotions"
+          element={<BodyLotions />}
+        />
+        <Route
+          path="brighteningCreams"
+          element={<BrighteningCream />}
+        />
+        <Route
+          path="serums"
+          element={<Serums />}
+        />
+        <Route
+          path="facemasks"
+          element={<FaceMasks />}
+        />
+        <Route
+          path="powders"
+          element={<Powders />}
+        />
+        <Route
+          path="toners"
+          element={<Toners />}
+        />
+        <Route
+          path="/:category/:productName"
+          element={<ProductDetails />}
+        />
+        <Route
+          path="calculatePrice"
+          element={<CalculatePrice />}
+        />
+        <Route
+          path="calculateDiscount"
+          element={<CalculateDiscount />}
+        />
+        <Route
+          path="packofs"
+          element={<PackOfs />}
+        />
       </Route>
     )
   );

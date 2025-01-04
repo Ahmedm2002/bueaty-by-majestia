@@ -8,7 +8,7 @@ function NightSkinCare() {
       <h1 className="text-2xl text-center font-semibold my-4">
         Products in Night Skin Care
       </h1>
-      <div className="mt- lg:mt-8 flex flex-row flex-wrap gap-12 justify-center">
+      <div className="mt- lg:mt-8 flex flex-row flex-wrap gap-8 justify-center">
         {NightCreamsArr.map((product, index) => (
           <ProductCard
             key={index}
