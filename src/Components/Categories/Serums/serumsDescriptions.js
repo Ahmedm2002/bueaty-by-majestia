@@ -30,11 +30,10 @@ const pixiSerumDesc = `
 
 
 const TeaTreeOilSerumDesc = `
-<div>
-  <h2>Product Description:</h2>
+  <h2><strong>Product Description:</strong></h2>
   <p>Discover the power of nature with our Tea Tree Oil Serum—a targeted solution designed to address acne-prone skin and promote a clear, healthy complexion. Infused with the natural benefits of tea tree oil, this serum is specially formulated to tackle blemishes, control excess oil, and balance your skin’s appearance.</p>
 
-  <h3>Key Benefits:</h3>
+  <h3><strong>Key Benefits:</strong></h3>
   <ul class="list-disc ml-6 pl-4">
     <li><strong>Targets Acne-Prone Skin:</strong> Effectively clears blemishes and prevents future breakouts.</li>
     <li><strong>Controls Oil Production:</strong> Regulates oil levels to reduce shine and keep your skin looking fresh.</li>
@@ -43,17 +42,15 @@ const TeaTreeOilSerumDesc = `
     <li><strong>Clearer, Healthier Skin:</strong> Regular use supports a clearer, more vibrant complexion by addressing multiple skin concerns simultaneously.</li>
   </ul>
 
-  <h3>Package Includes:</h3>
+  <h3><strong>Package Includes:</strong></h3>
   <ul class="list-disc ml-6 pl-4">
     <li>1 x Tea Tree Oil Serum (30 Ml)</li>
   </ul>
 
-  <h3>Directions for Use:</h3>
+  <h3><strong>Directions for Use:</strong></h3>
   <p>Apply a small amount of serum to clean, dry skin, focusing on areas with blemishes or excess oil. Gently massage in until fully absorbed. For best results, use twice daily, morning and evening.</p>
 
   <p>Enhance your skincare routine with the Tea Tree Oil Serum and experience the benefits of a clearer, healthier complexion.</p>
-</div>
-
 `
 
 const NiacinamideSkinpeelingDesc = `
@@ -85,7 +82,7 @@ const TeaTreeSerumDesc = `
  <p><strong>Product Type:</strong> Tea Tree Oil Serum</p>
   <p><strong>Material:</strong> Liquid</p>
 
-  <h3>Product Features:</h3>
+  <h3><strong>Product Features:</strong></h3>
   <ul className="list-disc ml-6 pl-4">
     <li><strong>Targeted for Acne-Prone Skin:</strong> Specially formulated to address the needs of acne-prone skin by helping to clear blemishes and control excess oil.</li>
     <li><strong>Clearer and Healthier Skin:</strong> Promotes a healthier complexion by reducing acne and regulating oil production, resulting in clearer, balanced skin.</li>
@@ -94,15 +91,15 @@ const TeaTreeSerumDesc = `
     <li><strong>Color:</strong> Green</li>
   </ul>
 
-  <h3>Package Includes:</h3>
+  <h3><strong>Package Includes:</strong></h3>
   <ul className="list-disc ml-6 pl-4">
     <li>1 x Serum (30 ml)</li>
   </ul>
 
-  <h3>Description:</h3>
+  <h3><strong>Description:</strong></h3>
   <p>Transform your skincare routine with the Tea Tree Oil Serum, designed specifically for those with acne-prone skin. This potent serum features tea tree oil's natural antibacterial properties, targeting blemishes and controlling oil production to promote a balanced and clear complexion. The soothing formula not only calms irritated skin but also helps regulate oil levels to prevent future breakouts. With its calming and purifying effects, this serum supports healthier, more radiant skin.</p>
 
-  <h3>How to Use:</h3>
+  <h3><strong>How to Use:</strong></h3>
   <ul className="list-disc ml-6 pl-4">
     <li><strong>Cleanse:</strong> Start with a clean face, ensuring all makeup and impurities are removed.</li>
     <li><strong>Apply:</strong> Dispense a small amount of serum onto your fingertips or a cotton pad.</li>
@@ -118,7 +115,7 @@ const RiceSkinBueatyEssenceDesc = `
 <p><strong>Material:</strong> Cream</p>
   <p><strong>Product Type:</strong> Rice Cream, Rice Lotion, and Rice Serum Deal</p>
 
-  <h3>Product Features:</h3>
+  <h3><strong>Product Features:</strong></h3>
   <ul className="list-disc ml-6 pl-4">
     <li><strong>Nourishing:</strong> Provides essential nutrients to the skin, enhancing overall skin health.</li>
     <li><strong>Moisture Replenishment:</strong> Replenishes moisture, ensuring the skin remains hydrated and supple.</li>
@@ -126,17 +123,17 @@ const RiceSkinBueatyEssenceDesc = `
     <li><strong>Hydration:</strong> Intensely hydrates the skin, making it feel soft and smooth.</li>
   </ul>
 
-  <h3>Package Includes:</h3>
+  <h3><strong>Package Includes:</strong></h3>
   <ul className="list-disc ml-6 pl-4">
     <li>1 x Rice Cream</li>
     <li>1 x Rice Lotion</li>
     <li>1 x Rice Serum</li>
   </ul>
 
-  <h3>Description:</h3>
+  <h3><strong>Description:</strong></h3>
   <p>Experience the ultimate skincare nourishment with the Rice Skin Beauty Essence set, a comprehensive solution designed to cater to all your skin’s needs. This set includes a Rice Cream, Rice Lotion, and Rice Serum, all formulated with rice extracts to deliver maximum hydration, soothing relief, and nutrient replenishment for the skin. Ideal for daily use, each product works harmoniously to ensure your skin is left feeling refreshed, moisturized, and glowing with health.</p>
 
-  <h3>How to Use:</h3>
+  <h3><strong>How to Use:</strong></h3>
   <ul className="list-disc ml-6 pl-4">
     <li><strong>Rice Serum:</strong> Apply a few drops to clean skin, gently massaging in upward circular motions until fully absorbed.</li>
     <li><strong>Rice Lotion:</strong> Follow with the lotion to lock in the serum's benefits and provide additional hydration.</li>
@@ -151,16 +148,16 @@ const teaTreeEssentialOilDesc = `
 <p><strong>Volume:</strong> 10 ml</p>
 <p><strong>Package Includes:</strong> 1 x Oil</p>
 
-<h3>Description:</h3>
+<h3><strong>Description:</strong></h3>
 <p>Tea Tree Oil is a versatile and powerful essential oil known for its natural antibacterial and antifungal properties. Perfect for targeting skin concerns like acne and blemishes, this 10 ml bottle of pure Tea Tree Oil can be used in various ways, including as a spot treatment or mixed with a carrier oil for broader applications. Its potent formula helps soothe and calm the skin, promoting a clearer, healthier complexion.</p>
 
-<h3>How to Use:</h3>
+<h3><strong>How to Use:</strong></h3>
 <ul className="list-disc ml-6 pl-4">
   <li><strong>Spot Treatment:</strong> Apply a drop directly to blemishes or areas of concern using a cotton swab. Allow it to dry without rinsing.</li>
   <li><strong>Diluted Use:</strong> Mix a few drops with a carrier oil (like jojoba or coconut oil) before applying to larger areas of the skin.</li>
 </ul>
 
-<h3>Benefits:</h3>
+<h3><strong>Benefits:</strong></h3>
 <ul className="list-disc ml-6 pl-4">
   <li>Natural solution for acne-prone skin.</li>
   <li>Antibacterial and antifungal properties help prevent and reduce skin irritations.</li>
