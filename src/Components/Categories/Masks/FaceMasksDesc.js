@@ -168,7 +168,7 @@ const PeelOffMaskDesc = `
 
 <p>Color: Golden</p>
 
-<h3><strong>Product Features:</strong></h3>
+<h3><strong>Features:</strong></h3>
 <ul className="list-disc ml-6 pl-4">
   <li>Rejuvenating</li>
   <li>Absorbent</li>

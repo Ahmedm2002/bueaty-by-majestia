@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useContext } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import {
@@ -14,6 +14,7 @@ import Layout from "./Pages/Layout";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import Home from "./Pages/Home";
+import WishList from "./Components/WishList/WishList.jsx";
 
 //  Categories
 
@@ -124,17 +125,23 @@ const App = () => {
           path="packofs"
           element={<PackOfs />}
         />
+        <Route
+          path="wishlist"
+          element={<WishList />}
+        />
       </Route>
     )
   );
 
+  const wishlist = createContext();
+
   return (
     <>
-      <img
+      {/* <img
         src={whatsapp}
         onClick={() => chatOnWhatsapp()}
         className="w-12 h-12 fixed bottom-10 right-5 z-50 hover:cursor-pointer"
-      />
+      /> */}
       <RouterProvider router={router} />;
     </>
   );

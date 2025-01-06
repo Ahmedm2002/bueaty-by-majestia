@@ -23,14 +23,9 @@ const pixiSerumDesc = `
 <p>Apply a few drops of the serum onto clean, dry skin in the morning and evening. Gently massage into the face and neck until fully absorbed. For best results, use daily and follow up with a moisturizer.</p>
 
 <p>Elevate your skincare routine with the Pixi Botanical Collagen & Retinol Serum and enjoy the benefits of smoother, brighter, and younger-looking skin.</p>
-
-
 `;
 
-
-
 const TeaTreeOilSerumDesc = `
-  <h2><strong>Product Description:</strong></h2>
   <p>Discover the power of nature with our Tea Tree Oil Serum—a targeted solution designed to address acne-prone skin and promote a clear, healthy complexion. Infused with the natural benefits of tea tree oil, this serum is specially formulated to tackle blemishes, control excess oil, and balance your skin’s appearance.</p>
 
   <h3><strong>Key Benefits:</strong></h3>

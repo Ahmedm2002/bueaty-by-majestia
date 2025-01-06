@@ -15,7 +15,7 @@ const bioaouaUnderArmCreamDetails = `
               Priced at 644, it’s the perfect addition to your skincare routine for achieving a luminous and even skin tone.
             </p>
 
-            <h2 className="text-xl">Key Benefits:</h2>
+            <h2><strong>Key Benefits:</strong></h2>
 
             <ul className="list-disc ml-6 pl-4">
               <li className="mb-2">Naturally brightens and evens out skin tone</li>
@@ -567,17 +567,14 @@ const SaeedGhaniFootAndHandCreamDesc = `
 `;
 
 const VitaminCCream60gDesc = `
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material: </strong>Cream</p>
 
-<p><strong>Skin Types:</p></strong>
-<p>Normal Skin</p>
+<p><strong>Skin Types:</strong> Normal Skin</p>
 
 <p><strong>Product Feature:</p></strong>
 <p>Whitening formula, formulated to help brighten and even skin tone while reducing the appearance of dark spots</p>
 
-<p><strong>Quantity:</p></strong>
-<p>50 grams</p>
+<p><strong>Quantity: </strong>50 grams</p>
 
 <p><strong>Usage:</p></strong>
 <p>Apply a small amount of cream on the face and neck, ideally in the morning and evening, as part of your skincare routine. Massage gently until fully absorbed. Regular use helps achieve optimal brightening results.</p>
@@ -587,8 +584,8 @@ const VitaminCCream60gDesc = `
 `
 
 const GlupatoneBCDesc = `
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material:</strong> Cream</p>
+
 
 <p><strong>Product Description:</p></strong>
 <p>Glupatone Skin Whitening Cream is designed to brighten and even skin tone, helping reduce the appearance of dark spots and pigmentation. This cream combines gentle, nourishing ingredients that work to enhance skin radiance and promote a more balanced complexion.</p>
@@ -601,8 +598,7 @@ const GlupatoneBCDesc = `
 `
 
 const FacialBeautyCreamDesc = `
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material: </strong>Cream </p>
 
 <p><strong>Product Description:</p></strong>
 <p>Homeo Cure Beauty Cream is crafted with a blend of natural ingredients to rejuvenate and brighten skin. Formulated to enhance skin health, this cream helps in reducing dark spots, blemishes, and promoting an even skin tone. Suitable for daily use, it provides hydration and a natural glow.</p>
@@ -611,12 +607,12 @@ const FacialBeautyCreamDesc = `
 <p>Gently apply to cleansed skin, focusing on areas that need care. Massage until fully absorbed. For optimal results, use regularly as part of your skincare routine.</p>
 
 <p><strong>Package Includes:</p></strong>
-<p>1 x Facial Beauty Cream</p>
+<li>1 x Facial Beauty Cream</li>
 `
 
 const WhiteningEmulsionDesc = `
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material: </strong>Cream</p>
+<p></p>
 
 <p><strong>Product Feature:</p></strong>
 <p>Glupatone Whitening and Brightening Emulsion is designed to enhance skin radiance and promote an even, brighter complexion. This emulsion works by targeting dark spots and dull areas while providing hydration, leaving your skin looking revitalized and naturally luminous. Suitable for daily use, it absorbs smoothly, ensuring a non-greasy, lightweight feel.</p>
@@ -628,8 +624,8 @@ const WhiteningEmulsionDesc = `
 <p>1 x Whitening Emulsion</p>
 `
 const SkinPolish300gDesc = `
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material: </strong>Cream</p>
+<p></p>
 
 <p><strong>Product Description:</p></strong>
 <p>This Whitening Skin Polish is specially formulated to rejuvenate and brighten your skin. It utilizes skin-polishing techniques that exfoliate dull, tired skin by gently removing dead cells from the surface, resulting in a fresher, smoother, and more radiant complexion. Ideal for use on all skin types, this product leaves skin looking revitalized and glowing.</p>
@@ -654,24 +650,20 @@ const CentellaCream30GDesc = `
     <li className="mb-2"><strong>Rebuilds the Skin Surface:</strong> Aids in the regeneration of the skin surface, improving texture and appearance.</li>
 </ul>
 
-<p><strong>Size:</p></strong>
-<p>30g</p>
+<p><strong>Size: </strong>30g</p>
 
 <p><strong>Usage:</p></strong>
 <p>Apply a small amount to clean, dry skin, gently massaging in until fully absorbed. Can be used daily, both morning and night, for best results.</p>
 `
 const VitaminCWhiteningCreamDesc = `
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material:</strong> Cream</p>
+<p></p>
 
-<p><strong>Skin Types:</p></strong>
-<p>Suitable for Normal Skin</p>
+<p><strong>Skin Types: </strong>Suitable for Normal Skin</p>
 
-<p><strong>Product Feature:</p></strong>
-<p>Whitening and Brightening</p>
+<p><strong>Product Feature: </strong>Whitening and Brightening</p>
 
-<p><strong>Quantity:</p></strong>
-<p>50g</p>
+<p><strong>Quantity: </strong>50g</p>
 
 <p><strong>Product Benefits:</p></strong>
 <ul className="list-disc ml-6 pl-4">
@@ -681,24 +673,20 @@ const VitaminCWhiteningCreamDesc = `
 </ul>
 
 <p><strong>Package Includes:</p></strong>
-<p>1 x Vitamin C Whitening Cream</p>
+<li>1 x Vitamin C Whitening Cream</li>
 
 <p><strong>Usage Instructions:</p></strong>
 <p>Apply a small amount to clean, dry skin in the morning and evening. Gently massage into the skin until fully absorbed.</p>
 `
 
 const goldenPearlMassageCreamDesc = `                  
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material: </strong>Cream</p>
 
-<p><strong>Product Feature:</p></strong>
-<p>Whitening and Lightening</p>
+<p><strong>Product Feature: </strong>Whitening and Lightening</p>
 
-<p><strong>Quantity:</p></strong>
-<p>50 g</p>
+<p><strong>Quantity: </strong>50g</p>
 
-<p><strong>Package Includes:</p></strong>
-<p>1 x Day Cream</p>
+<p><strong>Package Includes: </strong>1 x Day Cream</p>
 
 <p><strong>Product Description:</p></strong>
 <p>The Skin Lightening Massage Cream is expertly formulated to help achieve a brighter and more even skin tone. This luxurious cream is designed to nourish the skin while providing a soothing massage experience, making it ideal for both professional and at-home use. Enriched with potent skin lightening agents, it works effectively to diminish dark spots and hyperpigmentation, leaving your skin looking radiant and youthful.</p>
@@ -716,8 +704,7 @@ const goldenPearlMassageCreamDesc = `
 `
 
 const AcneRemovalCreamDesc = `
-<p><strong>Material:</p></strong>
-<p>Cream</p>
+<p><strong>Material: </strong>Cream</p>
 
 <p><strong>Package Includes:</p></strong>
 <p>1 x Acne Scar Removal Rejuvenation Cream</p>

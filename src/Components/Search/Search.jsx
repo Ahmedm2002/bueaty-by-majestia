@@ -14,14 +14,14 @@ function Search() {
     setSearch(value);
     if (value === "") {
       setSearchedProduct([]);
-      setIsSearchActive(false); 
+      setIsSearchActive(false);
       return;
     }
     const filteredProducts = allProducts.filter((product) =>
       product.text.toLowerCase().includes(value.toLowerCase())
     );
     setSearchedProduct(filteredProducts);
-    setIsSearchActive(true); 
+    setIsSearchActive(true);
   }
 
   function navigateToProduct(text, category) {
@@ -54,7 +54,7 @@ function Search() {
 
   return (
     <div
-      className="w-full md:max-w-xl p-1 mt-1 mx-auto z-20 md:z-50 sticky top-14 md:top-1 "
+      className="w-full md:max-w-lg lg:max-w-xl p-1 mt-1 mx-auto z-20 md:z-50 sticky top-14 md:top-1 "
       ref={searchRef}
     >
       <div className="flex rounded-md border-2 border-pink-500 overflow-hidden shadow-lg">
@@ -97,7 +97,7 @@ function Search() {
                 <img
                   src={product.img}
                   alt={product.text}
-                  className="w-10 h-10 rounded-md mr-3"
+                  className="w-12 h-12 rounded-md mr-3"
                 />
                 <div className="flex flex-col">
                   <h3 className="text-gray-700">{product.text}</h3>

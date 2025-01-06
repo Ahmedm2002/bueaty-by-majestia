@@ -6,7 +6,7 @@ function AboutUs() {
       <div className="w-[90%] mt-6 md:mt-10 flex flex-col md:flex-row items-center p-6 mx-auto rounded-lg shadow-lg">
         <h1 className="text-3xl md:w-1/4 font-bold text-pink-900">About Us</h1>
         <p className="md:w-3/4 text-lg leading-relaxed text-gray-700">
-          At Bueaty by Majestia, we believe that true beauty comes from
+          At Beauty by Majestia, we believe that true beauty comes from
           embracing your natural self. Founded by a team of skincare
           enthusiasts, we are dedicated to offering high-quality,
           scientifically-backed skincare products that cater to all skin types
@@ -52,7 +52,7 @@ function AboutUs() {
       <div className="mt-10 text-center">
         <h1 className="text-3xl font-bold text-pink-900">Our Mission</h1>
         <p className="mt-4 my-4 text-lg text-gray-700 max-w-4xl mx-auto">
-          Our mission at Bueaty by Majestia is to revolutionize the skincare
+          Our mission at Beauty by Majestia is to revolutionize the skincare
           industry by creating products that are not only effective but also
           ethically made. We strive to inspire confidence by promoting self-care
           and offering solutions that cater to the unique needs of every

@@ -67,9 +67,9 @@ bodyLotionsArr = bodyLotionsArr.map((product) => ({
 
 // export { bodyLotionsArr }
 
-const filteredProds = bodyLotionsArr.filter((product) => product.text.toLowerCase().includes("cream".toLowerCase()));
+// const filteredProds = bodyLotionsArr.filter((product) => product.text.toLowerCase().includes("cream".toLowerCase()));
 
-console.log(filteredProds);
+// console.log(filteredProds);
 
 
 //  pack of bc = 1 , sb = 1, fw = 0, fk = 3, gl = 0, nsc = 1, cln = 0 , pwd = 1, BL = 0 , srm = 0 , fm = 0 , tn = 0

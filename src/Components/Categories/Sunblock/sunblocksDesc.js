@@ -232,7 +232,7 @@ const SunblockPackOf3Desc = `
     <li className="mb-2">Organic Argan White SPF 45</li>
 </ul>
 
-<h3><strong>Material: Cream</strong></h3>
+<h3><strong>Material:</strong> Cream</h3>
 
 <p><strong>Skin Types: </strong>Suitable for all skin types</p>
 <p><strong>Water-Resistant: </strong>Offers long-lasting protection even in water exposure</p>
