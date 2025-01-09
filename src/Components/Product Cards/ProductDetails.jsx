@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Stars from "../Stars";
+import Stars from "../Stars/Stars.jsx";
 import parse from "html-react-parser";
 import allProducts from "../../../allProducts";
 

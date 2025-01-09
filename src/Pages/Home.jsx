@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <Search />
-      {/* <Slider /> */}
+      <Slider />
       <AllCategories />
       {/* <FeaturedProducts /> */}
       <PackOfs />

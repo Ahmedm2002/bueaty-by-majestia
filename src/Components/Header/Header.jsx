@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import close from "../assets/close.svg";
-import menu from "../assets/menu.svg";
+import close from "../../assets/close.svg";
+import menu from "../../assets/menu.svg";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../assets/logo.jpg";
+import logo from "../../assets/logo.jpg";
 function Header() {
   const Links = [
     { name: "Home", link: "/" },

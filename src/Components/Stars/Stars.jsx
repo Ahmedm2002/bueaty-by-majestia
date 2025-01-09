@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "./Star";
+import Star from "../Stars/Star.jsx";
 
 function Stars({ stars = "4.0" }) {
   const filledStars = Math.floor(stars);
@@ -12,7 +12,10 @@ function Stars({ stars = "4.0" }) {
         <Star key={index} />
       ))}
       {Array.from({ length: unfilledStars }, (_, index) => (
-        <Star key={index + filledStars} isFilled={false} />
+        <Star
+          key={index + filledStars}
+          isFilled={false}
+        />
       ))}
     </div>
   );

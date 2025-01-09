@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import parse from "html-react-parser";
-import Stars from "../Stars";
+import Stars from "../Stars/Stars.jsx";
 
 function truncateText(text) {
   const limit = 60;
