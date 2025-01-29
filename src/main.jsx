@@ -1,4 +1,4 @@
-import React, { createContext, useContext } from "react";
+import React, { createContext, useContext, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import {
@@ -32,94 +32,54 @@ import ProductDetails from "./Components/Product Cards/ProductDetails.jsx";
 import Powders from "./Components/Categories/Powders/Powders.jsx";
 import Toners from "./Components/Categories/Toners/Toners.jsx";
 import PackOfs from "./Components/PackOfs/PackOfs.jsx";
-
+//fb pixel import
+import ReactPixel from "react-facebook-pixel";
 // WhatsApp Logo
 import whatsapp from "./assets/whatsapp.png";
+
+// //fb pixel integration
+const options = {
+  autoConfig: true,
+  debug: false,
+};
+
+const pixelId = "1334770660834510";
 
 const App = () => {
   function chatOnWhatsapp() {
     window.open("https://wa.me/+923400545395", "_blank");
   }
+  //
+
+  useEffect(() => {
+    ReactPixel.init(pixelId, {}, options);
+    ReactPixel.pageView(); // Track page views
+  }, []);
+
+  //
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route
-        path="/"
-        element={<Layout />}
-      >
-        <Route
-          index
-          element={<Home />}
-        />
-        <Route
-          path="aboutUs"
-          element={<AboutUs />}
-        />
-        <Route
-          path="contactUs"
-          element={<ContactUs />}
-        />
-        <Route
-          path="sunblock"
-          element={<Sunblock />}
-        />
-        <Route
-          path="faceWash"
-          element={<FaceWash />}
-        />
-        <Route
-          path="facialKit"
-          element={<FacialKit />}
-        />
-        <Route
-          path="gels"
-          element={<Gels />}
-        />
-        <Route
-          path="nightSkinCare"
-          element={<NightSkinCare />}
-        />
-        <Route
-          path="cleansers"
-          element={<Cleansers />}
-        />
-        <Route
-          path="bodyLotions"
-          element={<BodyLotions />}
-        />
-        <Route
-          path="brighteningCreams"
-          element={<BrighteningCream />}
-        />
-        <Route
-          path="serums"
-          element={<Serums />}
-        />
-        <Route
-          path="facemasks"
-          element={<FaceMasks />}
-        />
-        <Route
-          path="powders"
-          element={<Powders />}
-        />
-        <Route
-          path="toners"
-          element={<Toners />}
-        />
-        <Route
-          path="/:category/:productName"
-          element={<ProductDetails />}
-        />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="aboutUs" element={<AboutUs />} />
+        <Route path="contactUs" element={<ContactUs />} />
+        <Route path="sunblock" element={<Sunblock />} />
+        <Route path="faceWash" element={<FaceWash />} />
+        <Route path="facialKit" element={<FacialKit />} />
+        <Route path="gels" element={<Gels />} />
+        <Route path="nightSkinCare" element={<NightSkinCare />} />
+        <Route path="cleansers" element={<Cleansers />} />
+        <Route path="bodyLotions" element={<BodyLotions />} />
+        <Route path="brighteningCreams" element={<BrighteningCream />} />
+        <Route path="serums" element={<Serums />} />
+        <Route path="facemasks" element={<FaceMasks />} />
+        <Route path="powders" element={<Powders />} />
+        <Route path="toners" element={<Toners />} />
+        <Route path="/:category/:productName" element={<ProductDetails />} />
 
-        <Route
-          path="packofs"
-          element={<PackOfs />}
-        />
-        <Route
-          path="wishlist"
-          element={<WishList />}
-        />
+        <Route path="packofs" element={<PackOfs />} />
+        <Route path="wishlist" element={<WishList />} />
       </Route>
     )
   );

@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import parse from "html-react-parser";
 import Stars from "../Stars/Stars.jsx";
+import ReactPixel from "react-facebook-pixel";
 
 function truncateText(text) {
   const limit = 60;
@@ -30,6 +31,15 @@ function ProductCard({
   };
 
   const handleBuyNow = () => {
+    var price = reducedPrice;
+    console.log(reducedPrice),
+      ReactPixel.track("Purchase", {
+        value: price, // Replace with actual value
+
+        currency: "PKR", // Replace with actual currency
+      });
+    console.log("Purchase event tracked!");
+    // alert("Buy Now clicked");
     const message = `I'm interested in buying the following product:\n
 Product: ${text}\nPrice: Rs.${reducedPrice}
     
