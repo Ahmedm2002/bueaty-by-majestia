@@ -43,7 +43,7 @@ const options = {
   debug: false,
 };
 
-const pixelId = "1334770660834510";
+const pixelId = "1126877705430089";
 
 const App = () => {
   function chatOnWhatsapp() {
