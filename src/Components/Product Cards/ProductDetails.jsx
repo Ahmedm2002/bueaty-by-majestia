@@ -35,53 +35,56 @@ Please provide more details.`;
     window.open(whatsappUrl, "_blank");
   };
 
-  return (
-    <>
-      <div className="container mx-auto mt-2 md:mt-4">
-        <div className="flex flex-col md:flex-row px-8">
-          <div className="md:w-1/2 lg:w-1/4 md:h-full flex items-stretch">
-            <img
-              src={img}
-              alt={text}
-              className="w-full h-full object-cover rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="browser-css md:w-1/2 lg:w-3/4 md:ml-6 mt-4 md:mt-0 flex flex-col justify-between">
-            <div>
-              <h2 className="text-2xl font-bold">{text}</h2>
-              <div className="mt-2 text-gray-700 browser-css">
-                {parse(shortDetail)}
-              </div>
-              <p className="text-xl md:text-3xl font-bold text-slate-900">
-                Rs.{reducedPrice}{" "}
-                <span className="line-through text-sm font-normal">
-                  Rs.{price}
-                </span>
-              </p>
-              <div className="mt-4">
-                <Stars stars={rating} />
-              </div>
-              <p className="my-4 text-sm text-red-600">
-                Disclaimer: Before using a new cosmetic product, conduct a test
-                on a small area of your skin. If you have a specific allergy or
-                sensitivity, check the ingredients to avoid a reaction. Always
-                read the warning labels and directions on the package for using
-                any cosmetic products.
-              </p>
+return (
+  <>
+    <div className="container mx-auto mt-2 md:mt-4 pb-16"> {/* Add padding-bottom to prevent content cutoff */}
+      <div className="flex flex-col md:flex-row px-8">
+        <div className="md:w-1/2 lg:w-1/4 md:h-full flex items-stretch">
+          <img
+            src={img}
+            alt={text}
+            className="w-full h-full object-cover rounded-lg shadow-lg"
+          />
+        </div>
+        <div className="browser-css md:w-1/2 lg:w-3/4 md:ml-6 mt-4 md:mt-0 flex flex-col justify-between">
+          <div>
+            <h2 className="text-2xl font-bold">{text}</h2>
+            <div className="mt-2 text-gray-700 browser-css">
+              {parse(shortDetail)}
             </div>
-            <div className="flex justify-between mt-4 md:mt-0">
-              <button
-                className="rounded-lg justify-center mx-auto bg-pink-600 px-4 py-2 text-white w-[80%]"
-                onClick={handleBuyNow}
-              >
-                Buy Now
-              </button>
+            <p className="text-xl md:text-3xl font-bold text-slate-900">
+              Rs.{reducedPrice}{" "}
+              <span className="line-through text-sm font-normal">
+                Rs.{price}
+              </span>
+            </p>
+            <div className="mt-4">
+              <Stars stars={rating} />
             </div>
+            <p className="my-4 text-sm text-red-600">
+              Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. 
+              If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. 
+              Always read the warning labels and directions on the package for using any cosmetic products.
+            </p>
           </div>
         </div>
       </div>
-    </>
-  );
+    </div>
+
+    {/* Sticky Buy Now Button */}
+    <div className="fixed bottom-0 left-0 w-full bg-white shadow-md py-3">
+      <button
+        className="rounded-lg block mx-auto bg-pink-600 px-6 py-3 text-white w-[90%] md:w-[60%] lg:w-[40%] text-lg font-bold"
+        onClick={handleBuyNow}
+      >
+        Buy Now
+      </button>
+    </div>
+  </>
+);
+
+   
+  
 };
 
 export default ProductDetails;

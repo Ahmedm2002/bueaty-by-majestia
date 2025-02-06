@@ -91,7 +91,7 @@ const App = () => {
       <img
         src={whatsapp}
         onClick={() => chatOnWhatsapp()}
-        className="w-12 h-12 fixed bottom-10 right-5 z-50 hover:cursor-pointer"
+        className="w-12 h-12 fixed bottom-20 right-5 z-50 hover:cursor-pointer"
       />
       <RouterProvider router={router} />;
     </>
