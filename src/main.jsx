@@ -91,6 +91,7 @@ const App = () => {
       <img
         src={whatsapp}
         onClick={() => chatOnWhatsapp()}
+        alt="WhatsApp Logo"
         className="w-12 h-12 fixed bottom-20 right-5 z-50 hover:cursor-pointer"
       />
       <RouterProvider router={router} />;
